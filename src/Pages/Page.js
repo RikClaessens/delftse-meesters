@@ -1,9 +1,8 @@
 import React from 'react';
-import Space from '../components/Space';
+import Footer from '../components/Footer';
 import Logo from '../components/Logo';
 import Header from '../components/Header';
 import Anchor from '../components/Anchor';
-import { colors } from '../theme';
 import TopMenu from '../components/TopMenu';
 
 const Page = ({ children, title, headerImage, anchorItems }) => (
@@ -13,7 +12,7 @@ const Page = ({ children, title, headerImage, anchorItems }) => (
     <Header title={title} image={headerImage} />
     {anchorItems && <Anchor items={anchorItems} />}
     <div style={styles.content}>{children}</div>
-    <Space height={150} backgroundColor={colors.gold} />
+    <Footer />
   </div>
 );
 
