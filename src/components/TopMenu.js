@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { SocialIcon } from 'react-social-icons';
+import { FaHome } from 'react-icons/fa';
 
 import { colors, fonts } from '../theme';
 
@@ -14,7 +15,7 @@ const MenuItem = ({ title, link }) => (
 );
 
 const KHDSocialIcon = ({ url }) => (
-  <SocialIcon color={colors.secondary} style={styles.socialIcon} url={url} />
+  <SocialIcon color={colors.dark} style={styles.socialIcon} url={url} />
 );
 
 const TopMenu = () => (
@@ -25,7 +26,7 @@ const TopMenu = () => (
       <KHDSocialIcon url="https://www.instagram.com/harmoniedelft/" />
     </div>
     <div style={styles.links}>
-      <MenuItem title="Home" link="/" />
+      <MenuItem title={<FaHome />} link="/" />
       <MenuItem title="Nieuws" />
       <MenuItem title="KHD en de Gouden Eeuw" />
       <MenuItem title="Delftse Meesters 11 Mei" />
