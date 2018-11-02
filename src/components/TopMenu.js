@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { SocialIcon } from 'react-social-icons';
 
 import { colors, fonts } from '../theme';
 
@@ -12,10 +13,19 @@ const MenuItem = ({ title, link }) => (
   </Link>
 );
 
+const KHDSocialIcon = ({ url }) => (
+  <SocialIcon color={colors.secondary} style={styles.socialIcon} url={url} />
+);
+
 const TopMenu = () => (
   <div style={styles.container}>
-    <div style={{ flex: 1 }}> facebook- twitter-instagram</div>
+    <div style={styles.social}>
+      <KHDSocialIcon url="https://www.facebook.com/harmoniedelft" />
+      <KHDSocialIcon url="https://twitter.com/harmoniedelft" />
+      <KHDSocialIcon url="https://www.instagram.com/harmoniedelft/" />
+    </div>
     <div style={styles.links}>
+      <MenuItem title="Home" link="/" />
       <MenuItem title="Nieuws" />
       <MenuItem title="KHD en de Gouden Eeuw" />
       <MenuItem title="Delftse Meesters 11 Mei" />
@@ -29,16 +39,28 @@ const styles = {
     height: 64,
     backgroundColor: colors.gold,
     display: 'flex',
+    justifyContent: 'center',
   },
-  social: {},
+  social: {
+    display: 'flex',
+    alignItems: 'center',
+    marginLeft: 8,
+  },
+  socialIcon: {
+    width: 32,
+    height: 32,
+    margin: 2,
+  },
   link: {
     textDecoration: 'none',
-    marginLeft: 16,
-    marginRight: 16,
+    marginLeft: 8,
+    marginRight: 8,
     color: colors.dark,
     textTransform: 'uppercase',
     cursor: 'pointer',
     fontFamily: fonts.title,
+    whiteSpace: 'nowrap',
+    fontSize: 14,
   },
   links: {
     display: 'flex',

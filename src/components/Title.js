@@ -33,7 +33,7 @@ const styles = {
     textTransform: 'uppercase',
     fontFamily: fonts.title,
     lineHeight: '30px',
-    fontSize: 18,
+    fontSize: 16,
     whiteSpace: 'nowrap',
   },
 };
