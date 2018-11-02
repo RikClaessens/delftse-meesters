@@ -8,9 +8,13 @@ const onClick = item => {
 const Anchor = ({ items }) => (
   <div style={styles.container}>
     {items.map(item => (
-      <span key={item} onClick={() => onClick(item)} style={styles.item}>
+      <a
+        href={`#${item.replace(/\s+/g, '-').toLowerCase()}`}
+        key={item}
+        style={styles.item}
+      >
         {item}
-      </span>
+      </a>
     ))}
   </div>
 );
@@ -21,15 +25,18 @@ const styles = {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    paddingTop: 16,
     paddingBottom: 32,
     color: colors.secondary,
     textTransform: 'uppercase',
-    fontFamily: 'Din-Condensed-Bold',
+    fontFamily: fonts.title,
     lineHeight: '32px',
   },
   item: {
     flex: 1,
     textAlign: 'center',
+    textDecoration: 'none',
+    color: colors.secondary,
   },
 };
 export default Anchor;

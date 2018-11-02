@@ -1,14 +1,17 @@
 import React from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 import { colors, fonts } from '../theme';
 import Bars from '../assets/images/bars.png';
 
 const Title = ({ title }) => (
-  <div style={styles.container}>
-    <img src={Bars} style={styles.bars} alt="" />
-    <span style={styles.title}>{title}</span>
-    <img src={Bars} style={styles.bars} alt="" />
-  </div>
+  <ScrollableAnchor id={title.replace(/\s+/g, '-').toLowerCase()}>
+    <div style={styles.container}>
+      <img src={Bars} style={styles.bars} alt="" />
+      <span style={styles.title}>{title}</span>
+      <img src={Bars} style={styles.bars} alt="" />
+    </div>
+  </ScrollableAnchor>
 );
 
 const styles = {
@@ -18,7 +21,7 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'center',
     paddingTop: 16,
-    paddingBottom: 100,
+    paddingBottom: 16,
   },
   bars: {
     marginLeft: 16,
@@ -32,6 +35,7 @@ const styles = {
     lineHeight: '30px',
     fontSize: 18,
     marginTop: 12,
+    whiteSpace: 'nowrap',
   },
 };
 export default Title;
