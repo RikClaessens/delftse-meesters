@@ -7,6 +7,7 @@ import KHDEnDeGoudenEeuw from './Pages/KHDEnDeGoudenEeuw';
 import DelftseMeesters25Mei from './Pages/DelftseMeesters11Mei';
 import MuziekFestival25Mei from './Pages/MuziekFestival25Mei';
 import News from './Pages/News';
+import Contact from './Pages/Contact';
 
 configureAnchors({ scrollDuration: 800 });
 
@@ -17,6 +18,7 @@ const App = () => (
       <Route path="/khd-en-de-gouden-eeuw" component={KHDEnDeGoudenEeuw} />
       <Route path="/delftse-meesters-11-mei" component={DelftseMeesters25Mei} />
       <Route path="/muziek-festival-25-mei" component={MuziekFestival25Mei} />
+      <Route path="/contact" exact component={Contact} />
       <Route path="/" component={HomePage} />
     </Switch>
   </Router>
