@@ -2,9 +2,6 @@ import React from 'react';
 
 import { colors, fonts } from '../theme';
 
-const onClick = item => {
-  //   item.replace(/\s+/g, '-').toLowerCase()
-};
 const Anchor = ({ items }) => (
   <div style={styles.container}>
     {items.map(item => (

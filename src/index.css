@@ -14,6 +14,12 @@ code {
 }
 
 @font-face {
-  font-family: 'Din';
-  src: url(./assets/fonts/EcosmithScript-Regular.otf) format('otf');
+  font-family: 'Apax';
+  src: local('Apax-Medium'), url(./assets/fonts/Apax-Medium.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'DinProCondBold';
+  src: local('DinProCondBold'),
+    url(./assets/fonts/DinProCondBold.otf) format('otf');
 }

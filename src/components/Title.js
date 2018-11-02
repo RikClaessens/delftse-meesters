@@ -34,7 +34,6 @@ const styles = {
     fontFamily: fonts.title,
     lineHeight: '30px',
     fontSize: 18,
-    marginTop: 12,
     whiteSpace: 'nowrap',
   },
 };

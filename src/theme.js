@@ -8,6 +8,6 @@ const colors = {
 };
 
 const fonts = {
-  title: 'Din',
+  title: 'Apax',
 };
 export { colors, fonts };
