@@ -8,7 +8,7 @@ import DelftseMeesters25Mei from './Pages/DelftseMeesters11Mei';
 import MuziekFestival25Mei from './Pages/MuziekFestival25Mei';
 import News from './Pages/News';
 
-configureAnchors({ scrollDuration: 500 });
+configureAnchors({ scrollDuration: 800 });
 
 const App = () => (
   <Router>
