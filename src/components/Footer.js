@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component, Fragment } from 'react';
+import Media from 'react-media';
 
-import { colors, fonts } from '../theme';
+import { colors, fonts, mediaQueries } from '../theme';
 import WebsiteLink from '../assets/images/harmoniedelft.png';
 import MenuItem from './MenuItem';
 
@@ -18,10 +18,18 @@ class Footer extends Component {
       <div style={styles.container}>
         <div style={styles.links}>
           <MenuItem title="Contact" {...hoverProps} />
-          <MenuItem title="Nieuws" {...hoverProps} />
-          <MenuItem title="KHD en de Gouden Eeuw" {...hoverProps} />
-          <MenuItem title="Delftse Meesters 11 Mei" {...hoverProps} />
-          <MenuItem title="Muziek Festival 25 Mei" {...hoverProps} />
+          <Media query={mediaQueries.tablet}>
+            {matches =>
+              matches && (
+                <Fragment>
+                  <MenuItem title="Nieuws" {...hoverProps} />
+                  <MenuItem title="KHD en de Gouden Eeuw" {...hoverProps} />
+                  <MenuItem title="Delftse Meesters 11 Mei" {...hoverProps} />
+                  <MenuItem title="Muziek Festival 25 Mei" {...hoverProps} />
+                </Fragment>
+              )
+            }
+          </Media>
           <a
             href="https://harmoniedelft.nl"
             target="_blank"
@@ -42,15 +50,16 @@ class Footer extends Component {
 
 const styles = {
   container: {
-    height: 64,
+    height: 100,
     backgroundColor: colors.gold,
     display: 'flex',
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
   },
   websiteLinkImage: {
     maxWidth: 240,
     position: 'absolute',
     right: 0,
+    bottom: 8,
   },
   link: {
     textDecoration: 'none',
@@ -67,7 +76,9 @@ const styles = {
     display: 'flex',
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'flex-start',
+    paddingTop: 16,
+    position: 'relative',
   },
 };
 export default Footer;
