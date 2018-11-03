@@ -108,44 +108,39 @@ class TopMenu extends Component {
 
   render() {
     const { hover, menuOpen } = this.state;
+    const hoverProps = {
+      hover,
+      setState: s => this.setState(s),
+    };
     return (
       <div style={styles.container}>
         <div style={styles.social}>
           <KHDSocialIcon
             id="facebook"
             url="https://www.facebook.com/harmoniedelft"
-            hover={hover}
-            setState={s => this.setState(s)}
+            {...hoverProps}
           />
           <KHDSocialIcon
             id="twitter"
             url="https://twitter.com/harmoniedelft"
-            hover={hover}
-            setState={s => this.setState(s)}
+            {...hoverProps}
           />
           <KHDSocialIcon
             id="instagram"
             url="https://www.instagram.com/harmoniedelft/"
-            hover={hover}
-            setState={s => this.setState(s)}
+            {...hoverProps}
           />
         </div>
         <div style={styles.links}>
-          <MenuItem
-            title={<FaHome />}
-            link="/"
-            id="home"
-            hover={hover}
-            setState={s => this.setState(s)}
-          />
+          <MenuItem title={<FaHome />} link="/" id="home" {...hoverProps} />
           <Media query={mediaQueries.tablet}>
             {matches =>
               matches ? (
                 <Fragment>
-                  <MenuItem title="Nieuws" />
-                  <MenuItem title="KHD en de Gouden Eeuw" />
-                  <MenuItem title="Delftse Meesters 11 Mei" />
-                  <MenuItem title="Muziek Festival 25 Mei" />
+                  <MenuItem title="Nieuws" {...hoverProps} />
+                  <MenuItem title="KHD en de Gouden Eeuw" {...hoverProps} />
+                  <MenuItem title="Delftse Meesters 11 Mei" {...hoverProps} />
+                  <MenuItem title="Muziek Festival 25 Mei" {...hoverProps} />
                 </Fragment>
               ) : (
                 <Fragment>
@@ -153,8 +148,7 @@ class TopMenu extends Component {
                     title={<FaBars />}
                     action={() => this.setState({ menuOpen: true })}
                     id="burger-open"
-                    hover={hover}
-                    setState={s => this.setState(s)}
+                    {...hoverProps}
                   />
                   <StyledMenu
                     isOpen={menuOpen}
@@ -166,33 +160,21 @@ class TopMenu extends Component {
                       id="burger-close"
                       title={<FaTimes />}
                       action={() => this.setState({ menuOpen: false })}
-                      hover={hover}
-                      setState={s => this.setState(s)}
+                      {...hoverProps}
                     />
-                    <BurgerMenuItem
-                      title="Home"
-                      hover={hover}
-                      setState={s => this.setState(s)}
-                    />
-                    <BurgerMenuItem
-                      title="Nieuws"
-                      hover={hover}
-                      setState={s => this.setState(s)}
-                    />
+                    <BurgerMenuItem title="Home" {...hoverProps} />
+                    <BurgerMenuItem title="Nieuws" {...hoverProps} />
                     <BurgerMenuItem
                       title="KHD en de Gouden Eeuw"
-                      hover={hover}
-                      setState={s => this.setState(s)}
+                      {...hoverProps}
                     />
                     <BurgerMenuItem
                       title="Delftse Meesters 11 Mei"
-                      hover={hover}
-                      setState={s => this.setState(s)}
+                      {...hoverProps}
                     />
                     <BurgerMenuItem
                       title="Muziek Festival 25 Mei"
-                      hover={hover}
-                      setState={s => this.setState(s)}
+                      {...hoverProps}
                     />
                   </StyledMenu>
                 </Fragment>
