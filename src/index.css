@@ -23,3 +23,21 @@ code {
   src: local('DinProCondBold'),
     url(./assets/fonts/DinProCondBold.otf) format('otf');
 }
+
+div.bm-overlay {
+  top: 0;
+  left: 0;
+}
+
+div.bm-menu-wrap {
+  top: 0;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.bm-burger-button {
+  display: none;
+}

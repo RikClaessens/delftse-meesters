@@ -8,11 +8,13 @@ import TopMenu from '../components/TopMenu';
 const Page = ({ children, title, headerImage, anchorItems }) => (
   <div style={styles.container}>
     <TopMenu />
-    <Logo />
-    <Header title={title} image={headerImage} />
-    {anchorItems && <Anchor items={anchorItems} />}
-    <div style={styles.content}>{children}</div>
-    <Footer />
+    <div id="page-wrap">
+      <Logo />
+      <Header title={title} image={headerImage} />
+      {anchorItems && <Anchor items={anchorItems} />}
+      <div style={styles.content}>{children}</div>
+      <Footer />
+    </div>
   </div>
 );
 
