@@ -1,41 +1,44 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import { colors, fonts } from '../theme';
 import WebsiteLink from '../assets/images/harmoniedelft.png';
+import MenuItem from './MenuItem';
 
-const MenuItem = ({ title, link }) => (
-  <Link
-    to={link || title.replace(/\s+/g, '-').toLowerCase()}
-    style={styles.link}
-  >
-    {title}
-  </Link>
-);
+class Footer extends Component {
+  state = { hover: null };
 
-const Footer = () => (
-  <div style={styles.container}>
-    <div style={styles.links}>
-      <MenuItem title="Contact" />
-      <MenuItem title="Nieuws" />
-      <MenuItem title="KHD en de Gouden Eeuw" />
-      <MenuItem title="Delftse Meesters 11 Mei" />
-      <MenuItem title="Muziek Festival 25 Mei" />
-      <a
-        href="https://harmoniedelft.nl"
-        target="_blank"
-        rel="noopener noreferrer"
-        style={styles.link}
-      >
-        <img
-          style={styles.websiteLinkImage}
-          src={WebsiteLink}
-          alt="https://harmoniedelft.nl"
-        />
-      </a>
-    </div>
-  </div>
-);
+  render() {
+    const { hover } = this.state;
+    const hoverProps = {
+      hover,
+      setState: s => this.setState(s),
+    };
+    return (
+      <div style={styles.container}>
+        <div style={styles.links}>
+          <MenuItem title="Contact" {...hoverProps} />
+          <MenuItem title="Nieuws" {...hoverProps} />
+          <MenuItem title="KHD en de Gouden Eeuw" {...hoverProps} />
+          <MenuItem title="Delftse Meesters 11 Mei" {...hoverProps} />
+          <MenuItem title="Muziek Festival 25 Mei" {...hoverProps} />
+          <a
+            href="https://harmoniedelft.nl"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={styles.link}
+          >
+            <img
+              style={styles.websiteLinkImage}
+              src={WebsiteLink}
+              alt="https://harmoniedelft.nl"
+            />
+          </a>
+        </div>
+      </div>
+    );
+  }
+}
 
 const styles = {
   container: {

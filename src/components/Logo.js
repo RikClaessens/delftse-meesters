@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Logo from '../assets/images/logo-long.png';
 
 const Component = () => (
-  <div style={styles.container}>
+  <Link to="/" style={styles.container}>
     <img style={styles.logo} src={Logo} alt="logo" />
-  </div>
+  </Link>
 );
 
 const styles = {
