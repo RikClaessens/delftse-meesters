@@ -1,7 +1,22 @@
 import React from 'react';
+import styled from 'styled-components';
+
+import { mediaQueries } from '../theme';
+
+const StyledDiv = styled.div`
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+  flex-direction: column;
+  @media ${mediaQueries.laptopL} {
+    flex-direction: row;
+  }
+`;
 
 const Paragraph = ({ text, style, leftImage, rightImage }) => (
-  <div style={styles.container}>
+  <StyledDiv style={styles.container}>
     {leftImage && (
       <div style={{ flex: 1 }}>
         <img
@@ -23,22 +38,15 @@ const Paragraph = ({ text, style, leftImage, rightImage }) => (
         />
       </div>
     )}
-  </div>
+  </StyledDiv>
 );
 
 const styles = {
-  container: {
-    display: 'flex',
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginBottom: 12,
-  },
+  container: {},
   image: {
     objectFit: 'contain',
     width: 'calc(100% - 16px)',
-    paddingLeft: 8,
-    paddingRight: 8,
+    padding: 8,
   },
   text: {
     flex: 1,
