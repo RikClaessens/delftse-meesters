@@ -14,14 +14,11 @@ code {
 }
 
 @font-face {
-  font-family: 'Apax';
-  src: local('Apax-Medium'), url(./assets/fonts/Apax-Medium.ttf) format('ttf');
-}
-
-@font-face {
-  font-family: 'DinProCondBold';
-  src: local('DinProCondBold'),
-    url(./assets/fonts/DinProCondBold.otf) format('otf');
+  font-family: 'DIN Pro Cond';
+  src: url('./assets/fonts/DINPro-CondensedBold.woff2') format('woff2'),
+    url('./assets/fonts/DINPro-CondensedBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
 }
 
 div.bm-overlay {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Logo from '../assets/images/logo-long.png';
+import Logo from '../assets/images/logo-header.png';
 
 const Component = () => (
   <Link to="/" style={styles.container}>
@@ -21,7 +21,7 @@ const styles = {
     justifyContent: 'center',
   },
   logo: {
-    maxWidth: '40%',
+    maxWidth: '50%',
     objectFit: 'contain',
     minWidth: 400,
   },

@@ -13,7 +13,7 @@ const colors = {
 };
 
 const fonts = {
-  title: 'Apax',
+  title: 'DIN Pro Cond',
 };
 
 const size = {
