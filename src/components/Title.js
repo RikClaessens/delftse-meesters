@@ -27,6 +27,7 @@ const styles = {
     marginLeft: 16,
     marginRight: 16,
     height: 29,
+    overflow: 'hidden',
   },
   title: {
     color: colors.secondary,

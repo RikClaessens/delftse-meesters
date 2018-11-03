@@ -1,20 +1,30 @@
 import React from 'react';
+import Media from 'react-media';
 
-import { colors, fonts } from '../theme';
+import { colors, fonts, mediaQueries } from '../theme';
 
-const Anchor = ({ items }) => (
-  <div style={styles.container}>
-    {items.map(item => (
-      <a
-        href={`#${item.replace(/\s+/g, '-').toLowerCase()}`}
-        key={item}
-        style={styles.item}
-      >
-        {item}
-      </a>
-    ))}
-  </div>
-);
+const Anchor = ({ items }) =>
+  items && (
+    <Media query={mediaQueries.tablet}>
+      {matches =>
+        matches && (
+          <div style={styles.container}>
+            <div style={styles.anchorItems}>
+              {items.map(item => (
+                <a
+                  href={`#${item.replace(/\s+/g, '-').toLowerCase()}`}
+                  key={item}
+                  style={styles.item}
+                >
+                  {item}
+                </a>
+              ))}
+            </div>
+          </div>
+        )
+      }
+    </Media>
+  );
 
 const styles = {
   container: {
@@ -28,6 +38,11 @@ const styles = {
     textTransform: 'uppercase',
     fontFamily: fonts.title,
     lineHeight: '32px',
+  },
+  anchorItems: {
+    maxWidth: '60%',
+    display: 'flex',
+    flex: 1,
   },
   item: {
     flex: 1,

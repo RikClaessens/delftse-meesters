@@ -36,6 +36,7 @@ const styles = {
     fontFamily: fonts.title,
     lineHeight: '28px',
     fontWeight: 500,
+    maxWidth: '60%',
   },
 };
 

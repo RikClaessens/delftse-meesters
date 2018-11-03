@@ -57,9 +57,6 @@ const styles = {
   },
   websiteLinkImage: {
     maxWidth: 240,
-    position: 'absolute',
-    right: 0,
-    bottom: 8,
   },
   link: {
     textDecoration: 'none',
@@ -71,6 +68,9 @@ const styles = {
     fontFamily: fonts.title,
     whiteSpace: 'nowrap',
     fontSize: 12,
+    position: 'absolute',
+    right: 0,
+    bottom: 8,
   },
   links: {
     display: 'flex',
