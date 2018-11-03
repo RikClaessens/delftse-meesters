@@ -1,12 +1,11 @@
 import React, { Fragment, Component } from 'react';
-import { Link } from 'react-router-dom';
 import Media from 'react-media';
 import { scaleRotate as Menu } from 'react-burger-menu';
 import { SocialIcon } from 'react-social-icons';
 import styled from 'styled-components';
 import { FaHome, FaBars, FaTimes } from 'react-icons/fa';
 
-import { colors, fonts, mediaQueries } from '../theme';
+import { colors, mediaQueries } from '../theme';
 import MenuItem from './MenuItem';
 
 const BurgerMenuItem = ({ setState, hover, id, title, ...props }) => (
@@ -71,7 +70,6 @@ const KHDSocialIcon = ({ id, url, setState, hover }) => (
   </span>
 );
 
-const onChange = e => console.log(e);
 class TopMenu extends Component {
   state = { hover: null, menuOpen: false };
 

@@ -47,6 +47,7 @@ const styles = {
     objectFit: 'contain',
     width: 'calc(100% - 16px)',
     padding: 8,
+    paddingBottom: 16,
   },
   text: {
     flex: 1,

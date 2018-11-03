@@ -19,7 +19,7 @@ const styles = {
     alignItems: 'center',
   },
   image: {
-    maxHeight: 300,
+    height: 300,
     objectFit: 'cover',
     width: '100%',
   },
