@@ -19,8 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "upload-to-s3": "aws --profile personal-s3-deploy s3 sync build/ s3://khd-delftse-meesters --delete",
-    "deploy": "npm run build && npm run upload-to-s3"
+    "sync-with-s3": "aws --profile personal-s3-deploy s3 sync build/ s3://khd-delftse-meesters --delete",
+    "deploy": "npm run build && npm run sync-with-s3"
   },
   "eslintConfig": {
     "extends": "react-app"
