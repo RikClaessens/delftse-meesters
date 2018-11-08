@@ -1,6 +1,6 @@
 import React, { Fragment, Component } from 'react';
 import Media from 'react-media';
-import { scaleRotate as Menu } from 'react-burger-menu';
+import { push as Menu } from 'react-burger-menu';
 import { SocialIcon } from 'react-social-icons';
 import styled from 'styled-components';
 import { FaHome, FaBars, FaTimes } from 'react-icons/fa';
@@ -129,7 +129,7 @@ class TopMenu extends Component {
                       action={() => this.setState({ menuOpen: false })}
                       {...hoverProps}
                     />
-                    <BurgerMenuItem title="Home" {...hoverProps} />
+                    <BurgerMenuItem title="Home" link="/" {...hoverProps} />
                     <BurgerMenuItem title="Nieuws" {...hoverProps} />
                     <BurgerMenuItem
                       title="KHD en de Gouden Eeuw"

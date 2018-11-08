@@ -4,7 +4,7 @@ import Media from 'react-media';
 import { colors, fonts, mediaQueries } from '../theme';
 
 const Anchor = ({ items }) =>
-  items && (
+  items ? (
     <Media query={mediaQueries.tablet}>
       {matches =>
         matches && (
@@ -24,7 +24,7 @@ const Anchor = ({ items }) =>
         )
       }
     </Media>
-  );
+  ) : null;
 
 const styles = {
   container: {

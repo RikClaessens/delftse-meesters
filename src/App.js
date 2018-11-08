@@ -15,9 +15,21 @@ const App = () => (
   <Router>
     <Switch>
       <Route path="/nieuws" exact component={News} />
-      <Route path="/khd-en-de-gouden-eeuw" component={KHDEnDeGoudenEeuw} />
-      <Route path="/delftse-meesters-11-mei" component={DelftseMeesters25Mei} />
-      <Route path="/muziek-festival-25-mei" component={MuziekFestival25Mei} />
+      <Route
+        path="/khd-en-de-gouden-eeuw"
+        exact
+        component={KHDEnDeGoudenEeuw}
+      />
+      <Route
+        path="/delftse-meesters-11-mei"
+        exact
+        component={DelftseMeesters25Mei}
+      />
+      <Route
+        path="/muziek-festival-25-mei"
+        exact
+        component={MuziekFestival25Mei}
+      />
       <Route path="/contact" exact component={Contact} />
       <Route path="/" component={HomePage} />
     </Switch>
