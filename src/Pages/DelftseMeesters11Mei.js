@@ -11,7 +11,7 @@ const DelftseMeesters11Mei = () => (
   <Page
     title="Wereld première Delftse Meesters 11 mei 2019"
     headerImage={HeaderImage}
-    anchorItems={['Locatie', 'Partners']}
+    anchorItems={['Locatie', 'De cast', 'Partners']}
   >
     <Paragraph>
       Op 11 mei 2019 vindt er een weergaloze gala-wereldpremière plaats van de
