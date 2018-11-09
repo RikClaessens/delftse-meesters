@@ -54,6 +54,7 @@ const styles = {
     backgroundColor: colors.gold,
     display: 'flex',
     justifyContent: 'flex-start',
+    marginTop: 64,
   },
   websiteLinkImage: {
     maxWidth: 240,

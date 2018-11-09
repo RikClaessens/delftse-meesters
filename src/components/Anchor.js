@@ -33,7 +33,6 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'center',
     paddingTop: 16,
-    paddingBottom: 32,
     color: colors.secondary,
     textTransform: 'uppercase',
     fontFamily: fonts.title,

@@ -2,35 +2,32 @@ import React from 'react';
 
 import Page from './Page';
 import HeaderImage from '../assets/images/KapelNieuweKerkDelft-4.jpg';
-import Title from '../components/Title';
 import Paragraph from '../components/Paragraph';
 
 const HomePage = () => (
-  <Page
-    title="Wereldpremière Delftse Meesters op 11 mei"
-    headerImage={HeaderImage}
-    anchorItems={['Delftse Meesters', 'Artiesten', 'Kaartverkoop', 'Partners']}
-  >
-    <Title title="Delftse Meesters" />
-    <Paragraph
-      text="Korte introductie over de de twee festiviteiten van 11 en 25 mei ......
-- banner hierboven verspringt tussen de twee plaatjes van de twee activiteiten die wij organiseren, als ze daar op klikken dan komen ze bij de pagina terecht. Bovenaan de pagina staat ook het menu van de website, alleen weet ik niet of deze twee linkjes goed ge- bruiksvriendelijk is.
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.od tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit prae- sent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."
-      leftImage={HeaderImage}
-    />
-    <Title title="Kaartverkoop" />
-    <Paragraph
-      text="Korte introductie over de de twee festiviteiten van 11 en 25 mei ......
-- banner hierboven verspringt tussen de twee plaatjes van de twee activiteiten die wij organiseren, als ze daar op klikken dan komen ze bij de pagina terecht. Bovenaan de pagina staat ook het menu van de website, alleen weet ik niet of deze twee linkjes goed ge- bruiksvriendelijk is.
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.od tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit prae- sent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."
-    />
-    <Paragraph
-      text="Korte introductie over de de twee festiviteiten van 11 en 25 mei ......
-- banner hierboven verspringt tussen de twee plaatjes van de twee activiteiten die wij organiseren, als ze daar op klikken dan komen ze bij de pagina terecht. Bovenaan de pagina staat ook het menu van de website, alleen weet ik niet of deze twee linkjes goed ge- bruiksvriendelijk is.
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.od tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit prae- sent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."
-      rightImage={HeaderImage}
-    />
-    <Title title="Artiesten" />
+  <Page title="Delftse Meesters" headerImage={HeaderImage}>
+    <Paragraph>
+      Delft kleurt in 2019 goud! Samen met acht andere Nederlandse steden sluit
+      Delft in 2019 aan bij het landelijke themajaar ‘de Gouden Eeuw’. Een uniek
+      evenement is daarmee aanstaande, waarin de Koninklijke Harmoniekapel een
+      prominente plek wil innemen.
+    </Paragraph>
+    <Paragraph>
+      De Koninklijke Harmoniekapel zal in 2019 meerdere keren van zich laten
+      horen en de Delftenaren meenemen in het verleden, heden en toekomst.
+      Speciaal voor Delft laat de Koninklijke Harmoniekapel een muziekstuk
+      componeren voor het themajaar. Dit muziekstuk kan alleen tot stand komen
+      door de samenwerking met de bewoners van Delft, de gemeente Delft en
+      verschillende organisaties binnen Delft zoals onder andere de nieuwe kerk.
+      Dit muziekstuk – met als werktitel Delftse Meesters – beleeft op 11 mei
+      een weergaloze gala-wereldpremière in de nieuwe kerk.
+    </Paragraph>
+    <Paragraph>
+      Daarnaast zal er op 25 mei een grootst HaFaBra festival plaatsvinden waar
+      diverse orkesten hun beste spel laten horen op de Markt in Delft. In de
+      avond zal de ‘Delftse Meesters’ voor iedereen en vooral alle Delftenaren
+      te horen zijn in de nieuwe kerk.
+    </Paragraph>
   </Page>
 );
 

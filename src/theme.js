@@ -5,6 +5,7 @@ const colors = {
   gold: '#d0b053',
   dark: '#2d2b2d',
   white: '#ffffff',
+  text: '#2d2b2d',
 
   // social
   facebook: '#3b5998',
@@ -14,6 +15,7 @@ const colors = {
 
 const fonts = {
   title: 'DIN Pro Cond',
+  highLightText: 'Elsie Swash Caps',
 };
 
 const size = {

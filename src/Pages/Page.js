@@ -28,11 +28,15 @@ const Page = ({ children, title, headerImage, anchorItems }) => (
 );
 
 const styles = {
-  container: { display: 'flex', flexDirection: 'column', flex: 1 },
+  container: {
+    display: 'flex',
+    flexDirection: 'column',
+    flex: 1,
+  },
   content: {
     paddingLeft: 32,
     paddingRight: 32,
-    paddingTop: 12,
+    paddingTop: 32,
     maxWidth: '60%',
     minWidth: 400,
     textAlign: 'center',
@@ -41,6 +45,7 @@ const styles = {
   contentMobile: {
     width: '90%',
     margin: '0 auto',
+    paddingTop: 32,
   },
 };
 export default Page;

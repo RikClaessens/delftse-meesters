@@ -21,6 +21,38 @@ code {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Elsie Swash Caps';
+  src: url('./assets/fonts/ElsieSwashCapsBlack-Regular.woff2') format('woff2'),
+    url('./assets/fonts/ElsieSwashCapsBlack-Regular.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Elsie Swash Caps';
+  src: url('./assets/fonts/ElsieSwashCaps-Regular.woff2') format('woff2'),
+    url('./assets/fonts/ElsieSwashCaps-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Elsie';
+  src: url('./assets/fonts/ElsieBlack-Regular.woff2') format('woff2'),
+    url('./assets/fonts/ElsieBlack-Regular.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Elsie';
+  src: url('./assets/fonts/Elsie-Regular.woff2') format('woff2'),
+    url('./assets/fonts/Elsie-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 div.bm-overlay {
   top: 0;
   left: 0;

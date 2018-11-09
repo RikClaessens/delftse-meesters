@@ -8,6 +8,7 @@ import DelftseMeesters25Mei from './Pages/DelftseMeesters11Mei';
 import MuziekFestival25Mei from './Pages/MuziekFestival25Mei';
 import News from './Pages/News';
 import Contact from './Pages/Contact';
+import ComingSoon from './Pages/ComingSoon';
 
 configureAnchors({ scrollDuration: 800 });
 
@@ -31,7 +32,8 @@ const App = () => (
         component={MuziekFestival25Mei}
       />
       <Route path="/contact" exact component={Contact} />
-      <Route path="/" component={HomePage} />
+      <Route path="/site" exact component={HomePage} />
+      <Route path="/" component={ComingSoon} />
     </Switch>
   </Router>
 );

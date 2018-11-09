@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { mediaQueries } from '../theme';
+import BulletImage from '../assets/images/music-bullet.png';
+import { colors, mediaQueries } from '../theme';
 
 const StyledDiv = styled.div`
   display: flex;
@@ -15,7 +16,7 @@ const StyledDiv = styled.div`
   }
 `;
 
-const Paragraph = ({ text, style, leftImage, rightImage }) => (
+const Paragraph = ({ children, style, leftImage, rightImage }) => (
   <StyledDiv style={styles.container}>
     {leftImage && (
       <div style={{ flex: 1 }}>
@@ -27,7 +28,7 @@ const Paragraph = ({ text, style, leftImage, rightImage }) => (
       </div>
     )}
     <div style={{ flex: 1 }}>
-      <div style={{ ...styles.text, ...style }}>{text}</div>
+      <div style={{ ...styles.text, ...style }}>{children}</div>
     </div>
     {rightImage && (
       <div style={{ flex: 1 }}>
@@ -46,14 +47,16 @@ const styles = {
   image: {
     objectFit: 'contain',
     width: 'calc(100% - 16px)',
-    padding: 8,
-    paddingBottom: 16,
+    padding: 16,
+    paddingBottom: 32,
   },
   text: {
     flex: 1,
     paddingLeft: 16,
     paddingRight: 16,
     textAlign: 'justify',
+    listStyleImage: `url(${BulletImage})`,
+    color: colors.text,
   },
 };
 export default Paragraph;
