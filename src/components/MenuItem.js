@@ -25,7 +25,7 @@ const MenuItem = ({ setState, hover, id, action, title, link, style }) => {
     </span>
   ) : (
     <Link
-      to={link || title.replace(/\s+/g, '-').toLowerCase()}
+      to={link || `/${title.replace(/\s+/g, '-').toLowerCase()}`}
       style={theStyle}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}

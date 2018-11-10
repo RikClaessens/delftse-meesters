@@ -5,6 +5,8 @@ import HighlightText from './HighlightText';
 import ImageRow from './ImageRow';
 import Logo from './Logo';
 import MenuItem from './MenuItem';
+import NewsItem from './NewsItem';
+import NewsRow from './NewsRow';
 import Paragraph from './Paragraph';
 import Title from './Title';
 import TopMenu from './TopMenu';
@@ -17,6 +19,8 @@ export {
   ImageRow,
   Logo,
   MenuItem,
+  NewsItem,
+  NewsRow,
   Paragraph,
   Title,
   TopMenu,

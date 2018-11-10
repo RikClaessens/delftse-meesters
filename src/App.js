@@ -6,9 +6,11 @@ import HomePage from './Pages/HomePage';
 import KHDEnDeGoudenEeuw from './Pages/KHDEnDeGoudenEeuw';
 import DelftseMeesters25Mei from './Pages/DelftseMeesters11Mei';
 import MuziekFestival25Mei from './Pages/MuziekFestival25Mei';
-import News from './Pages/News';
 import Contact from './Pages/Contact';
 import ComingSoon from './Pages/ComingSoon';
+
+import News from './Pages/News';
+import IdeeenMuziekstuk from './Pages/News/20181108IdeeenMuziekstuk';
 
 configureAnchors({ scrollDuration: 800 });
 
@@ -16,6 +18,11 @@ const App = () => (
   <Router>
     <Switch>
       <Route path="/nieuws" exact component={News} />
+      <Route
+        path="/nieuws/ideeen-muziekstuk-voor-delft"
+        exact
+        component={IdeeenMuziekstuk}
+      />
       <Route
         path="/khd-en-de-gouden-eeuw"
         exact

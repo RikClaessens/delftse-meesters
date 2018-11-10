@@ -26,17 +26,7 @@ const MuziekFestival25Mei = () => (
       fantastische avond neer te zetten.
     </Paragraph>
     <Title title="Deelnemers" />
-    <HighlightText text="De Kapel" />
-    <Paragraph leftImage={Kapel}>
-      De Koninklijke Harmoniekapel is een harmonieorkest bestaande uit zo’n 90
-      muzikanten dat zich tot de beste blaasorkesten van de Randstad mag
-      rekenen. Sinds 2015 staat het orkest onder de bezielende leiding van Erik
-      Janssen. Met uitvoeringen als The Queen Symphony met Leo Blokhuis in een
-      uitverkochte TU Aula, het jaarlijkse Koningsdagconcert op het Doelenplein
-      en optredens op tal van locaties in Delft, zoals Theater De Veste, de
-      Nieuwe Kerk en Lijm & Cultuur, is de Harmoniekapel een belangrijke speler
-      in het muzikale en culturele Delftse leven.
-    </Paragraph>
+
     <HighlightText text="De Kleine Harmonie" />
     <Paragraph rightImage={KleineHarmonie}>
       De Kleine Harmonie Delft is een harmonieorkest van ongeveer 40 muzikanten.
@@ -48,6 +38,17 @@ const MuziekFestival25Mei = () => (
       botanische tuin en X het cultuurcentrum van de TU en het jaarlijkse
       Koningsdagconcert op het Doelenplein. Daarnaast is de kleine harmonie een
       graag gezien gast bij Abtswoude bloeit en Werkse.
+    </Paragraph>
+    <HighlightText text="De Kapel" />
+    <Paragraph leftImage={Kapel}>
+      De Koninklijke Harmoniekapel is een harmonieorkest bestaande uit zo’n 90
+      muzikanten dat zich tot de beste blaasorkesten van de Randstad mag
+      rekenen. Sinds 2015 staat het orkest onder de bezielende leiding van Erik
+      Janssen. Met uitvoeringen als The Queen Symphony met Leo Blokhuis in een
+      uitverkochte TU Aula, het jaarlijkse Koningsdagconcert op het Doelenplein
+      en optredens op tal van locaties in Delft, zoals Theater De Veste, de
+      Nieuwe Kerk en Lijm & Cultuur, is de Harmoniekapel een belangrijke speler
+      in het muzikale en culturele Delftse leven.
     </Paragraph>
     <Title title="Maestro" />
     <Title title="Partners" />
