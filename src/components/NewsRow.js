@@ -1,15 +1,28 @@
 import React from 'react';
+import Media from 'react-media';
 
 import { NewsItem } from '../components';
+import { mediaQueries } from '../theme';
 
 const NewsRow = ({ items }) => (
-  <div style={{ display: 'flex', flex: 1 }}>
-    {items.map(({ ...newsItemProps }) => (
-      <div style={{ margin: 8 }}>
-        <NewsItem {...newsItemProps} />
+  <Media query={mediaQueries.laptop}>
+    {matches => (
+      <div
+        style={{
+          display: 'flex',
+          flex: 1,
+          flexDirection: matches ? 'row' : 'column',
+          marginBottom: 8,
+        }}
+      >
+        {items.map(({ ...newsItemProps }) => (
+          <div style={{ flex: 1, margin: 8 }}>
+            <NewsItem {...newsItemProps} />
+          </div>
+        ))}
       </div>
-    ))}
-  </div>
+    )}
+  </Media>
 );
 
 export default NewsRow;

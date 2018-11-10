@@ -16,7 +16,21 @@ class NewsItem extends Component {
         ? { backgroundColor: colors.primary, color: colors.white }
         : {}),
     };
-    return (
+
+    return link.startsWith('http') ? (
+      <a
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+        onMouseEnter={() => this.setState({ hover: true })}
+        onMouseLeave={() => this.setState({ hover: false })}
+      >
+        <div style={styles.container}>
+          <img style={styles.image} src={image} alt="logo" />
+          <span style={titleStyle}>{title}</span>
+        </div>
+      </a>
+    ) : (
       <Link
         to={`/nieuws/${link}`}
         onMouseEnter={() => this.setState({ hover: true })}
