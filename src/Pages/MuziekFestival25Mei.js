@@ -5,6 +5,7 @@ import { HighlightText, ImageRow, Paragraph, Title } from '../components';
 import HeaderImage from '../assets/images/Zomerconcert-KHD-2.jpg';
 import Kapel from '../assets/images/kapel.jpg';
 import KleineHarmonie from '../assets/images/kleine-harmonie.jpg';
+import AlderValleyBrass from '../assets/images/alder-valley-brass.jpg';
 import GemeenteDelft from '../assets/images/partners/gemeente-delft.jpg';
 
 const MuziekFestival25Mei = () => (
@@ -26,7 +27,16 @@ const MuziekFestival25Mei = () => (
       fantastische avond neer te zetten.
     </Paragraph>
     <Title title="Deelnemers" />
-
+    <HighlightText text="Alder Valley Brass" />
+    <Paragraph leftImage={AlderValleyBrass}>
+      Alder Valley Brass is een Engelse Brass Band uit de plaats Farnham, ten
+      zuid-oosten van Londen. Ze spelen inmiddels al meer dan 50 jaar in
+      allerlei concertlocaties zoals de Londense Royal Albert Hall en Windsor
+      Castle. Ook tourt de band regelmatig door het buitenland, met trips naar
+      Duitsland, Zwitserland, België en in 2019 opnieuw naar Nederland. De band
+      zet zich ontzettend in voor allerlei lokale goede doelen zoals "Help for
+      Heroes" en het ondersteunen van het Koninklijk Britse legioen.
+    </Paragraph>
     <HighlightText text="De Kleine Harmonie" />
     <Paragraph rightImage={KleineHarmonie}>
       De Kleine Harmonie Delft is een harmonieorkest van ongeveer 40 muzikanten.
