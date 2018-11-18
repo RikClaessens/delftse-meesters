@@ -2,7 +2,7 @@ import React from 'react';
 
 import Page from './Page';
 import { NewsRow } from '../components';
-import HeaderImage from '../assets/images/OnbegrensdGenieten2018-4.jpg';
+import HeaderImage from '../assets/images/kapel-westcord-1.jpg';
 import KevinAndThijs from '../assets/images/kevin-houben-en-voorzitter-thijs.jpg';
 
 const News = () => (

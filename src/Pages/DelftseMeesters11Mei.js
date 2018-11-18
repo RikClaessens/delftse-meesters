@@ -2,7 +2,7 @@ import React from 'react';
 
 import Page from './Page';
 import { HighlightText, ImageRow, Paragraph, Title } from '../components';
-import HeaderImage from '../assets/images/KapelNieuweKerkDelft-6.jpg';
+import HeaderImage from '../assets/images/kapel-nieuwe-kerk-2.jpg';
 import GemeenteDelft from '../assets/images/partners/gemeente-delft.jpg';
 import KevinHouben from '../assets/images/kevin-houben.jpg';
 import Kapel from '../assets/images/kapel.jpg';

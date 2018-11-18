@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Page from '../Page';
 import { Paragraph, Title } from '../../components';
-import HeaderImage from '../../assets/images/OnbegrensdGenieten2018-17.jpg';
+import HeaderImage from '../../assets/images/kapel-westcord-2.jpg';
 import KevinAndThijs from '../../assets/images/kevin-houben-en-voorzitter-thijs.jpg';
 
 const Contact = () => (

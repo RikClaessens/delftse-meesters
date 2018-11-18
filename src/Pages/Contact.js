@@ -2,7 +2,7 @@ import React from 'react';
 
 import Page from './Page';
 import { Paragraph, Title } from '../components';
-import HeaderImage from '../assets/images/OnbegrensdGenieten2018-17.jpg';
+import HeaderImage from '../assets/images/kapel-westcord-2.jpg';
 
 const Contact = () => (
   <Page title="Contact" headerImage={HeaderImage}>

@@ -2,7 +2,7 @@ import React from 'react';
 
 import Page from './Page';
 import { HighlightText, ImageRow, Paragraph, Title } from '../components';
-import HeaderImage from '../assets/images/Zomerconcert-KHD-2.jpg';
+import HeaderImage from '../assets/images/zomerconcert-khd.jpg';
 import Kapel from '../assets/images/kapel.jpg';
 import KleineHarmonie from '../assets/images/kleine-harmonie.jpg';
 import AlderValleyBrass from '../assets/images/alder-valley-brass.jpg';
