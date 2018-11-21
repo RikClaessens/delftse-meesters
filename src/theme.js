@@ -15,7 +15,7 @@ const colors = {
 
 const fonts = {
   title: 'DIN Pro Cond',
-  highLightText: 'Elsie Swash Caps',
+  highLightText: 'Happy Camper',
 };
 
 const size = {
