@@ -10,14 +10,14 @@ const KHDEnDeGoudenEeuw = () => (
     headerImage={HeaderImage}
   >
     <Paragraph>
-      In 2019 staat het landelijke themajaar ‘de Gouden Eeuw’ volledig centraal
-      bij de Koninklijke Harmoniekapel en Delft. Als Gouden Eeuw-stad heeft
-      Delft meer dan genoeg ‘goud’ in handen, met schilders als Jan Vermeer,
-      Pieter de Hooch en Jan Steen, en ook ‘Grootse Nederlanders’ Antoni van
-      Leeuwenhoek en Hugo de Groot en het koningshuis. Verder is Delft in de
-      loop der tijd, mede door de TU Delft, uitgegroeid tot een stad van
-      innovatie, technische hoogstandjes, van wereldnieuws met zonneauto’s en
-      -boten, de Hyperloop en quantumcomputers.
+      In 2019 staat het landelijke themajaar <b>de Gouden Eeuw</b> volledig
+      centraal bij de Koninklijke Harmoniekapel en Delft. Als Gouden Eeuw-stad
+      heeft Delft meer dan genoeg 'goud' in handen, met schilders als Jan
+      Vermeer, Pieter de Hooch en Jan Steen, en ook 'Grootse Nederlanders'
+      Antoni van Leeuwenhoek en Hugo de Groot en het koningshuis. Verder is
+      Delft in de loop der tijd, mede door de TU Delft, uitgegroeid tot een stad
+      van innovatie, technische hoogstandjes, van wereldnieuws met zonneauto's
+      en -boten, de Hyperloop en quantumcomputers.
     </Paragraph>
     <Paragraph>
       De Koninklijke Harmoniekapel zal in 2019 bij de keuze van muziek, de

@@ -22,8 +22,8 @@ const MuziekFestival25Mei = () => (
       Meesters Festival met een groot podia. Heel Delft is uitgenodigd om te
       genieten van deze grote happening. In de avond zal er een spetterende
       afsluiting zijn in de nieuwe kerk met de publieke première van de
-      compositie ‘de Delftse Meesters’ en een maestro event waar enkele bekende
-      Delftenaren het dirigeerstokje overnemen van Erik Janssen om een
+      compositie <b>de Delftse Meesters</b> en een maestro event waar enkele
+      bekende Delftenaren het dirigeerstokje overnemen van Erik Janssen om een
       fantastische avond neer te zetten.
     </Paragraph>
     <Title title="Deelnemers" />
@@ -43,7 +43,7 @@ const MuziekFestival25Mei = () => (
       Het motto van de Kleine Harmonie is - samen gevarieerde en toegankelijke
       muziek maken op een uitdagend niveau - en staat al sinds 2002 met veel
       enthousiasme onder leiding van Carel Piguillet. De Kleine Harmonie geeft
-      concerten met gevarieerde thema’s van opera’s tot sprookjes tot het
+      concerten met gevarieerde thema's van opera's tot sprookjes tot het
       Eurovisie Songfestival, op verschillende locaties in Delft zoals de
       botanische tuin en X het cultuurcentrum van de TU en het jaarlijkse
       Koningsdagconcert op het Doelenplein. Daarnaast is de kleine harmonie een
@@ -51,7 +51,7 @@ const MuziekFestival25Mei = () => (
     </Paragraph>
     <HighlightText text="De Kapel" />
     <Paragraph leftImage={Kapel}>
-      De Koninklijke Harmoniekapel is een harmonieorkest bestaande uit zo’n 90
+      De Koninklijke Harmoniekapel is een harmonieorkest bestaande uit zo'n 90
       muzikanten dat zich tot de beste blaasorkesten van de Randstad mag
       rekenen. Sinds 2015 staat het orkest onder de bezielende leiding van Erik
       Janssen. Met uitvoeringen als The Queen Symphony met Leo Blokhuis in een

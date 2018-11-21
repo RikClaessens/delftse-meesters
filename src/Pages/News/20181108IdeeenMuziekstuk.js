@@ -30,7 +30,7 @@ const Contact = () => (
     <Title title="De componist Kevin Houben" />
     <Paragraph rightImage={KevinAndThijs}>
       De internationaal toonaangevende componist Kevin Houben gaat de compositie
-      schrijven. Zijn eerste ‘stadssymfonie’ voor de stad Peer (België) is
+      schrijven. Zijn eerste 'stadssymfonie' voor de stad Peer (België) is
       afgelopen juni met groot succes ook in Parijs uitgevoerd, na een
       wereldpremière in 2017 door het nationale symfonieorkest van België.
       Daarnaast zijn stukken van zijn hand uitgevoerd tijdens het dancefestival

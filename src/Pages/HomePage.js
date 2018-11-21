@@ -8,9 +8,9 @@ const HomePage = () => (
   <Page title="Delftse Meesters" headerImage={HeaderImage}>
     <Paragraph>
       Delft kleurt in 2019 goud! Samen met acht andere Nederlandse steden sluit
-      Delft in 2019 aan bij het landelijke themajaar ‘de Gouden Eeuw’. Een uniek
-      evenement is daarmee aanstaande, waarin de Koninklijke Harmoniekapel een
-      prominente plek wil innemen.
+      Delft in 2019 aan bij het landelijke themajaar <b>de Gouden Eeuw</b>. Een
+      uniek evenement is daarmee aanstaande, waarin de Koninklijke Harmoniekapel
+      een prominente plek wil innemen.
     </Paragraph>
     <Paragraph>
       De Koninklijke Harmoniekapel zal in 2019 meerdere keren van zich laten
@@ -25,8 +25,8 @@ const HomePage = () => (
     <Paragraph>
       Daarnaast zal er op 25 mei een grootst HaFaBra festival plaatsvinden waar
       diverse orkesten hun beste spel laten horen op de Markt in Delft. In de
-      avond zal de ‘Delftse Meesters’ voor iedereen en vooral alle Delftenaren
-      te horen zijn in de nieuwe kerk.
+      avond zal de <b>Delftse Meesters</b> voor iedereen en vooral alle
+      Delftenaren te horen zijn in de nieuwe kerk.
     </Paragraph>
   </Page>
 );

@@ -15,8 +15,8 @@ const DelftseMeesters11Mei = () => (
   >
     <Paragraph>
       Op 11 mei 2019 vindt er een weergaloze gala-wereldpremière plaats van de
-      ‘Delftse meesters’ in de nieuwe kerk. Tijdens deze avond word je bevangen
-      door muziek:
+      <b>Delftse meesters</b> in de nieuwe kerk. Tijdens deze avond word je
+      bevangen door muziek:
       <ul>
         <li>
           Vanuit het verleden; in de geest van Vermeer en De Hooch, door de
@@ -50,7 +50,7 @@ const DelftseMeesters11Mei = () => (
     <HighlightText text="Kevin Houben" />
     <Paragraph rightImage={KevinHouben}>
       De internationaal toonaangevende componist Kevin Houben gaat de compositie
-      schrijven. Zijn eerste ‘stadssymfonie’ voor de stad Peer (België) is
+      schrijven. Zijn eerste 'stadssymfonie' voor de stad Peer (België) is
       afgelopen juni met groot succes ook in Parijs uitgevoerd, na een
       wereldpremière in 2017 door het nationale symfonieorkest van België.
       Daarnaast zijn stukken van zijn hand uitgevoerd tijdens het dancefestival
@@ -60,7 +60,7 @@ const DelftseMeesters11Mei = () => (
     </Paragraph>
     <HighlightText text="Koninklijke Harmoniekapel Delft" />
     <Paragraph leftImage={Kapel}>
-      De Koninklijke Harmoniekapel is een harmonieorkest bestaande uit zo’n 90
+      De Koninklijke Harmoniekapel is een harmonieorkest bestaande uit zo'n 90
       muzikanten dat zich tot de beste blaasorkesten van de Randstad mag
       rekenen. Sinds 2015 staat het orkest onder de bezielende leiding van Erik
       Janssen. Met uitvoeringen als The Queen Symphony met Leo Blokhuis in een
