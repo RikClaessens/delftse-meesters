@@ -8,6 +8,7 @@ import KevinHouben from '../assets/images/kevin-houben.jpg';
 import Kapel from '../assets/images/kapel.jpg';
 import NieuweKerk from '../assets/images/nieuwe-kerk.jpg';
 import ErikJanssen from '../assets/images/erik-janssen.jpg';
+import NieuweKerkLogo from '../assets/images/partners/nieuwe-kerk-logo.svg';
 
 const DelftseMeesters11Mei = () => (
   <Page
@@ -91,7 +92,12 @@ const DelftseMeesters11Mei = () => (
     <Title title="Partners" />
     <Paragraph>
       De Delftse Meesters wereldpremière wordt mede mogelijk gemaakt door:
-      <ImageRow images={[{ src: GemeenteDelft, alt: 'Gemeente Delft' }]} />
+      <ImageRow
+        images={[
+          { src: GemeenteDelft, alt: 'Gemeente Delft' },
+          { src: NieuweKerkLogo, alt: 'Nieuwe Kerk' },
+        ]}
+      />
     </Paragraph>
   </Page>
 );

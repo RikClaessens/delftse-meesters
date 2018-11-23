@@ -7,6 +7,7 @@ import Kapel from '../assets/images/kapel.jpg';
 import KleineHarmonie from '../assets/images/kleine-harmonie.jpg';
 import AlderValleyBrass from '../assets/images/alder-valley-brass.jpg';
 import GemeenteDelft from '../assets/images/partners/gemeente-delft.jpg';
+import NieuweKerkLogo from '../assets/images/partners/nieuwe-kerk-logo.svg';
 
 const ConcertFestival25Mei = () => (
   <Page
@@ -66,7 +67,12 @@ const ConcertFestival25Mei = () => (
     <Title title="Partners" />
     <Paragraph>
       Het Delftse Meesters festival wordt mede mogelijk gemaakt door:
-      <ImageRow images={[{ src: GemeenteDelft, alt: 'Gemeente Delft' }]} />
+      <ImageRow
+        images={[
+          { src: GemeenteDelft, alt: 'Gemeente Delft' },
+          { src: NieuweKerkLogo, alt: 'Nieuwe Kerk' },
+        ]}
+      />
     </Paragraph>
   </Page>
 );
