@@ -14,7 +14,7 @@ const DelftseMeesters11Mei = () => (
     anchorItems={['Locatie', 'De cast', 'Partners']}
   >
     <Paragraph>
-      Op 11 mei 2019 vindt er een weergaloze gala-wereldpremière plaats van de
+      Op 11 mei vindt er een weergaloze gala-wereldpremière plaats van de{' '}
       <b>Delftse meesters</b> in de nieuwe kerk. Tijdens deze avond word je
       bevangen door muziek:
       <ul>
@@ -47,8 +47,9 @@ const DelftseMeesters11Mei = () => (
       Oranje-Nassau, de grafkelder van het Koninklijk Huis.
     </Paragraph>
     <Title title="De cast" />
-    <HighlightText text="Kevin Houben" />
+
     <Paragraph rightImage={KevinHouben}>
+      <HighlightText text="Kevin Houben" />
       De internationaal toonaangevende componist Kevin Houben gaat de compositie
       schrijven. Zijn eerste 'stadssymfonie' voor de stad Peer (België) is
       afgelopen juni met groot succes ook in Parijs uitgevoerd, na een
@@ -58,8 +59,9 @@ const DelftseMeesters11Mei = () => (
       Kerkrade. Juist de combinatie van symfonische en moderne klanken maakt hem
       tot de perfecte componist voor het Delftse stuk.
     </Paragraph>
-    <HighlightText text="Koninklijke Harmoniekapel Delft" />
-    <Paragraph leftImage={Kapel}>
+
+    <Paragraph rightImage={Kapel}>
+      <HighlightText text="Koninklijke Harmoniekapel Delft" />
       De Koninklijke Harmoniekapel is een harmonieorkest bestaande uit zo'n 90
       muzikanten dat zich tot de beste blaasorkesten van de Randstad mag
       rekenen. Sinds 2015 staat het orkest onder de bezielende leiding van Erik
