@@ -1,30 +1,42 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Media from 'react-media';
 
 import { colors, fonts, mediaQueries } from '../theme';
 
-const Anchor = ({ items }) =>
-  items ? (
-    <Media query={mediaQueries.tablet}>
-      {matches =>
-        matches && (
-          <div style={styles.container}>
-            <div style={styles.anchorItems}>
-              {items.map(item => (
-                <a
-                  href={`#${item.replace(/\s+/g, '-').toLowerCase()}`}
-                  key={item}
-                  style={styles.item}
-                >
-                  {item}
-                </a>
-              ))}
+class Anchor extends Component {
+  state = { hover: null };
+  render() {
+    const { items } = this.props;
+    const { hover } = this.state;
+
+    return items ? (
+      <Media query={mediaQueries.tablet}>
+        {matches =>
+          matches && (
+            <div style={styles.container}>
+              <div style={styles.anchorItems}>
+                {items.map(item => (
+                  <a
+                    href={`#${item.replace(/\s+/g, '-').toLowerCase()}`}
+                    key={item}
+                    style={{
+                      ...styles.item,
+                      ...(hover === item ? styles.itemHover : {}),
+                    }}
+                    onMouseEnter={() => this.setState({ hover: item })}
+                    onMouseLeave={() => this.setState({ hover: null })}
+                  >
+                    {item}
+                  </a>
+                ))}
+              </div>
             </div>
-          </div>
-        )
-      }
-    </Media>
-  ) : null;
+          )
+        }
+      </Media>
+    ) : null;
+  }
+}
 
 const styles = {
   container: {
@@ -48,6 +60,10 @@ const styles = {
     textAlign: 'center',
     textDecoration: 'none',
     color: colors.secondary,
+  },
+  itemHover: {
+    textDecoration: 'underline',
+    color: colors.gold,
   },
 };
 export default Anchor;
