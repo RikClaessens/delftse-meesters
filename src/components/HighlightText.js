@@ -10,13 +10,13 @@ const HighlightText = ({ text }) => (
 
 const styles = {
   container: {
-    paddingTop: 24,
     marginLeft: 16,
     marginRight: 16,
+    textAlign: 'center',
   },
   text: {
     color: colors.gold,
-    fontSize: 32,
+    fontSize: 24,
     fontFamily: fonts.highLightText,
     fontWeight: 900,
   },

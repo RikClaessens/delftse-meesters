@@ -8,7 +8,7 @@ const StyledDiv = styled.div`
   display: flex;
   flex: 1;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 12px;
   flex-direction: column;
   @media ${mediaQueries.laptopL} {
@@ -17,7 +17,7 @@ const StyledDiv = styled.div`
 `;
 
 const Paragraph = ({ children, style, leftImage, rightImage }) => (
-  <StyledDiv style={styles.container}>
+  <StyledDiv>
     {leftImage && (
       <div style={{ flex: 1 }}>
         <img
@@ -43,12 +43,10 @@ const Paragraph = ({ children, style, leftImage, rightImage }) => (
 );
 
 const styles = {
-  container: {},
   image: {
     objectFit: 'contain',
     width: 'calc(100% - 16px)',
     padding: 16,
-    paddingBottom: 32,
   },
   text: {
     flex: 1,
