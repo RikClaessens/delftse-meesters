@@ -12,7 +12,7 @@ const MuziekFestival25Mei = () => (
   <Page
     title="Muziek Festival 25 Mei"
     headerImage={HeaderImage}
-    anchorItems={['Deelnemers', 'Maestro', 'Partners']}
+    anchorItems={['Deelnemers', 'Partners']}
   >
     <Paragraph>
       Op 25 mei wordt er een grootst HaFaBra festival georganiseerd waaraan niet
@@ -60,7 +60,6 @@ const MuziekFestival25Mei = () => (
       Nieuwe Kerk en Lijm & Cultuur, is de Harmoniekapel een belangrijke speler
       in het muzikale en culturele Delftse leven.
     </Paragraph>
-    <Title title="Maestro" />
     <Title title="Partners" />
     <Paragraph>
       Het Delftse Meesters festival wordt mede mogelijk gemaakt door:
