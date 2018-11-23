@@ -8,23 +8,23 @@ import KleineHarmonie from '../assets/images/kleine-harmonie.jpg';
 import AlderValleyBrass from '../assets/images/alder-valley-brass.jpg';
 import GemeenteDelft from '../assets/images/partners/gemeente-delft.jpg';
 
-const MuziekFestival25Mei = () => (
+const ConcertFestival25Mei = () => (
   <Page
-    title="Muziek Festival 25 Mei"
+    title="Concertfestival 25 Mei"
     headerImage={HeaderImage}
     anchorItems={['Deelnemers', 'Partners']}
   >
     <Paragraph>
-      Op 25 mei wordt er een grootst HaFaBra festival georganiseerd waaraan niet
-      alleen onze eigen orkesten aan deelnemen, de Kapel en de Kleine Harmonie,
-      maar waar ook verschillende orkesten van binnen en buitenland te gast
-      zijn. Overdag is de markt in Delft de speelplaats voor het Delftse
-      Meesters Festival met een groot podia. Heel Delft is uitgenodigd om te
-      genieten van deze grote happening. In de avond zal er een spetterende
-      afsluiting zijn in de nieuwe kerk met de publieke première van de
-      compositie <b>de Delftse Meesters</b> en een maestro event waar enkele
-      bekende Delftenaren het dirigeerstokje overnemen van Erik Janssen om een
-      fantastische avond neer te zetten.
+      Op 25 mei wordt er een groots concertfestival gehouden waaraan niet alleen
+      onze eigen orkesten aan deelnemen, de Kapel en de Kleine Harmonie, maar
+      waar ook verschillende orkesten uit binnen- en buitenland te gast zijn.
+      Overdag is de Markt in Delft de speelplaats voor het Delftse Meesters
+      Festival met een groot podium. Heel Delft is uitgenodigd om te genieten
+      van deze grote happening. 's Avonds vindt er een spetterende een
+      uitvoering van de nieuwe Delftse compositie – werktitel Delftse Meesters -
+      en een heuse uitvoering van de Delftse editie van het bekende tv-programma
+      Maestro, waar enkele bekende Delftenaren het dirigeerstokje overnemen van
+      Erik Janssen om een fantastische én verrassende avond neer te zetten.
     </Paragraph>
     <Title title="Deelnemers" />
 
@@ -71,4 +71,4 @@ const MuziekFestival25Mei = () => (
   </Page>
 );
 
-export default MuziekFestival25Mei;
+export default ConcertFestival25Mei;

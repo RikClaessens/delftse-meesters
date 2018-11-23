@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import HomePage from './Pages/HomePage';
 import KHDEnDeGoudenEeuw from './Pages/KHDEnDeGoudenEeuw';
 import DelftseMeesters25Mei from './Pages/DelftseMeesters11Mei';
-import MuziekFestival25Mei from './Pages/MuziekFestival25Mei';
+import ConcertFestival25Mei from './Pages/ConcertFestival25Mei';
 import Maestro25Mei from './Pages/Maestro25Mei';
 import Contact from './Pages/Contact';
 import ComingSoon from './Pages/ComingSoon';
@@ -35,9 +35,9 @@ const App = () => (
         component={DelftseMeesters25Mei}
       />
       <Route
-        path="/muziek-festival-25-mei"
+        path="/concertfestival-25-mei"
         exact
-        component={MuziekFestival25Mei}
+        component={ConcertFestival25Mei}
       />
       <Route path="/maestro-25-mei" exact component={Maestro25Mei} />
       <Route path="/contact" exact component={Contact} />

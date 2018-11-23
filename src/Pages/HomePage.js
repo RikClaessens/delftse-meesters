@@ -16,21 +16,23 @@ const HomePage = () => (
     </Paragraph>
     <Paragraph>
       De Koninklijke Harmoniekapel zal in 2019 meerdere keren van zich laten
-      horen en de Delftenaren meenemen in het verleden, heden en toekomst.
+      horen en de Delftenaren meenemen in het verleden, heden en de toekomst.
       Speciaal voor Delft laat de Koninklijke Harmoniekapel een muziekstuk
       componeren voor het themajaar. Dit muziekstuk kan alleen tot stand komen
       door de samenwerking met de bewoners van Delft, de gemeente Delft en
-      verschillende organisaties binnen Delft zoals onder andere de nieuwe kerk.
-      Dit muziekstuk – met als werktitel Delftse Meesters – beleeft op{' '}
-      <Link to="/delftse-meesters-11-mei">11 mei</Link> een weergaloze
-      gala-wereldpremière in de nieuwe kerk.
+      verschillende organisaties binnen Delft. Samen met de Nieuwe Kerk
+      organiseert de Koninklijke Harmoniekapel op{' '}
+      <Link to="/delftse-meesters-11-mei">11 mei</Link> de weergaloze
+      gala-wereldpremière van dit muziekstuk, dat de werktitel Delftse Meesters
+      draagt.
     </Paragraph>
     <Paragraph>
-      Daarnaast zal er op <Link to="/muziek-festival-25-mei">25 mei</Link> een
-      grootst HaFaBra festival plaatsvinden waar diverse orkesten hun beste spel
-      laten horen op de Markt in Delft. In de avond zal de{' '}
-      <b>Delftse Meesters</b> voor iedereen en vooral alle Delftenaren te horen
-      zijn in de nieuwe kerk.
+      Ook vindt er op <Link to="/concertfestival-25-mei">25 mei</Link> een
+      groots concertfestival plaats, opnieuw in samenwerking met de Nieuwe Kerk.
+      Tijdens dit festival laten diverse orkesten en bands van zich horen op de
+      Markt in Delft. ’s Avonds staat een heuse uitvoering van Maestro op het
+      programma. Voor Delft en zijn inwoners komen de Delftse Meesters tot
+      leven. Locatie: Nieuwe Kerk, Delft.
     </Paragraph>
     <Title title="Laatste Nieuws" />
     <NewsRow

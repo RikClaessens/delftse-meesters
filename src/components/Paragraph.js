@@ -8,7 +8,7 @@ const StyledDiv = styled.div`
   display: flex;
   flex: 1;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 12px;
   flex-direction: column;
   @media ${mediaQueries.laptopL} {
@@ -52,6 +52,7 @@ const styles = {
     flex: 1,
     paddingLeft: 16,
     paddingRight: 16,
+    paddingBottom: 16,
     textAlign: 'justify',
     listStyleImage: `url(${BulletImage})`,
     color: colors.text,

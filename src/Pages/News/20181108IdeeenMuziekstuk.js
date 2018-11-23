@@ -41,8 +41,8 @@ const Contact = () => (
       Benieuwd naar het eindresultaat? Op{' '}
       <Link to="/delftse-meesters-11-mei">11 mei</Link> brengen wij de{' '}
       wereldpremière van de compositie ten gehore in de Nieuwe Kerk en op{' '}
-      <Link to="/muziek-festival-25-mei">25 mei</Link> de publiekspremière
-      (gratis) tijdens een muziekfestival.
+      <Link to="/concertfestival-25-mei">25 mei</Link> de publiekspremière
+      (gratis) tijdens een concertfestival.
     </Paragraph>
   </Page>
 );

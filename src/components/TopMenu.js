@@ -107,7 +107,7 @@ class TopMenu extends Component {
                   <MenuItem title="Nieuws" {...hoverProps} />
                   <MenuItem title="KHD en de Gouden Eeuw" {...hoverProps} />
                   <MenuItem title="Delftse Meesters 11 Mei" {...hoverProps} />
-                  <MenuItem title="Muziek Festival 25 Mei" {...hoverProps} />
+                  <MenuItem title="Concertfestival 25 Mei" {...hoverProps} />
                 </Fragment>
               ) : (
                 <Fragment>
@@ -140,7 +140,7 @@ class TopMenu extends Component {
                       {...hoverProps}
                     />
                     <BurgerMenuItem
-                      title="Muziek Festival 25 Mei"
+                      title="Concertfestival 25 Mei"
                       {...hoverProps}
                     />
                   </StyledMenu>
