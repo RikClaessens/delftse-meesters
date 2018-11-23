@@ -6,6 +6,7 @@ import HomePage from './Pages/HomePage';
 import KHDEnDeGoudenEeuw from './Pages/KHDEnDeGoudenEeuw';
 import DelftseMeesters25Mei from './Pages/DelftseMeesters11Mei';
 import MuziekFestival25Mei from './Pages/MuziekFestival25Mei';
+import Maestro25Mei from './Pages/Maestro25Mei';
 import Contact from './Pages/Contact';
 import ComingSoon from './Pages/ComingSoon';
 
@@ -38,6 +39,7 @@ const App = () => (
         exact
         component={MuziekFestival25Mei}
       />
+      <Route path="/maestro-25-mei" exact component={Maestro25Mei} />
       <Route path="/contact" exact component={Contact} />
       <Route path="/site" exact component={HomePage} />
       <Route path="/" component={ComingSoon} />
