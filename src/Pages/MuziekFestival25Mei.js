@@ -27,8 +27,9 @@ const MuziekFestival25Mei = () => (
       fantastische avond neer te zetten.
     </Paragraph>
     <Title title="Deelnemers" />
-    <HighlightText text="Alder Valley Brass" />
-    <Paragraph leftImage={AlderValleyBrass}>
+
+    <Paragraph rightImage={AlderValleyBrass}>
+      <HighlightText text="Alder Valley Brass" />
       Alder Valley Brass is een Engelse Brass Band uit de plaats Farnham, ten
       zuid-oosten van Londen. Ze spelen inmiddels al meer dan 50 jaar in
       allerlei concertlocaties zoals de Londense Royal Albert Hall en Windsor
@@ -37,8 +38,9 @@ const MuziekFestival25Mei = () => (
       zet zich ontzettend in voor allerlei lokale goede doelen zoals "Help for
       Heroes" en het ondersteunen van het Koninklijk Britse legioen.
     </Paragraph>
-    <HighlightText text="De Kleine Harmonie" />
+
     <Paragraph rightImage={KleineHarmonie}>
+      <HighlightText text="De Kleine Harmonie" />
       De Kleine Harmonie Delft is een harmonieorkest van ongeveer 40 muzikanten.
       Het motto van de Kleine Harmonie is - samen gevarieerde en toegankelijke
       muziek maken op een uitdagend niveau - en staat al sinds 2002 met veel
@@ -49,8 +51,9 @@ const MuziekFestival25Mei = () => (
       Koningsdagconcert op het Doelenplein. Daarnaast is de kleine harmonie een
       graag gezien gast bij Abtswoude bloeit en Werkse.
     </Paragraph>
-    <HighlightText text="De Kapel" />
-    <Paragraph leftImage={Kapel}>
+
+    <Paragraph rightImage={Kapel}>
+      <HighlightText text="De Kapel" />
       De Koninklijke Harmoniekapel is een harmonieorkest bestaande uit zo'n 90
       muzikanten dat zich tot de beste blaasorkesten van de Randstad mag
       rekenen. Sinds 2015 staat het orkest onder de bezielende leiding van Erik
