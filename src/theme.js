@@ -15,7 +15,8 @@ const colors = {
 
 const fonts = {
   title: 'DIN Pro Cond',
-  highLightText: 'Happy Camper',
+  highLightText: 'DIN Pro Cond',
+  link: 'DIN Pro Cond',
 };
 
 const size = {

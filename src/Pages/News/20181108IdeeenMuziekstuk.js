@@ -1,8 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import Page from '../Page';
-import { Paragraph, Title } from '../../components';
+import { Link, Paragraph, Title } from '../../components';
 import HeaderImage from '../../assets/images/kapel-westcord-2.jpg';
 import KevinAndThijs from '../../assets/images/kevin-houben-en-voorzitter-thijs.jpg';
 
@@ -39,11 +38,11 @@ const Contact = () => (
       tot de perfecte componist voor het Delftse stuk.
     </Paragraph>
     <Paragraph>
-      Benieuwd naar het eindresultaat? Op 11 mei 2019 brengen wij de{' '}
-      <Link to="/delftse-meesters-11-mei">wereldpremière</Link> van de
-      compositie ten gehore in de Nieuwe Kerk en op 25 mei de{' '}
-      <Link to="/muziek-festival-25-mei">publiekspremière</Link> (gratis)
-      tijdens een muziekfestival.
+      Benieuwd naar het eindresultaat? Op{' '}
+      <Link to="/delftse-meesters-11-mei">11 mei</Link> brengen wij de{' '}
+      wereldpremière van de compositie ten gehore in de Nieuwe Kerk en op{' '}
+      <Link to="/muziek-festival-25-mei">25 mei</Link> de publiekspremière
+      (gratis) tijdens een muziekfestival.
     </Paragraph>
   </Page>
 );
