@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Page from './Page';
-import Paragraph from '../components/Paragraph';
+import { Link, Paragraph } from '../components';
 import HeaderImage from '../assets/images/Delft.jpg';
 
 const KHDEnDeGoudenEeuw = () => (
@@ -28,13 +28,15 @@ const KHDEnDeGoudenEeuw = () => (
       met een zweem uit het verleden en een blik op de toekomst. De
       veelzijdigheid van Delft zal hierin heel zichtbaar worden. Nooit eerder is
       er een werk geschreven speciaal voor Delft en over Delft. De compositie
-      beleeft haar wereldpremière op 11 mei 2019, het themajaar Delft & de
-      Gouden Eeuw, tijdens een evenement waar alle Delftenaren en Delvenaren
-      welkom zijn. Twee weken later zal de compositie nog een keer te horen zijn
-      op het HaFaBra festival op 25 mei voor iedereen en vooral alle
-      Delftenaren. Hierna zal het de wereld in gaan, voorzien van een Delftse
-      stempel. Blaasmuziek wordt over de hele wereld gespeeld, zeker in voor
-      Delft zo belangrijke landen als de VS, Spanje, China en Japan.
+      beleeft haar wereldpremière op{' '}
+      <Link to="/delftse-meesters-11-mei">11 mei</Link> 2019, het themajaar
+      Delft & de Gouden Eeuw, tijdens een evenement waar alle Delftenaren en
+      Delvenaren welkom zijn. Twee weken later zal de compositie nog een keer te
+      horen zijn op het HaFaBra festival op{' '}
+      <Link to="/muziek-festival-25-mei">25 mei</Link> voor iedereen en vooral
+      alle Delftenaren. Hierna zal het de wereld in gaan, voorzien van een
+      Delftse stempel. Blaasmuziek wordt over de hele wereld gespeeld, zeker in
+      voor Delft zo belangrijke landen als de VS, Spanje, China en Japan.
     </Paragraph>
   </Page>
 );
