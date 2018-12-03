@@ -15,6 +15,7 @@ const styles = {
   container: {
     display: 'flex',
     flex: 1,
+    marginTop: 16,
   },
   imageContainer: {
     flex: 1,
