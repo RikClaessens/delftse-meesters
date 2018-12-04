@@ -26,6 +26,7 @@ class Footer extends Component {
                   <MenuItem title="KHD en de Gouden Eeuw" {...hoverProps} />
                   <MenuItem title="Delftse Meesters 11 Mei" {...hoverProps} />
                   <MenuItem title="Concertfestival 25 Mei" {...hoverProps} />
+                  <MenuItem title="Maestro 25 Mei" {...hoverProps} />
                 </Fragment>
               )
             }

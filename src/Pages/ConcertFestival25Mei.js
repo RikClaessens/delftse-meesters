@@ -3,7 +3,6 @@ import React from 'react';
 import Page from './Page';
 import { HighlightText, ImageRow, Paragraph, Title } from '../components';
 import HeaderImage from '../assets/images/zomerconcert-kleine-harmonie.jpg';
-import Kapel from '../assets/images/kapel.jpg';
 import KleineHarmonie from '../assets/images/kleine-harmonie.jpg';
 import AlderValleyBrass from '../assets/images/alder-valley-brass.jpg';
 import GemeenteDelft from '../assets/images/partners/gemeente-delft.jpg';
@@ -53,17 +52,6 @@ const ConcertFestival25Mei = () => (
       graag gezien gast bij Abtswoude bloeit en Werkse.
     </Paragraph>
 
-    <Paragraph rightImage={Kapel}>
-      <HighlightText text="De Kapel" />
-      De Koninklijke Harmoniekapel is een harmonieorkest bestaande uit zo'n 90
-      muzikanten dat zich tot de beste blaasorkesten van de Randstad mag
-      rekenen. Sinds 2015 staat het orkest onder de bezielende leiding van Erik
-      Janssen. Met uitvoeringen als The Queen Symphony met Leo Blokhuis in een
-      uitverkochte TU Aula, het jaarlijkse Koningsdagconcert op het Doelenplein
-      en optredens op tal van locaties in Delft, zoals Theater De Veste, de
-      Nieuwe Kerk en Lijm & Cultuur, is de Harmoniekapel een belangrijke speler
-      in het muzikale en culturele Delftse leven.
-    </Paragraph>
     <Title title="Partners" />
     <Paragraph>
       Het Delftse Meesters festival wordt mede mogelijk gemaakt door:

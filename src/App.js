@@ -9,7 +9,6 @@ import DelftseMeesters25Mei from './Pages/DelftseMeesters11Mei';
 import ConcertFestival25Mei from './Pages/ConcertFestival25Mei';
 import Maestro25Mei from './Pages/Maestro25Mei';
 import Contact from './Pages/Contact';
-import ComingSoon from './Pages/ComingSoon';
 
 import News from './Pages/News';
 import IdeeenMuziekstuk from './Pages/News/20181108IdeeenMuziekstuk';
@@ -43,8 +42,7 @@ const App = () => (
         />
         <Route path="/maestro-25-mei" exact component={Maestro25Mei} />
         <Route path="/contact" exact component={Contact} />
-        <Route path="/site" exact component={HomePage} />
-        <Route path="/" component={ComingSoon} />
+        <Route path="/" component={HomePage} />
       </Switch>
     </ScrollToTop>
   </Router>
