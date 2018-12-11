@@ -32,7 +32,7 @@ class Footer extends Component {
             }
           </Media>
           <a
-            href="https://harmoniedelft.nl"
+            href="http://harmoniedelft.nl"
             target="_blank"
             rel="noopener noreferrer"
             style={styles.link}
@@ -40,7 +40,7 @@ class Footer extends Component {
             <img
               style={styles.websiteLinkImage}
               src={WebsiteLink}
-              alt="https://harmoniedelft.nl"
+              alt="http://harmoniedelft.nl"
             />
           </a>
         </div>
