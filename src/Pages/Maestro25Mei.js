@@ -1,25 +1,30 @@
 import React from 'react';
 
 import Page from './Page';
-import { HighlightText, ImageRow, Paragraph, Title } from '../components';
+import { HighlightText, ImageRow, Paragraph, Title, Link } from '../components';
 import HeaderImage from '../assets/images/sheet-music.jpg';
 import GemeenteDelft from '../assets/images/partners/gemeente-delft.jpg';
 import NieuweKerkLogo from '../assets/images/partners/nieuwe-kerk-logo.svg';
 import Kapel from '../assets/images/kapel.jpg';
 
 const Maestro25Mei = () => (
-  <Page title="Maestro 25 mei" headerImage={HeaderImage}>
+  <Page
+    title="Maestro 25 mei"
+    headerImage={HeaderImage}
+    anchorItems={['Het orkest', 'Partners']}
+  >
     <Paragraph>
-      Op 25 mei wordt er een groots concertfestival gehouden waaraan niet alleen
-      onze eigen orkesten aan deelnemen, de Kapel en de Kleine Harmonie, maar
-      waar ook verschillende orkesten uit binnen- en buitenland te gast zijn.
-      Overdag is de Markt in Delft de speelplaats voor het Delftse Meesters
-      Festival met een groot podium. Heel Delft is uitgenodigd om te genieten
-      van deze grote happening. 's Avonds vindt er een spetterende een
-      uitvoering van de nieuwe Delftse compositie – werktitel Delftse Meesters -
-      en een heuse uitvoering van de Delftse editie van het bekende tv-programma
-      Maestro, waar enkele bekende Delftenaren het dirigeerstokje overnemen van
-      Erik Janssen om een fantastische én verrassende avond neer te zetten.
+      Op 25 mei wordt er een groots{' '}
+      <Link to="/concertfestival-25-mei">concertfestival</Link> gehouden waaraan
+      niet alleen onze eigen Kleine Harmonie aan deelneemt, maar waar ook
+      verschillende orkesten uit binnen- en buitenland te gast zijn. Overdag is
+      de Markt in Delft de speelplaats voor het Delftse Meesters Festival met
+      een groot podium. Heel Delft is uitgenodigd om te genieten van deze grote
+      happening. 's Avonds vindt er een spetterende uitvoering van de nieuwe
+      Delftse compositie – werktitel Delftse Meesters - en een heuse uitvoering
+      van de Delftse editie van het bekende tv-programma Maestro, waar enkele
+      bekende Delftenaren het dirigeerstokje overnemen van Erik Janssen om een
+      fantastische én verrassende avond neer te zetten.
     </Paragraph>
     <Title title="Het orkest" />
 
