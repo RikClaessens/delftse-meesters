@@ -27,7 +27,7 @@ const Paragraph = ({ children, style, leftImage, rightImage }) => (
         />
       </div>
     )}
-    <div style={{ flex: 1 }}>
+    <div style={{ flex: children ? 1 : 0 }}>
       <div style={{ ...styles.text, ...style }}>{children}</div>
     </div>
     {rightImage && (

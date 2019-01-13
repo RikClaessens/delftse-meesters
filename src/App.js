@@ -12,6 +12,7 @@ import Contact from './Pages/Contact';
 
 import News from './Pages/News';
 import IdeeenMuziekstuk from './Pages/News/20181108IdeeenMuziekstuk';
+import AftrapDelftEnDeGoudenEeuw from './Pages/News/20190113AftrapDelftEnDeGoudenEeuw';
 
 configureAnchors({ scrollDuration: 800 });
 
@@ -24,6 +25,11 @@ const App = () => (
           path="/nieuws/ideeen-muziekstuk-voor-delft"
           exact
           component={IdeeenMuziekstuk}
+        />
+        <Route
+          path="/nieuws/aftrap-delft-en-de-gouden-eeuw"
+          exact
+          component={AftrapDelftEnDeGoudenEeuw}
         />
         <Route
           path="/khd-en-de-gouden-eeuw"

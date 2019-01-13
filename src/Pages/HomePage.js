@@ -5,6 +5,7 @@ import HeaderImage from '../assets/images/kapel-nieuwe-kerk-1.jpg';
 import { Link, NewsRow, Paragraph, Title } from '../components';
 
 import KevinAndThijs from '../assets/images/kevin-houben-en-voorzitter-thijs.jpg';
+import OctopusGoudenEeuw from '../assets/images/octopus-gouden-eeuw.jpg';
 
 const HomePage = () => (
   <Page title="Delftse Meesters" headerImage={HeaderImage}>
@@ -37,6 +38,11 @@ const HomePage = () => (
     <Title title="Laatste Nieuws" />
     <NewsRow
       items={[
+        {
+          title: 'Aftrap Delft en de Gouden Eeuw',
+          link: 'aftrap-delft-en-de-gouden-eeuw',
+          image: OctopusGoudenEeuw,
+        },
         {
           title: 'Ideeën muziekstuk voor Delft',
           link: 'ideeen-muziekstuk-voor-delft',
