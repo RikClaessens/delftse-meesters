@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Page from '../Page';
-import { Link, Paragraph, Title } from '../../components';
+import { Link, Paragraph } from '../../components';
 import HeaderImage from '../../assets/images/octopus-gouden-eeuw.jpg';
 import OctopusNieuwjaarsReceptie from '../../assets/images/octopus-nieuwjaars-receptie.jpg';
 import OctopusOptreden from '../../assets/images/octopus-optreden.jpg';

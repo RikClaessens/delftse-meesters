@@ -9,6 +9,7 @@ import Kapel from '../assets/images/kapel.jpg';
 import NieuweKerk from '../assets/images/nieuwe-kerk.jpg';
 import ErikJanssen from '../assets/images/erik-janssen.jpg';
 import NieuweKerkLogo from '../assets/images/partners/nieuwe-kerk-logo.svg';
+import SomethingExtraLogo from '../assets/images/partners/something-extra.png';
 
 const DelftseMeesters11Mei = () => (
   <Page
@@ -96,6 +97,15 @@ const DelftseMeesters11Mei = () => (
         images={[
           { src: GemeenteDelft, alt: 'Gemeente Delft' },
           { src: NieuweKerkLogo, alt: 'Nieuwe Kerk' },
+        ]}
+      />
+      <ImageRow
+        images={[
+          {
+            src: SomethingExtraLogo,
+            alt: 'Something Extra',
+            style: { maxWidth: 100 },
+          },
         ]}
       />
     </Paragraph>

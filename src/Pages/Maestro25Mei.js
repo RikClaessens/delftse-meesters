@@ -6,6 +6,7 @@ import HeaderImage from '../assets/images/sheet-music.jpg';
 import GemeenteDelft from '../assets/images/partners/gemeente-delft.jpg';
 import NieuweKerkLogo from '../assets/images/partners/nieuwe-kerk-logo.svg';
 import Kapel from '../assets/images/kapel.jpg';
+import SomethingExtraLogo from '../assets/images/partners/something-extra.png';
 
 const Maestro25Mei = () => (
   <Page
@@ -46,6 +47,15 @@ const Maestro25Mei = () => (
         images={[
           { src: GemeenteDelft, alt: 'Gemeente Delft' },
           { src: NieuweKerkLogo, alt: 'Nieuwe Kerk' },
+        ]}
+      />
+      <ImageRow
+        images={[
+          {
+            src: SomethingExtraLogo,
+            alt: 'Something Extra',
+            style: { maxWidth: 100 },
+          },
         ]}
       />
     </Paragraph>
