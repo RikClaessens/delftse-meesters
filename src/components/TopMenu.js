@@ -144,6 +144,7 @@ class TopMenu extends Component {
                       title="Concertfestival 25 Mei"
                       {...hoverProps}
                     />
+                    <BurgerMenuItem title="Maestro 25 Mei" {...hoverProps} />
                   </StyledMenu>
                 </Fragment>
               )
