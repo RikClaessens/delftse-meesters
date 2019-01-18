@@ -6,7 +6,7 @@ import HeaderImage from '../assets/images/sheet-music.jpg';
 import NieuweKerk from '../assets/images/nieuwe-kerk.jpg';
 import GemeenteDelft from '../assets/images/partners/gemeente-delft.jpg';
 import NieuweKerkLogo from '../assets/images/partners/nieuwe-kerk-logo.svg';
-import Kapel from '../assets/images/kapel.jpg';
+import DelftseMeesterOrkest from '../assets/images/delftse-meester-orkest.jpg';
 import SomethingExtraLogo from '../assets/images/partners/something-extra.png';
 import MaestroBanner from '../assets/images/maestro-banner.png';
 
@@ -68,13 +68,14 @@ const Maestro25Mei = () => {
       </Paragraph>
 
       <Title title="Het orkest" />
-      <Paragraph rightImage={Kapel}>
+      <Paragraph>
         <HighlightText text="Het Delftse Meester Orkest" />
         Speciaal voor deze gelegenheid wordt er een samengesteld Delftse Meester
         orkest gecreëerd, bestaande uit muzikanten van de Koninklijke
         Harmoniekapel én de Kleine Harmonie. Wat betekent dat de aspirant
         Maestro’s meer dan honderd muzikanten onder hun hoede krijgen.
       </Paragraph>
+      <Paragraph rightImage={DelftseMeesterOrkest} />
       <Title title="Partners" />
       <Paragraph>
         Het Delftse Meesters festival wordt mede mogelijk gemaakt door:
