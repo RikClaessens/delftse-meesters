@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Page from './Page';
-import { HighlightText, ImageRow, Paragraph, Title } from '../components';
+import { HighlightText, ImageRow, Paragraph, Title, Link } from '../components';
 import HeaderImage from '../assets/images/kapel-nieuwe-kerk-2.jpg';
 import GemeenteDelft from '../assets/images/partners/gemeente-delft.jpg';
 import KevinHouben from '../assets/images/kevin-houben.jpg';
@@ -57,10 +57,11 @@ const DelftseMeesters11Mei = () => (
 
     <Paragraph rightImage={KevinHouben}>
       <HighlightText text="Kevin Houben" />
-      De internationaal toonaangevende componist Kevin Houben gaat de compositie
-      schrijven. Zijn eerste 'stadssymfonie' voor de stad Peer (België) is
-      afgelopen juni met groot succes ook in Parijs uitgevoerd, na een
-      wereldpremière in 2017 door het Nationaal Orkest van België. Daarnaast
+      De internationaal toonaangevende componist{' '}
+      <Link to="https://www.kevinhouben.be/">Kevin Houben</Link> gaat de
+      compositie schrijven. Zijn eerste 'stadssymfonie' voor de stad Peer
+      (België) is afgelopen juni met groot succes ook in Parijs uitgevoerd, na
+      een wereldpremière in 2017 door het Nationaal Orkest van België. Daarnaast
       zijn stukken van zijn hand uitgevoerd tijdens het dancefestival
       Tomorrowland, maar ook tijdens het grootste wereldmuziekfestival WMC in
       Kerkrade. Juist de combinatie van symfonische en moderne klanken maakt hem
