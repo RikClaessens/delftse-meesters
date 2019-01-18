@@ -14,11 +14,23 @@ class CustomLink extends Component {
       linkHoverStyle = styles.linkHover,
     } = this.props;
     const { hover } = this.state;
-    return (
-      <Link
+    const targetProp = to.startsWith('http') ? { target: '_blank' } : null;
+    return to.startsWith('http') || to.startsWith('mailto') ? (
+      <a
+        href={to}
+        {...targetProp}
+        rel="noopener noreferrer"
         onMouseEnter={() => this.setState({ hover: true })}
         onMouseLeave={() => this.setState({ hover: false })}
+        style={{ ...linkStyle, ...(hover ? linkHoverStyle : {}) }}
+      >
+        {children}
+      </a>
+    ) : (
+      <Link
         to={to}
+        onMouseEnter={() => this.setState({ hover: true })}
+        onMouseLeave={() => this.setState({ hover: false })}
         style={{ ...linkStyle, ...(hover ? linkHoverStyle : {}) }}
       >
         {children}
