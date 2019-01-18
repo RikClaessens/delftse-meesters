@@ -15,11 +15,13 @@ const NewsRow = ({ items }) => (
           marginBottom: 8,
         }}
       >
-        {items.map(({ ...newsItemProps }) => (
-          <div style={{ flex: 1, margin: 8 }}>
-            <NewsItem {...newsItemProps} />
-          </div>
-        ))}
+        {items
+          .filter(i => i)
+          .map(({ ...newsItemProps }) => (
+            <div style={{ flex: 1, margin: 8 }}>
+              <NewsItem {...newsItemProps} />
+            </div>
+          ))}
       </div>
     )}
   </Media>

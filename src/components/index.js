@@ -6,6 +6,7 @@ import ImageRow from './ImageRow';
 import Link from './Link';
 import Logo from './Logo';
 import MenuItem from './MenuItem';
+import News from './News';
 import NewsItem from './NewsItem';
 import NewsRow from './NewsRow';
 import Paragraph from './Paragraph';
@@ -21,6 +22,7 @@ export {
   Link,
   Logo,
   MenuItem,
+  News,
   NewsItem,
   NewsRow,
   Paragraph,

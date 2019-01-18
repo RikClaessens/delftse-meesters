@@ -17,6 +17,7 @@ class NewsItem extends Component {
         : {}),
     };
 
+    const imageSrc = require(`../assets/images/${image}`);
     return link.startsWith('http') ? (
       <a
         href={link}
@@ -26,7 +27,7 @@ class NewsItem extends Component {
         onMouseLeave={() => this.setState({ hover: false })}
       >
         <div style={styles.container}>
-          <img style={styles.image} src={image} alt="logo" />
+          <img style={styles.image} src={imageSrc} alt="logo" />
           <span style={titleStyle}>{title}</span>
         </div>
       </a>
@@ -37,7 +38,7 @@ class NewsItem extends Component {
         onMouseLeave={() => this.setState({ hover: false })}
       >
         <div style={styles.container}>
-          <img style={styles.image} src={image} alt="logo" />
+          <img style={styles.image} src={imageSrc} alt="logo" />
           <span style={titleStyle}>{title}</span>
         </div>
       </Link>
