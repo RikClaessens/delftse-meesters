@@ -49,7 +49,7 @@ const App = () => (
         />
         <Route path="/maestro-25-mei" exact component={Maestro25Mei} />
         <Route
-          path="/kaartverkoop-delftse-meesters-11-mei"
+          path="/kaartverkoop-delftse-meesters"
           exact
           component={Tickets}
         />
