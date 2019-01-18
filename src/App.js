@@ -8,6 +8,7 @@ import KHDEnDeGoudenEeuw from './Pages/KHDEnDeGoudenEeuw';
 import DelftseMeesters25Mei from './Pages/DelftseMeesters11Mei';
 import ConcertFestival25Mei from './Pages/ConcertFestival25Mei';
 import Maestro25Mei from './Pages/Maestro25Mei';
+import Tickets from './Pages/Tickets';
 import Contact from './Pages/Contact';
 
 import News from './Pages/News';
@@ -47,6 +48,11 @@ const App = () => (
           component={ConcertFestival25Mei}
         />
         <Route path="/maestro-25-mei" exact component={Maestro25Mei} />
+        <Route
+          path="/kaartverkoop-delftse-meesters-11-mei"
+          exact
+          component={Tickets}
+        />
         <Route path="/contact" exact component={Contact} />
         <Route path="/" component={HomePage} />
       </Switch>
