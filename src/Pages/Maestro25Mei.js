@@ -3,63 +3,99 @@ import React from 'react';
 import Page from './Page';
 import { HighlightText, ImageRow, Paragraph, Title, Link } from '../components';
 import HeaderImage from '../assets/images/sheet-music.jpg';
+import NieuweKerk from '../assets/images/nieuwe-kerk.jpg';
 import GemeenteDelft from '../assets/images/partners/gemeente-delft.jpg';
 import NieuweKerkLogo from '../assets/images/partners/nieuwe-kerk-logo.svg';
 import Kapel from '../assets/images/kapel.jpg';
 import SomethingExtraLogo from '../assets/images/partners/something-extra.png';
+import MaestroBanner from '../assets/images/maestro-banner.png';
 
-const Maestro25Mei = () => (
-  <Page
-    title="Maestro 25 mei"
-    headerImage={HeaderImage}
-    anchorItems={['Het orkest', 'Partners']}
-  >
-    <Paragraph>
-      Op 25 mei wordt er een groots{' '}
-      <Link to="/concertfestival-25-mei">concertfestival</Link> gehouden waaraan
-      niet alleen onze eigen Kleine Harmonie aan deelneemt, maar waar ook
-      verschillende orkesten uit binnen- en buitenland te gast zijn. Overdag is
-      de Markt in Delft de speelplaats voor het Delftse Meesters Festival met
-      een groot podium. Heel Delft is uitgenodigd om te genieten van deze grote
-      happening. 's Avonds vindt er een spetterende uitvoering van de nieuwe
-      Delftse compositie – werktitel Delftse Meesters - en een heuse uitvoering
-      van de Delftse editie van het bekende tv-programma Maestro, waar enkele
-      bekende Delftenaren het dirigeerstokje overnemen van Erik Janssen om een
-      fantastische én verrassende avond neer te zetten.
-    </Paragraph>
-    <Title title="Het orkest" />
+const Maestro25Mei = () => {
+  const mailBody =
+    'Ik geef me graag op als Delftse Meester!\n\nNaam:\nLeeftijd:\nWaarom wil je graag meedoen?\nWat beteken jij voor de stad Delft?\nTelefoonnummer:\nEmail-adres:\n';
+  return (
+    <Page
+      title="Maestro 25 mei"
+      headerImage={HeaderImage}
+      anchorItems={['Locatie', 'De Dirigenten', 'Het orkest', 'Partners']}
+    >
+      <Paragraph>
+        Het bekende televisieprogramma Maestro krijgt een heuse Delftse Editie
+        met alle toeters en bellen die daarbij horen. Enkele bekende en minder
+        bekende Delftenaren nemen het dirigeerstokje over van Erik Janssen om
+        een fantastische én verrassende avond neer te zetten. Spannend wordt het
+        zeker, want wie wordt de allereerste Delftse Maestro? De aspirant
+        Maestro’s moeten alles uit de kast halen om het speciaal voor de
+        gelegenheid samengestelde en aangeklede Delftse Meester orkest zo mooi
+        mogelijk te laten klinken. Een jury bestaande uit Erik Janssen en twee
+        bekende Delftenaren beoordeelt de aspirant Maestro’s kundig.
+      </Paragraph>
 
-    <Paragraph rightImage={Kapel}>
-      <HighlightText text="De Kapel" />
-      De Koninklijke Harmoniekapel is een harmonieorkest bestaande uit zo'n 90
-      muzikanten dat zich tot de beste blaasorkesten van de Randstad mag
-      rekenen. Sinds 2015 staat het orkest onder de bezielende leiding van Erik
-      Janssen. Met uitvoeringen als The Queen Symphony met Leo Blokhuis in een
-      uitverkochte TU Aula, het jaarlijkse Koningsdagconcert op het Doelenplein
-      en optredens op tal van locaties in Delft, zoals Theater De Veste, de
-      Nieuwe Kerk en Lijm & Cultuur, is de Harmoniekapel een belangrijke speler
-      in het muzikale en culturele Delftse leven.
-    </Paragraph>
-    <Title title="Partners" />
-    <Paragraph>
-      Het Delftse Meesters festival wordt mede mogelijk gemaakt door:
-      <ImageRow
-        images={[
-          { src: GemeenteDelft, alt: 'Gemeente Delft' },
-          { src: NieuweKerkLogo, alt: 'Nieuwe Kerk' },
-        ]}
-      />
-      <ImageRow
-        images={[
-          {
-            src: SomethingExtraLogo,
-            alt: 'Something Extra',
-            style: { maxWidth: 100 },
-          },
-        ]}
-      />
-    </Paragraph>
-  </Page>
-);
+      <Title title="Locatie" />
+      <Paragraph leftImage={NieuweKerk}>
+        <HighlightText text="De Nieuwe Kerk" />
+        De Nieuwe Kerk in Delft is een prominent kerkgebouw aan de Markt in het
+        centrum van de stad. De kerk is de huiskamer van de stad Delft. De toren
+        is met 108,75 meter, na de Domtoren in Utrecht, de hoogste kerktoren van
+        Nederland. De kerk geniet bekendheid vanwege het praalgraf van de vader
+        des vaderlands Willem van Oranje. Onder het praalgraf bevinden zich de
+        grafkelders van Oranje-Nassau, de grafkelders van ons Koninklijk Huis.
+      </Paragraph>
+
+      <Title title="De Dirigenten" />
+      <Paragraph>
+        <ImageRow
+          images={[
+            {
+              src: MaestroBanner,
+              alt: 'Maestro',
+              style: { maxWidth: '60%', marginBottom: 32 },
+            },
+          ]}
+        />
+        Word jij de Delftse Meester? Schrijf je nu in! Stuur een mail naar{' '}
+        <Link
+          to={`mailto:delftsemeesters@harmoniedelft.nl?subject=Ik word graag een Delftse Maestro!&body=${encodeURIComponent(
+            mailBody
+          )}`}
+        >
+          delftsemeesters@harmoniedelft.nl
+        </Link>{' '}
+        met daarin de volgende gegevens: je naam, leeftijd, waarom je graag mee
+        zou willen doen en wat jij betekent voor de stad Delft. Vergeet niet je
+        telefoonnummer en emailadres te vermelden en wie weet zien we jou wel
+        schitteren tijdens de Maestro finale op 25 mei!
+      </Paragraph>
+
+      <Title title="Het orkest" />
+      <Paragraph rightImage={Kapel}>
+        <HighlightText text="Het Delftse Meester Orkest" />
+        Speciaal voor deze gelegenheid wordt er een samengesteld Delftse Meester
+        orkest gecreëerd, bestaande uit muzikanten van de Koninklijke
+        Harmoniekapel én de Kleine Harmonie. Wat betekent dat de aspirant
+        Maestro’s meer dan honderd muzikanten onder hun hoede krijgen.
+      </Paragraph>
+      <Title title="Partners" />
+      <Paragraph>
+        Het Delftse Meesters festival wordt mede mogelijk gemaakt door:
+        <ImageRow
+          images={[
+            { src: GemeenteDelft, alt: 'Gemeente Delft' },
+            { src: NieuweKerkLogo, alt: 'Nieuwe Kerk' },
+          ]}
+        />
+        <ImageRow
+          images={[
+            {
+              src: SomethingExtraLogo,
+              alt: 'Something Extra',
+              style: { maxWidth: 100 },
+            },
+          ]}
+        />
+      </Paragraph>
+    </Page>
+  );
+};
 
 export default Maestro25Mei;
