@@ -1,14 +1,11 @@
 import React from 'react';
 
 import { NewsRow } from '../components';
-import HeaderImage from '../assets/images/kapel-westcord-1.jpg';
-import KevinAndThijs from '../assets/images/kevin-houben-en-voorzitter-thijs.jpg';
-import OctopusGoudenEeuw from '../assets/images/octopus-gouden-eeuw.jpg';
 import getNewsItems from '../Pages/News/data';
 
 const getNewsRows = newsItems => {
   const newsRows = [[newsItems[0]]];
-  let index = newsItems.length % 2 == 0 ? 0 : 1;
+  let index = newsItems.length % 2 === 0 ? 0 : 1;
   for (let i = index; i < newsItems.length; i += 2) {
     newsRows[Math.ceil(i / 2)] = [newsItems[i], newsItems[i + 1]];
   }

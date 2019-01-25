@@ -1,5 +1,11 @@
 export default () => [
   {
+    title: 'Word jij de Delftse Meester?',
+    link: 'word-jij-de-delftse-meester',
+    image: 'maestro-banner.png',
+    filename: '20190124WordJijDeDelftseMeester'
+  },
+  {
     title: 'Aftrap Delft en de Gouden Eeuw',
     link: 'aftrap-delft-en-de-gouden-eeuw',
     image: 'octopus-gouden-eeuw.jpg',
