@@ -14,6 +14,7 @@ import Contact from './Pages/Contact';
 import News from './Pages/News';
 import IdeeenMuziekstuk from './Pages/News/20181108IdeeenMuziekstuk';
 import AftrapDelftEnDeGoudenEeuw from './Pages/News/20190113AftrapDelftEnDeGoudenEeuw';
+import WordJijDeDelftseMeester from './Pages/News/20190124WordJijDeDelftseMeester';
 
 configureAnchors({ scrollDuration: 800 });
 
@@ -31,6 +32,11 @@ const App = () => (
           path="/nieuws/aftrap-delft-en-de-gouden-eeuw"
           exact
           component={AftrapDelftEnDeGoudenEeuw}
+        />
+        <Route
+          path="/nieuws/word-jij-de-delftse-meester"
+          exact
+          component={WordJijDeDelftseMeester}
         />
         <Route
           path="/khd-en-de-gouden-eeuw"

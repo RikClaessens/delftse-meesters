@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Page from './Page';
-import { Paragraph, Title } from '../components';
 import HeaderImage from '../assets/images/kapel-nieuwe-kerk-2.jpg';
 
 const Contact = () => (
@@ -15,6 +14,7 @@ const Contact = () => (
       width="90%"
       height="750"
       frameborder="0"
+      title="Kaartverkoop Delftse Meesters"
     />
   </Page>
 );

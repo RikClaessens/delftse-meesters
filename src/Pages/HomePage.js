@@ -3,7 +3,6 @@ import React from 'react';
 import Page from './Page';
 import HeaderImage from '../assets/images/kapel-nieuwe-kerk-1.jpg';
 import { Link, News, Paragraph, Title } from '../components';
-import getNewsItems from './News/data';
 
 const HomePage = () => (
   <Page title="Delftse Meesters" headerImage={HeaderImage}>

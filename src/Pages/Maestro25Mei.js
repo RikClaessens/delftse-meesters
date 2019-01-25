@@ -43,6 +43,24 @@ const Maestro25Mei = () => {
       </Paragraph>
 
       <Title title="De Dirigenten" />
+      <iframe
+        width="90%"
+        height="315"
+        src="https://www.youtube.com/embed/BAt7ttpvwsk"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        title="Word jij de Delftse Meester?"
+        style={{ margin: 32 }}
+      />
+      <Paragraph>
+        Misschien is de titel Delftse Meester wel voor jou weggelegd! Wieg jij
+        altijd onbewust mee met de muziek? Ga je ook altijd helemaal op in de
+        muziek als je een prachtig nummer hoort? Je zult alles uit de kast
+        moeten halen om het speciaal voor deze gelegenheid samengestelde en
+        aangeklede Delftse Meester orkest zo mooi mogelijk te laten klinken. En
+        wie weet word jij dan de Delftse Meester.
+      </Paragraph>
       <Paragraph>
         <ImageRow
           images={[
@@ -53,7 +71,7 @@ const Maestro25Mei = () => {
             },
           ]}
         />
-        Word jij de Delftse Meester? Schrijf je nu in! Stuur een mail naar{' '}
+        Schrijf je dan nu snel in voor 28 februari! Hoe? Stuur een mail naar{' '}
         <Link
           to={`mailto:delftsemeesters@harmoniedelft.nl?subject=Ik word graag een Delftse Maestro!&body=${encodeURIComponent(
             mailBody
@@ -61,10 +79,15 @@ const Maestro25Mei = () => {
         >
           delftsemeesters@harmoniedelft.nl
         </Link>{' '}
-        met daarin de volgende gegevens: je naam, leeftijd, waarom je graag mee
-        zou willen doen en wat jij betekent voor de stad Delft. Vergeet niet je
-        telefoonnummer en emailadres te vermelden en wie weet zien we jou wel
-        schitteren tijdens de Maestro finale op 25 mei!
+        met daarin de volgende gegevens:
+        <ul>
+          <li>Naam</li>
+          <li>Leeftijd</li>
+          <li>Waarom moet juist jij meedoen aan de Delftse Maestro?</li>
+          <li>Wat heb jij met de stad Delft?</li>
+        </ul>
+        Vergeet niet je telefoonnummer en emailadres te vermelden en wie weet
+        zien we jou wel schitteren tijdens de Maestro finale op 25 mei!
       </Paragraph>
 
       <Title title="Het orkest" />
