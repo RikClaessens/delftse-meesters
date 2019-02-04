@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaArrowRight } from 'react-icons/fa';
 
 import Page from './Page';
 import { HighlightText, ImageRow, Paragraph, Title, Link } from '../components';
@@ -15,7 +16,7 @@ const DelftseMeesters11Mei = () => (
   <Page
     title="Wereldpremière Delftse Meesters 11 mei 2019"
     headerImage={HeaderImage}
-    anchorItems={['Locatie', 'De cast', 'Partners']}
+    anchorItems={['Locatie', 'De cast', 'Partners', 'Kaarten']}
   >
     <Paragraph>
       Op 11 mei 2019 vindt er een weergaloze gala-wereldpremière plaats van de{' '}
@@ -109,6 +110,17 @@ const DelftseMeesters11Mei = () => (
           },
         ]}
       />
+    </Paragraph>
+    <Title title="Kaarten" />
+    <Paragraph>
+      De kaartverkoop van de wereldpremière van de <b>Delftse meesters</b> is
+      gestart! Wees er snel bij en verzeker jezelf van early bird tickets! Tot
+      ziens op 11 mei.
+    </Paragraph>
+    <Paragraph>
+      <Link to="/kaartverkoop-delftse-meesters">
+        Ga naar de kaartverkoop <FaArrowRight />
+      </Link>
     </Paragraph>
   </Page>
 );
