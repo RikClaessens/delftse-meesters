@@ -33,7 +33,7 @@ class NewsItem extends Component {
       </a>
     ) : (
       <Link
-        to={`/nieuws/${link}`}
+        to={link}
         onMouseEnter={() => this.setState({ hover: true })}
         onMouseLeave={() => this.setState({ hover: false })}
       >

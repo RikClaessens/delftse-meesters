@@ -1,19 +1,24 @@
 export default () => [
   {
+    title: 'Early Bird kaarten Delftse Meesters',
+    link: 'kaartverkoop-delftse-meesters',
+    image: 'early-bird-kaartverkoop.png',
+  },
+  {
     title: 'Word jij de Delftse Meester?',
-    link: 'word-jij-de-delftse-meester',
+    link: '/nieuws/word-jij-de-delftse-meester',
     image: 'maestro-banner.png',
-    filename: '20190124WordJijDeDelftseMeester'
+    filename: '20190124WordJijDeDelftseMeester',
   },
   {
     title: 'Aftrap Delft en de Gouden Eeuw',
-    link: 'aftrap-delft-en-de-gouden-eeuw',
+    link: '/nieuws/aftrap-delft-en-de-gouden-eeuw',
     image: 'octopus-gouden-eeuw.jpg',
     filename: '20190113AftrapDelftEnDeGoudenEeuw',
   },
   {
     title: 'Ideeën muziekstuk voor Delft',
-    link: 'ideeen-muziekstuk-voor-delft',
+    link: '/nieuws/ideeen-muziekstuk-voor-delft',
     image: 'kevin-houben-en-voorzitter-thijs.jpg',
     filename: '20181108IdeeenMuziekstuk',
   },
