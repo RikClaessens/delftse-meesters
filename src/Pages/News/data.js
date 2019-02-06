@@ -1,10 +1,5 @@
 export default () => [
   {
-    title: 'Early Bird kaarten Delftse Meesters',
-    link: 'kaartverkoop-delftse-meesters',
-    image: 'early-bird-kaartverkoop.png',
-  },
-  {
     title: 'Word jij de Delftse Meester?',
     link: '/nieuws/word-jij-de-delftse-meester',
     image: 'maestro-banner.png',
