@@ -10,7 +10,7 @@ class CustomLink extends Component {
     const {
       to = '/',
       children,
-      linkStyle = styles.link,
+      linkStyle = { ...styles.link, ...this.props.style },
       linkHoverStyle = styles.linkHover,
     } = this.props;
     const { hover } = this.state;

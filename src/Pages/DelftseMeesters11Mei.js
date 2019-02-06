@@ -11,12 +11,13 @@ import NieuweKerk from '../assets/images/nieuwe-kerk.jpg';
 import ErikJanssen from '../assets/images/erik-janssen.jpg';
 import NieuweKerkLogo from '../assets/images/partners/nieuwe-kerk-logo.svg';
 import SomethingExtraLogo from '../assets/images/partners/something-extra.png';
+import EarlyBirdTickets from '../assets/images/early-bird-kaartverkoop.png';
 
 const DelftseMeesters11Mei = () => (
   <Page
     title="Wereldpremière Delftse Meesters 11 mei 2019"
     headerImage={HeaderImage}
-    anchorItems={['Locatie', 'De cast', 'Partners', 'Kaarten']}
+    anchorItems={['Kaarten', 'Locatie', 'De cast', 'Partners']}
   >
     <Paragraph>
       Op 11 mei 2019 vindt er een weergaloze gala-wereldpremière plaats van de{' '}
@@ -44,6 +45,36 @@ const DelftseMeesters11Mei = () => (
         </li>
       </ul>
     </Paragraph>
+    <Title title="Kaarten" />
+    <Paragraph>
+      <div
+        style={{
+          flex: 1,
+          alignItems: 'center',
+          justifyContent: 'center',
+          display: 'flex',
+        }}
+      >
+        <div style={{ width: '70%' }}>
+          <img
+            src={EarlyBirdTickets}
+            style={{ width: '100%' }}
+            alt="Early Bird kaartverkoop"
+          />
+        </div>
+      </div>
+    </Paragraph>
+    <Paragraph>
+      De kaartverkoop van de wereldpremière van de <b>Delftse meesters</b> is
+      gestart! Wees er snel bij en verzeker jezelf van early bird tickets! Tot
+      ziens op 11 mei.
+    </Paragraph>
+    <Paragraph>
+      <Link to="/kaartverkoop-delftse-meesters" style={{ fontSize: 32 }}>
+        Ga naar de kaartverkoop <FaArrowRight />
+      </Link>
+    </Paragraph>
+
     <Title title="Locatie" />
     <Paragraph leftImage={NieuweKerk}>
       <HighlightText text="De Nieuwe Kerk" />
@@ -110,17 +141,6 @@ const DelftseMeesters11Mei = () => (
           },
         ]}
       />
-    </Paragraph>
-    <Title title="Kaarten" />
-    <Paragraph>
-      De kaartverkoop van de wereldpremière van de <b>Delftse meesters</b> is
-      gestart! Wees er snel bij en verzeker jezelf van early bird tickets! Tot
-      ziens op 11 mei.
-    </Paragraph>
-    <Paragraph>
-      <Link to="/kaartverkoop-delftse-meesters">
-        Ga naar de kaartverkoop <FaArrowRight />
-      </Link>
     </Paragraph>
   </Page>
 );

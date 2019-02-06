@@ -1,11 +1,45 @@
 import React from 'react';
+import { FaArrowRight } from 'react-icons/fa';
 
 import Page from './Page';
 import HeaderImage from '../assets/images/kapel-nieuwe-kerk-1.jpg';
+import EarlyBirdTickets from '../assets/images/early-bird-kaartverkoop.png';
 import { Link, News, Paragraph, Title } from '../components';
 
 const HomePage = () => (
   <Page title="Delftse Meesters" headerImage={HeaderImage}>
+    <Paragraph>
+      <div
+        style={{
+          flex: 1,
+          alignItems: 'center',
+          justifyContent: 'center',
+          display: 'flex',
+        }}
+      >
+        <div style={{ width: '70%' }}>
+          <img
+            src={EarlyBirdTickets}
+            style={{ width: '100%' }}
+            alt="Early Bird kaartverkoop"
+          />
+        </div>
+      </div>
+    </Paragraph>
+    <Paragraph>
+      De kaartverkoop van de wereldpremière van de{' '}
+      <b>
+        <Link to="/delftse-meesters-11-mei">Delftse meesters</Link>
+      </b>{' '}
+      is gestart! Wees er snel bij en verzeker jezelf van early bird tickets!
+      Tot ziens op <Link to="/delftse-meesters-11-mei">11 mei</Link>.
+    </Paragraph>
+    <Paragraph>
+      <Link to="/kaartverkoop-delftse-meesters" style={{ fontSize: 32 }}>
+        Ga naar de kaartverkoop <FaArrowRight />
+      </Link>
+    </Paragraph>
+    <Title title="Delftse Meesters" />
     <Paragraph>
       Delft kleurt in 2019 goud! Samen met acht andere Nederlandse steden sluit
       Delft in 2019 aan bij het landelijke themajaar <b>de Gouden Eeuw</b>. Een
