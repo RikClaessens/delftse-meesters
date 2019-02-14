@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
 import HomePage from './Pages/HomePage';
 import KHDEnDeGoudenEeuw from './Pages/KHDEnDeGoudenEeuw';
-import DelftseMeesters25Mei from './Pages/DelftseMeesters11Mei';
+import LuxFutura11Mei from './Pages/LuxFutura11Mei';
 import ConcertFestival25Mei from './Pages/ConcertFestival25Mei';
 import Maestro25Mei from './Pages/Maestro25Mei';
 import Tickets from './Pages/Tickets';
@@ -43,11 +43,7 @@ const App = () => (
           exact
           component={KHDEnDeGoudenEeuw}
         />
-        <Route
-          path="/delftse-meesters-11-mei"
-          exact
-          component={DelftseMeesters25Mei}
-        />
+        <Route path="/wereldpremière-11-mei" exact component={LuxFutura11Mei} />
         <Route
           path="/concertfestival-25-mei"
           exact

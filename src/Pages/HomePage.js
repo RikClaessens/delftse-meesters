@@ -27,12 +27,12 @@ const HomePage = () => (
       </div>
     </Paragraph>
     <Paragraph>
-      De kaartverkoop van de wereldpremière van de{' '}
+      De kaartverkoop van de wereldpremière van{' '}
       <b>
-        <Link to="/delftse-meesters-11-mei">Delftse meesters</Link>
+        <Link to="/wereldpremière-11-mei">Lux Futura</Link>
       </b>{' '}
       is gestart! Wees er snel bij en verzeker jezelf van early bird tickets!
-      Tot ziens op <Link to="/delftse-meesters-11-mei">11 mei</Link>.
+      Tot ziens op <Link to="/wereldpremière-11-mei">11 mei</Link>.
     </Paragraph>
     <Paragraph>
       <Link to="/kaartverkoop-delftse-meesters" style={{ fontSize: 32 }}>
@@ -54,15 +54,15 @@ const HomePage = () => (
       door de samenwerking met de bewoners van Delft, de gemeente Delft en
       verschillende organisaties binnen Delft. Samen met de Nieuwe Kerk
       organiseert de Koninklijke Harmoniekapel op{' '}
-      <Link to="/delftse-meesters-11-mei">11 mei</Link> de weergaloze
-      gala-wereldpremière van dit muziekstuk, dat de werktitel Delftse Meesters
-      draagt.
+      <Link to="/wereldpremière-11-mei">11 mei</Link> de weergaloze
+      gala-wereldpremière van <b>Lux Futura</b>.
     </Paragraph>
     <Paragraph>
-      Ook vindt er op <Link to="/concertfestival-25-mei">25 mei</Link> een
-      groots concertfestival plaats, opnieuw in samenwerking met de Nieuwe Kerk.
-      Tijdens dit festival laten diverse orkesten en bands van zich horen op de
-      Markt in Delft. ’s Avonds staat een heuse uitvoering van Maestro op het
+      Ook vindt er op 25 mei een groots{' '}
+      <Link to="/concertfestival-25-mei">concertfestival</Link> plaats, opnieuw
+      in samenwerking met de Nieuwe Kerk. Tijdens dit festival laten diverse
+      orkesten en bands van zich horen op de Markt in Delft. ’s Avonds staat een
+      heuse uitvoering van <Link to="/maestro-25-mei">Maestro</Link> op het
       programma. Voor Delft en zijn inwoners komen de Delftse Meesters tot
       leven. Locatie: Nieuwe Kerk, Delft.
     </Paragraph>

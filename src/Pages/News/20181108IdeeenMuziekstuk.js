@@ -39,7 +39,7 @@ const Contact = () => (
     </Paragraph>
     <Paragraph>
       Benieuwd naar het eindresultaat? Op{' '}
-      <Link to="/delftse-meesters-11-mei">11 mei</Link> brengen wij de{' '}
+      <Link to="/wereldpremière-11-mei">11 mei</Link> brengen wij de
       wereldpremière van de compositie ten gehore in de Nieuwe Kerk en op{' '}
       <Link to="/concertfestival-25-mei">25 mei</Link> de publiekspremière
       (gratis) tijdens een concertfestival.

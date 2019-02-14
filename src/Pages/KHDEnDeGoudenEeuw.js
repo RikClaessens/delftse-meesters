@@ -23,12 +23,12 @@ const KHDEnDeGoudenEeuw = () => (
       De Koninklijke Harmoniekapel zet in 2019 bij de keuze van muziek, de
       optredens en andere uitingen 'De Gouden Eeuw' centraal, waarin de promotie
       van de stad Delft een prominente plek krijgt. Voor dit themajaar wordt een
-      compositie geschreven door componist Kevin Houben. Dit muziekstuk – met
-      als werktitel Delftse Meesters – zet Delft op de kaart, met een zweem uit
-      het verleden en een blik op de toekomst. De veelzijdigheid van Delft zal
-      hierin heel zichtbaar en hoorbaar worden. Nooit eerder is er een werk
-      geschreven speciaal voor Delft en over Delft. De compositie beleeft haar
-      wereldpremière op <Link to="/delftse-meesters-11-mei">11 mei</Link> 2019,
+      compositie geschreven door componist Kevin Houben. Dit muziekstuk –{' '}
+      <b>Lux Futura</b> – zet Delft op de kaart, met een zweem uit het verleden
+      en een blik op de toekomst. De veelzijdigheid van Delft zal hierin heel
+      zichtbaar en hoorbaar worden. Nooit eerder is er een werk geschreven
+      speciaal voor Delft en over Delft. De compositie beleeft haar
+      wereldpremière op <Link to="/wereldpremière-11-mei">11 mei</Link> 2019,
       het themajaar Delft & de Gouden Eeuw, tijdens een evenement waar alle
       Delftenaren en Delvenaren welkom zijn. Twee weken later zal de compositie
       nog een keer te horen zijn op het concertfestival op{' '}

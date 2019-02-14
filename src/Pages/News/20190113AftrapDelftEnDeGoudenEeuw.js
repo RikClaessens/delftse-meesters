@@ -26,9 +26,9 @@ const Contact = () => (
       rightImage={OctopusNieuwjaarsReceptie}
     />
     <Paragraph>
-      Op <Link to="/delftse-meesters-11-mei">11 mei</Link> vindt in de Nieuwe
-      Kerk in Delft de galapremiere plaats van de nieuwe Delftse compositie die
-      op dit moment wordt geschreven door componist Keven Houben, werktitel
+      Op <Link to="/wereldpremière-11-mei">11 mei</Link> vindt in de Nieuwe Kerk
+      in Delft de galapremiere plaats van de nieuwe Delftse compositie die op
+      dit moment wordt geschreven door componist Keven Houben, werktitel
       ‘Delftse Meesters’. Kaarten zijn binnenkort verkrijgbaar via deze website.
     </Paragraph>
   </Page>

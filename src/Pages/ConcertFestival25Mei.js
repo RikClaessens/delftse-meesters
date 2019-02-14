@@ -21,8 +21,8 @@ const ConcertFestival25Mei = () => (
       Delft de speelplaats voor het Delftse Meesters Festival met een groot
       podium. Heel Delft is uitgenodigd om te genieten van deze grote happening.
       's Avonds vindt er een spetterende uitvoering van de nieuwe Delftse
-      compositie – werktitel Delftse Meesters - en een heuse uitvoering van de
-      Delftse editie van het bekende tv-programma{' '}
+      compositie – <b>Lux Futura</b> - en een heuse uitvoering van de Delftse
+      editie van het bekende tv-programma{' '}
       <Link to="/maestro-25-mei">Maestro</Link>, waar enkele bekende Delftenaren
       het dirigeerstokje overnemen van Erik Janssen om een fantastische én
       verrassende avond neer te zetten.

@@ -20,9 +20,9 @@ const DelftseMeesters11Mei = () => (
     anchorItems={['Kaarten', 'Locatie', 'De cast', 'Partners']}
   >
     <Paragraph>
-      Op 11 mei 2019 vindt er een weergaloze gala-wereldpremière plaats van de{' '}
-      <b>Delftse meesters</b> in de Nieuwe Kerk. Tijdens deze avond word je
-      bevangen door muziek:
+      Op 11 mei 2019 vindt er een weergaloze gala-wereldpremière plaats van{' '}
+      <b>Lux Futura</b> in de Nieuwe Kerk. Tijdens deze avond word je bevangen
+      door muziek:
       <ul>
         <li>
           vanuit het verleden; in de geest van Vermeer en De Hooch, door de

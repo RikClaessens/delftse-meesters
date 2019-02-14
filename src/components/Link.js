@@ -44,6 +44,7 @@ const styles = {
     fontFamily: fonts.link,
     textDecoration: 'none',
     color: colors.gold,
+    transition: 'color 0.1s ease-in-out',
   },
   linkHover: {
     color: colors.secondary,
