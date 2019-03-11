@@ -1,5 +1,11 @@
 export default () => [
   {
+    title: 'Lux Futura',
+    link: '/nieuws/lux-futura',
+    image: 'kapel-nieuwe-kerk-2.jpg',
+    filename: '20190311LuxFutura',
+  },
+  {
     title: 'Word jij de Delftse Meester?',
     link: '/nieuws/word-jij-de-delftse-meester',
     image: 'maestro-banner.png',

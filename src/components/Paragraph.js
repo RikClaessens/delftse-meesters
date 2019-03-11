@@ -17,7 +17,7 @@ const StyledDiv = styled.div`
 `;
 
 const Paragraph = ({ children, style, leftImage, rightImage }) => (
-  <StyledDiv>
+  <StyledDiv style={style}>
     {leftImage && (
       <div style={{ flex: 1 }}>
         <img

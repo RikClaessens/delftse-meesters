@@ -6,7 +6,7 @@ import HeaderImage from '../../assets/images/octopus-gouden-eeuw.jpg';
 import OctopusNieuwjaarsReceptie from '../../assets/images/octopus-nieuwjaars-receptie.jpg';
 import OctopusOptreden from '../../assets/images/octopus-optreden.jpg';
 
-const Contact = () => (
+const NewsItem = () => (
   <Page title="Aftrap Delft en de Gouden Eeuw" headerImage={HeaderImage}>
     <Paragraph>
       Afgelopen weekend trad Octopus - een van onze ensembles - op tijdens de
@@ -34,4 +34,4 @@ const Contact = () => (
   </Page>
 );
 
-export default Contact;
+export default NewsItem;

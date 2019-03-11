@@ -15,6 +15,7 @@ import News from './Pages/News';
 import IdeeenMuziekstuk from './Pages/News/20181108IdeeenMuziekstuk';
 import AftrapDelftEnDeGoudenEeuw from './Pages/News/20190113AftrapDelftEnDeGoudenEeuw';
 import WordJijDeDelftseMeester from './Pages/News/20190124WordJijDeDelftseMeester';
+import LuxFutura from './Pages/News/20190311LuxFutura';
 
 configureAnchors({ scrollDuration: 800 });
 
@@ -43,6 +44,7 @@ const App = () => (
           exact
           component={KHDEnDeGoudenEeuw}
         />
+        <Route path="/nieuws/lux-futura" exact component={LuxFutura} />
         <Route path="/wereldpremière-11-mei" exact component={LuxFutura11Mei} />
         <Route
           path="/concertfestival-25-mei"

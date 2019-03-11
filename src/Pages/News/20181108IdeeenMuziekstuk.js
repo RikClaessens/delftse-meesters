@@ -5,7 +5,7 @@ import { Link, Paragraph, Title } from '../../components';
 import HeaderImage from '../../assets/images/kapel-westcord-2.jpg';
 import KevinAndThijs from '../../assets/images/kevin-houben-en-voorzitter-thijs.jpg';
 
-const Contact = () => (
+const NewsItem = () => (
   <Page title="Ideeën muziekstuk voor Delft" headerImage={HeaderImage}>
     <Paragraph>
       Een muziekstuk met een glimp uit het verleden en een blik op de toekomst –
@@ -47,4 +47,4 @@ const Contact = () => (
   </Page>
 );
 
-export default Contact;
+export default NewsItem;

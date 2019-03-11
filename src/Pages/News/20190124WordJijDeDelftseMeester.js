@@ -5,7 +5,7 @@ import { Link, Paragraph, ImageRow } from '../../components';
 import HeaderImage from '../../assets/images/sheet-music.jpg';
 import MaestroBanner from '../../assets/images/maestro-banner.png';
 
-const Contact = () => {
+const NewsItem = () => {
   const mailBody =
     'Ik geef me graag op als Delftse Meester!\n\nNaam:\nLeeftijd:\nWaarom wil je graag meedoen?\nWat beteken jij voor de stad Delft?\nTelefoonnummer:\nEmail-adres:\n';
   return (
@@ -69,4 +69,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default NewsItem;
