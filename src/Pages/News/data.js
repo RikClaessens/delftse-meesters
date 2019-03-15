@@ -1,5 +1,11 @@
 export default () => [
   {
+    title: 'Bedrijfsarrangementen 11 mei',
+    link: '/nieuws/bedrijfsarrangementen',
+    image: 'KapelNieuweKerkDelft-19.jpg',
+    filename: '20190315Bedrijfsarrangementen',
+  },
+  {
     title: 'Lux Futura',
     link: '/nieuws/lux-futura',
     image: 'kapel-nieuwe-kerk-2.jpg',

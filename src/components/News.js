@@ -15,7 +15,7 @@ const getNewsRows = newsItems => {
 const News = () => {
   const newsItems = getNewsItems();
   const newsRows = getNewsRows(newsItems);
-  return newsRows.map(items => <NewsRow items={items} />);
+  return newsRows.map(items => <NewsRow items={items} key={items[0].title} />);
 };
 
 export default News;

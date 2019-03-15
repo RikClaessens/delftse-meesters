@@ -18,7 +18,7 @@ const NewsRow = ({ items }) => (
         {items
           .filter(i => i)
           .map(({ ...newsItemProps }) => (
-            <div style={{ flex: 1, margin: 8 }}>
+            <div style={{ flex: 1, margin: 8 }} key={newsItemProps.title}>
               <NewsItem {...newsItemProps} />
             </div>
           ))}
