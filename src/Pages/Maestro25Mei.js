@@ -1,18 +1,15 @@
 import React from 'react';
 
 import Page from './Page';
-import { HighlightText, ImageRow, Paragraph, Title, Link } from '../components';
+import { HighlightText, ImageRow, Paragraph, Title } from '../components';
 import HeaderImage from '../assets/images/sheet-music.jpg';
 import NieuweKerk from '../assets/images/nieuwe-kerk.jpg';
 import GemeenteDelft from '../assets/images/partners/gemeente-delft.jpg';
 import NieuweKerkLogo from '../assets/images/partners/nieuwe-kerk-logo.svg';
 import DelftseMeesterOrkest from '../assets/images/delftse-meester-orkest.jpg';
 import SomethingExtraLogo from '../assets/images/partners/something-extra.png';
-import MaestroBanner from '../assets/images/maestro-banner.png';
 
 const Maestro25Mei = () => {
-  const mailBody =
-    'Ik geef me graag op als Delftse Meester!\n\nNaam:\nLeeftijd:\nWaarom wil je graag meedoen?\nWat beteken jij voor de stad Delft?\nTelefoonnummer:\nEmail-adres:\n';
   return (
     <Page
       title="Maestro 25 mei"
