@@ -45,6 +45,13 @@ const Maestro25Mei = () => {
         Editie? Binnenkort maken we hier bekend welke kandidaten dit zullen
         zijn.
       </Paragraph>
+      <Title title="Het orkest" />
+      <Paragraph>
+        <HighlightText text="Het Delftse Meester Orkest" />
+        Speciaal voor deze gelegenheid wordt er een samengesteld Delftse Meester
+        orkest gecreëerd, bestaande uit muzikanten van de Koninklijke
+        Harmoniekapel én de Kleine Harmonie. Wat betekent dat de aspirant
+        Maestro’s meer dan honderd muzikanten onder hun hoede krijgen.
       <Paragraph rightImage={DelftseMeesterOrkest} />
       <Title title="Partners" />
       <Paragraph>
