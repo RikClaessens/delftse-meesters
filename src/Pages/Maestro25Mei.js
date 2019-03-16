@@ -43,60 +43,10 @@ const Maestro25Mei = () => {
       </Paragraph>
 
       <Title title="De Dirigenten" />
-      <iframe
-        width="90%"
-        height="315"
-        src="https://www.youtube.com/embed/BAt7ttpvwsk"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="Word jij de Delftse Meester?"
-        style={{ margin: 32 }}
-      />
       <Paragraph>
-        Misschien is de titel Delftse Meester wel voor jou weggelegd! Wieg jij
-        altijd onbewust mee met de muziek? Ga je ook altijd helemaal op in de
-        muziek als je een prachtig nummer hoort? Je zult alles uit de kast
-        moeten halen om het speciaal voor deze gelegenheid samengestelde en
-        aangeklede Delftse Meester orkest zo mooi mogelijk te laten klinken. En
-        wie weet word jij dan de Delftse Meester.
-      </Paragraph>
-      <Paragraph>
-        <ImageRow
-          images={[
-            {
-              src: MaestroBanner,
-              alt: 'Maestro',
-              style: { maxWidth: '60%', marginBottom: 32 },
-            },
-          ]}
-        />
-        Schrijf je dan nu snel in voor 28 februari! Hoe? Stuur een mail naar{' '}
-        <Link
-          to={`mailto:delftsemeesters@harmoniedelft.nl?subject=Ik word graag een Delftse Maestro!&body=${encodeURIComponent(
-            mailBody
-          )}`}
-        >
-          delftsemeesters@harmoniedelft.nl
-        </Link>{' '}
-        met daarin de volgende gegevens:
-        <ul>
-          <li>Naam</li>
-          <li>Leeftijd</li>
-          <li>Waarom moet juist jij meedoen aan de Delftse Maestro?</li>
-          <li>Wat heb jij met de stad Delft?</li>
-        </ul>
-        Vergeet niet je telefoonnummer en emailadres te vermelden en wie weet
-        zien we jou wel schitteren tijdens de Maestro finale op 25 mei!
-      </Paragraph>
-
-      <Title title="Het orkest" />
-      <Paragraph>
-        <HighlightText text="Het Delftse Meester Orkest" />
-        Speciaal voor deze gelegenheid wordt er een samengesteld Delftse Meester
-        orkest gecreëerd, bestaande uit muzikanten van de Koninklijke
-        Harmoniekapel én de Kleine Harmonie. Wat betekent dat de aspirant
-        Maestro’s meer dan honderd muzikanten onder hun hoede krijgen.
+        Wie gaan de strijd aan voor de titel Maestro tijdens onze eigen Delftse
+        Editie? Binnenkort maken we hier bekend welke kandidaten dit zullen
+        zijn.
       </Paragraph>
       <Paragraph rightImage={DelftseMeesterOrkest} />
       <Title title="Partners" />
