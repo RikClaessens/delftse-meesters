@@ -3,43 +3,42 @@ import { FaArrowRight } from 'react-icons/fa';
 
 import Page from './Page';
 import HeaderImage from '../assets/images/kapel-nieuwe-kerk-1.jpg';
-import EarlyBirdTickets from '../assets/images/early-bird-kaartverkoop.png';
-import { Link, News, Paragraph, Title } from '../components';
+import { Link, News, Paragraph, Title, TicketSale } from '../components';
+import { colors } from '../theme';
+
+const linkStyle = {
+  flex: 1,
+  textTransform: 'uppercase',
+  fontSize: 24,
+  textAlign: 'center',
+  color: colors.secondary,
+};
 
 const HomePage = () => (
   <Page title="Delftse Meesters" headerImage={HeaderImage}>
-    <Paragraph>
-      <div
-        style={{
-          flex: 1,
-          alignItems: 'center',
-          justifyContent: 'center',
-          display: 'flex',
-        }}
+    <Paragraph style={{ display: 'flex' }}>
+      <Link
+        to="/wereldpremière-11-mei"
+        style={linkStyle}
+        hoverStyle={{ color: colors.gold }}
       >
-        <div style={{ width: '70%' }}>
-          <img
-            src={EarlyBirdTickets}
-            style={{ width: '100%' }}
-            alt="Early Bird kaartverkoop"
-          />
-        </div>
-      </div>
-    </Paragraph>
-    <Paragraph>
-      De kaartverkoop van de wereldpremière van{' '}
-      <b>
-        <Link to="/wereldpremière-11-mei">Lux Futura</Link>
-      </b>{' '}
-      is gestart! Wees er snel bij en verzeker jezelf van early bird tickets!
-      Tot ziens op <Link to="/wereldpremière-11-mei">11 mei</Link>.
-    </Paragraph>
-    <Paragraph>
-      <Link to="/kaartverkoop-delftse-meesters" style={{ fontSize: 32 }}>
-        Ga naar de kaartverkoop <FaArrowRight />
+        wereldpremière 11 mei
+      </Link>
+      <Link
+        to="/concertfestival-25-mei"
+        style={linkStyle}
+        hoverStyle={{ color: colors.gold }}
+      >
+        concertfestival 25 mei
+      </Link>
+      <Link
+        to="/maestro-25-mei"
+        style={linkStyle}
+        hoverStyle={{ color: colors.gold }}
+      >
+        maestro 25 mei
       </Link>
     </Paragraph>
-    <Title title="Delftse Meesters" />
     <Paragraph>
       Delft kleurt in 2019 goud! Samen met acht andere Nederlandse steden sluit
       Delft in 2019 aan bij het landelijke themajaar <b>de Gouden Eeuw</b>. Een
@@ -65,6 +64,23 @@ const HomePage = () => (
       heuse uitvoering van <Link to="/maestro-25-mei">Maestro</Link> op het
       programma. Voor Delft en zijn inwoners komen de Delftse Meesters tot
       leven. Locatie: Nieuwe Kerk, Delft.
+    </Paragraph>
+    <Title title="Kaartverkoop 11 mei" />
+    <Paragraph>
+      <TicketSale />
+    </Paragraph>
+    <Paragraph>
+      De kaartverkoop van de wereldpremière van{' '}
+      <b>
+        <Link to="/wereldpremière-11-mei">Lux Futura</Link>
+      </b>{' '}
+      is gestart! Wees er snel bij en verzeker jezelf van early bird tickets!
+      Tot ziens op <Link to="/wereldpremière-11-mei">11 mei</Link>.
+    </Paragraph>
+    <Paragraph>
+      <Link to="/kaartverkoop-delftse-meesters" style={{ fontSize: 32 }}>
+        Ga naar de kaartverkoop <FaArrowRight />
+      </Link>
     </Paragraph>
     <Title title="Laatste Nieuws" />
     <News />

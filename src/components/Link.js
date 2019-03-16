@@ -11,7 +11,7 @@ class CustomLink extends Component {
       to = '/',
       children,
       linkStyle = { ...styles.link, ...this.props.style },
-      linkHoverStyle = styles.linkHover,
+      linkHoverStyle = { ...styles.linkHover, ...this.props.hoverStyle },
     } = this.props;
     const { hover } = this.state;
     const targetProp = to.startsWith('http') ? { target: '_blank' } : null;

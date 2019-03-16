@@ -10,6 +10,7 @@ import News from './News';
 import NewsItem from './NewsItem';
 import NewsRow from './NewsRow';
 import Paragraph from './Paragraph';
+import TicketSale from './TicketSale';
 import Title from './Title';
 import TopMenu from './TopMenu';
 
@@ -26,6 +27,7 @@ export {
   NewsItem,
   NewsRow,
   Paragraph,
+  TicketSale,
   Title,
   TopMenu,
 };
