@@ -13,17 +13,17 @@ const styles = {
   container: {
     display: 'flex',
     flex: 1,
-    paddingLeft: 100,
-    paddingTop: 6,
-    paddingRight: 100,
-    paddingBottom: 6,
+    marginLeft: 100,
+    marginTop: 6,
+    marginRight: 100,
+    marginBottom: 6,
     alignItems: 'center',
     justifyContent: 'center',
   },
   logo: {
     maxWidth: '50%',
     objectFit: 'contain',
-    minWidth: 400,
+    minWidth: 280,
   },
 };
 

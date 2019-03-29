@@ -1,18 +1,36 @@
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
+import styled from 'styled-components';
 
 import Page from './Page';
 import HeaderImage from '../assets/images/kapel-nieuwe-kerk-1.jpg';
 import { Link, News, Paragraph, Title, TicketSale } from '../components';
-import { colors } from '../theme';
+import { colors, mediaQueries } from '../theme';
 
 const linkStyle = {
   flex: 1,
   textTransform: 'uppercase',
-  fontSize: 24,
   textAlign: 'center',
   color: colors.secondary,
+  marginRight: 8,
+  marginLeft: 8,
 };
+
+const StyledSpan = styled.span`
+  flex: 1;
+  font-size: 12px;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-align: center;
+  @media ${mediaQueries.mobileM} {
+    font-size: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  @media ${mediaQueries.laptop} {
+    font-size: 20px;
+  }
+`;
 
 const HomePage = () => (
   <Page title="Delftse Meesters" headerImage={HeaderImage}>
@@ -22,21 +40,33 @@ const HomePage = () => (
         style={linkStyle}
         hoverStyle={{ color: colors.gold }}
       >
-        wereldpremière 11 mei
+        <StyledSpan>
+          wereldpremière
+          <br />
+          11 mei
+        </StyledSpan>
       </Link>
       <Link
         to="/concertfestival-25-mei"
         style={linkStyle}
         hoverStyle={{ color: colors.gold }}
       >
-        concertfestival 25 mei
+        <StyledSpan>
+          concertfestival
+          <br />
+          25 mei
+        </StyledSpan>
       </Link>
       <Link
         to="/maestro-25-mei"
         style={linkStyle}
         hoverStyle={{ color: colors.gold }}
       >
-        maestro 25 mei
+        <StyledSpan>
+          maestro&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <br />
+          25 mei
+        </StyledSpan>
       </Link>
     </Paragraph>
     <Paragraph>

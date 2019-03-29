@@ -8,6 +8,8 @@ import GemeenteDelft from '../assets/images/partners/gemeente-delft.jpg';
 import NieuweKerkLogo from '../assets/images/partners/nieuwe-kerk-logo.svg';
 import DelftseMeesterOrkest from '../assets/images/delftse-meester-orkest.jpg';
 import SomethingExtraLogo from '../assets/images/partners/something-extra.png';
+import RabobankCoopFonds from '../assets/images/partners/rabobank-cooperatie-fonds.png';
+import Fonds1818 from '../assets/images/partners/fonds1818.png';
 
 const Maestro25Mei = () => {
   return (
@@ -52,14 +54,33 @@ const Maestro25Mei = () => {
         orkest gecreëerd, bestaande uit muzikanten van de Koninklijke
         Harmoniekapel én de Kleine Harmonie. Wat betekent dat de aspirant
         Maestro’s meer dan honderd muzikanten onder hun hoede krijgen.
+      </Paragraph>
       <Paragraph rightImage={DelftseMeesterOrkest} />
       <Title title="Partners" />
-      <Paragraph>
+      <Paragraph style={{ textAlign: 'center' }}>
         Het Delftse Meesters festival wordt mede mogelijk gemaakt door:
         <ImageRow
           images={[
-            { src: GemeenteDelft, alt: 'Gemeente Delft' },
-            { src: NieuweKerkLogo, alt: 'Nieuwe Kerk' },
+            {
+              src: GemeenteDelft,
+              alt: 'Gemeente Delft',
+              style: { maxWidth: 250 },
+            },
+            {
+              src: NieuweKerkLogo,
+              alt: 'Nieuwe Kerk',
+              style: { maxWidth: 250 },
+            },
+          ]}
+        />
+        <ImageRow
+          images={[
+            { src: Fonds1818, alt: 'Fonds 1818', style: { maxWidth: 200 } },
+            {
+              src: RabobankCoopFonds,
+              alt: 'Rabobank Coöperatie Fonds',
+              style: { maxWidth: 250 },
+            },
           ]}
         />
         <ImageRow

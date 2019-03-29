@@ -172,7 +172,7 @@ const styles = {
     flex: 1,
     justifyContent: 'flex-end',
     alignItems: 'center',
-    paddingRight: 24,
+    marginRight: 24,
   },
 };
 export default TopMenu;

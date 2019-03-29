@@ -1,14 +1,26 @@
 import React from 'react';
+import styled from 'styled-components';
+
+import { mediaQueries } from '../theme';
+
+const StyledDiv = styled.div`
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  @media ${mediaQueries.laptop} {
+    flex-direction: row;
+  }
+`;
 
 const ImageRow = ({ images = [] }) => (
-  <div style={styles.container}>
+  <StyledDiv>
     {images.map(imageProps => (
       <div style={styles.imageContainer}>
         {/* eslint-disable-next-line */}
         <img style={styles.image} {...imageProps} />
       </div>
     ))}
-  </div>
+  </StyledDiv>
 );
 
 const styles = {
@@ -22,6 +34,8 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'center',
     display: 'flex',
+    marginTop: 32,
+    marginBottom: 32,
   },
   image: {
     width: '100%',
