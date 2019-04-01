@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { Link } from '../components';
 import { mediaQueries } from '../theme';
 
 const StyledDiv = styled.div`
@@ -14,12 +15,24 @@ const StyledDiv = styled.div`
 
 const ImageRow = ({ images = [] }) => (
   <StyledDiv>
-    {images.map(imageProps => (
-      <div style={styles.imageContainer}>
-        {/* eslint-disable-next-line */}
-        <img style={styles.image} {...imageProps} />
-      </div>
-    ))}
+    {images.map(imageProps =>
+      imageProps.link ? (
+        <Link
+          key={imageProps.alt}
+          style={styles.imageContainer}
+          to={imageProps.link}
+          target={`${imageProps.link.startsWith('http') ? '_blank' : '_self'}`}
+        >
+          {/* eslint-disable-next-line */}
+          <img style={styles.image} {...imageProps} />
+        </Link>
+      ) : (
+        <div key={imageProps.alt} style={styles.imageContainer}>
+          {/* eslint-disable-next-line */}
+          <img style={styles.image} {...imageProps} />
+        </div>
+      )
+    )}
   </StyledDiv>
 );
 
@@ -39,7 +52,7 @@ const styles = {
   },
   image: {
     width: '100%',
-    maxWidth: 300,
+    maxWidth: 250,
   },
 };
 export default ImageRow;

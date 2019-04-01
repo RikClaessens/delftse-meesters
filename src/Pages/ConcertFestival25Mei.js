@@ -7,6 +7,7 @@ import KleineHarmonie from '../assets/images/kleine-harmonie.jpg';
 import AlderValleyBrass from '../assets/images/alder-valley-brass.jpg';
 import GemeenteDelft from '../assets/images/partners/gemeente-delft.jpg';
 import NieuweKerkLogo from '../assets/images/partners/nieuwe-kerk-logo.svg';
+import NmiLogo from '../assets/images/partners/nmi.png';
 
 const ConcertFestival25Mei = () => (
   <Page
@@ -58,8 +59,26 @@ const ConcertFestival25Mei = () => (
       Het Delftse Meesters festival wordt mede mogelijk gemaakt door:
       <ImageRow
         images={[
-          { src: GemeenteDelft, alt: 'Gemeente Delft' },
-          { src: NieuweKerkLogo, alt: 'Nieuwe Kerk' },
+          {
+            src: GemeenteDelft,
+            alt: 'Gemeente Delft',
+            link: 'https://www.delft.nl/',
+          },
+          {
+            src: NieuweKerkLogo,
+            alt: 'Nieuwe Kerk',
+            link: 'https://oudeennieuwekerkdelft.nl/',
+          },
+        ]}
+      />
+      <ImageRow
+        images={[
+          {
+            src: NmiLogo,
+            alt: 'NMI',
+            link: 'https://www.nmi.nl/nl/',
+            style: { maxWidth: 150 },
+          },
         ]}
       />
     </Paragraph>

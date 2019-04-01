@@ -12,6 +12,7 @@ import ErikJanssen from '../assets/images/erik-janssen.jpg';
 import NieuweKerkLogo from '../assets/images/partners/nieuwe-kerk-logo.svg';
 import SomethingExtraLogo from '../assets/images/partners/something-extra.png';
 import EarlyBirdTickets from '../assets/images/early-bird-kaartverkoop.png';
+import NmiLogo from '../assets/images/partners/nmi.png';
 
 const DelftseMeesters11Mei = () => (
   <Page
@@ -128,15 +129,30 @@ const DelftseMeesters11Mei = () => (
       De wereldpremière van <b>Lux Futura</b> wordt mede mogelijk gemaakt door:
       <ImageRow
         images={[
-          { src: GemeenteDelft, alt: 'Gemeente Delft' },
-          { src: NieuweKerkLogo, alt: 'Nieuwe Kerk' },
+          {
+            src: GemeenteDelft,
+            alt: 'Gemeente Delft',
+            link: 'https://www.delft.nl/',
+          },
+          {
+            src: NieuweKerkLogo,
+            alt: 'Nieuwe Kerk',
+            link: 'https://oudeennieuwekerkdelft.nl/',
+          },
         ]}
       />
       <ImageRow
         images={[
           {
+            src: NmiLogo,
+            alt: 'NMI',
+            link: 'https://www.nmi.nl/nl/',
+            style: { maxWidth: 150 },
+          },
+          {
             src: SomethingExtraLogo,
             alt: 'Something Extra',
+            link: 'https://somethingextra.nl/',
             style: { maxWidth: 100 },
           },
         ]}

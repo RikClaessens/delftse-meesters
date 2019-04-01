@@ -10,6 +10,7 @@ import DelftseMeesterOrkest from '../assets/images/delftse-meester-orkest.jpg';
 import SomethingExtraLogo from '../assets/images/partners/something-extra.png';
 import RabobankCoopFonds from '../assets/images/partners/rabobank-cooperatie-fonds.png';
 import Fonds1818 from '../assets/images/partners/fonds1818.png';
+import NmiLogo from '../assets/images/partners/nmi.png';
 
 const Maestro25Mei = () => {
   return (
@@ -64,12 +65,12 @@ const Maestro25Mei = () => {
             {
               src: GemeenteDelft,
               alt: 'Gemeente Delft',
-              style: { maxWidth: 250 },
+              link: 'https://www.delft.nl/',
             },
             {
               src: NieuweKerkLogo,
               alt: 'Nieuwe Kerk',
-              style: { maxWidth: 250 },
+              link: 'https://oudeennieuwekerkdelft.nl/',
             },
           ]}
         />
@@ -79,16 +80,23 @@ const Maestro25Mei = () => {
             {
               src: RabobankCoopFonds,
               alt: 'Rabobank Coöperatie Fonds',
-              style: { maxWidth: 250 },
+              link: 'https://www.rabobankcooperatiefonds.nl/wat-het/',
             },
           ]}
         />
         <ImageRow
           images={[
             {
+              src: NmiLogo,
+              alt: 'NMI',
+              link: 'https://www.nmi.nl/nl/',
+              style: { maxWidth: 150 },
+            },
+            {
               src: SomethingExtraLogo,
               alt: 'Something Extra',
               style: { maxWidth: 100 },
+              link: 'https://somethingextra.nl/',
             },
           ]}
         />
