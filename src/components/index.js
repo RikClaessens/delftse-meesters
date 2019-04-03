@@ -1,4 +1,5 @@
 import Anchor from './Anchor';
+import ConcertInfo from './ConcertInfo';
 import Footer from './Footer';
 import Header from './Header';
 import HighlightText from './HighlightText';
@@ -16,6 +17,7 @@ import TopMenu from './TopMenu';
 
 export {
   Anchor,
+  ConcertInfo,
   Footer,
   Header,
   HighlightText,

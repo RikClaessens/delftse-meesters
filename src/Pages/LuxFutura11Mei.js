@@ -2,7 +2,14 @@ import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
 
 import Page from './Page';
-import { HighlightText, ImageRow, Paragraph, Title, Link } from '../components';
+import {
+  ConcertInfo,
+  HighlightText,
+  ImageRow,
+  Paragraph,
+  Title,
+  Link,
+} from '../components';
 import HeaderImage from '../assets/images/kapel-nieuwe-kerk-2.jpg';
 import GemeenteDelft from '../assets/images/partners/gemeente-delft.jpg';
 import KevinHouben from '../assets/images/kevin-houben.jpg';
@@ -13,6 +20,7 @@ import NieuweKerkLogo from '../assets/images/partners/nieuwe-kerk-logo.svg';
 import SomethingExtraLogo from '../assets/images/partners/something-extra.png';
 import EarlyBirdTickets from '../assets/images/early-bird-kaartverkoop.png';
 import NmiLogo from '../assets/images/partners/nmi.png';
+import KapelNieuweKerk from '../assets/images/kapel-nieuwe-kerk-1.jpg';
 
 const DelftseMeesters11Mei = () => (
   <Page
@@ -46,6 +54,18 @@ const DelftseMeesters11Mei = () => (
         </li>
       </ul>
     </Paragraph>
+    <Title title="Concert Info" />
+    <Paragraph style={{ justifyContent: 'center', display: 'flex' }}>
+      <ConcertInfo
+        title="Lux Futura"
+        location="Nieuwe Kerk, Delft"
+        address="Markt 80, 2611 GW Delft"
+        date="11 mei 2019"
+        time="20:15"
+        price="€16,- early bird"
+        image={KapelNieuweKerk}
+      />
+    </Paragraph>
     <Title title="Kaarten" />
     <Paragraph>
       <div
@@ -57,11 +77,13 @@ const DelftseMeesters11Mei = () => (
         }}
       >
         <div style={{ width: '70%' }}>
-          <img
-            src={EarlyBirdTickets}
-            style={{ width: '100%' }}
-            alt="Early Bird kaartverkoop"
-          />
+          <Link to="/kaartverkoop-delftse-meesters">
+            <img
+              src={EarlyBirdTickets}
+              style={{ width: '100%' }}
+              alt="Early Bird kaartverkoop"
+            />
+          </Link>
         </div>
       </div>
     </Paragraph>

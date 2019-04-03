@@ -1,12 +1,19 @@
 import React from 'react';
 
 import Page from './Page';
-import { HighlightText, ImageRow, Paragraph, Title } from '../components';
+import {
+  ConcertInfo,
+  HighlightText,
+  ImageRow,
+  Paragraph,
+  Title,
+} from '../components';
 import HeaderImage from '../assets/images/sheet-music.jpg';
 import NieuweKerk from '../assets/images/nieuwe-kerk.jpg';
 import GemeenteDelft from '../assets/images/partners/gemeente-delft.jpg';
 import NieuweKerkLogo from '../assets/images/partners/nieuwe-kerk-logo.svg';
 import DelftseMeesterOrkest from '../assets/images/delftse-meester-orkest.jpg';
+import KapelNieuweKerk from '../assets/images/kapel-nieuwe-kerk-6.jpg';
 import SomethingExtraLogo from '../assets/images/partners/something-extra.png';
 import RabobankCoopFonds from '../assets/images/partners/rabobank-cooperatie-fonds.png';
 import Fonds1818 from '../assets/images/partners/fonds1818.png';
@@ -31,6 +38,17 @@ const Maestro25Mei = () => {
         bekende Delftenaren beoordeelt de aspirant Maestro’s kundig.
       </Paragraph>
 
+      <Title title="Concert Info" />
+      <Paragraph style={{ justifyContent: 'center', display: 'flex' }}>
+        <ConcertInfo
+          location="Nieuwe Kerk, Delft"
+          address="Markt 80, 2611 GW Delft"
+          date="25 mei 2019"
+          time="20:15"
+          price="gratis"
+          image={KapelNieuweKerk}
+        />
+      </Paragraph>
       <Title title="Locatie" />
       <Paragraph leftImage={NieuweKerk}>
         <HighlightText text="De Nieuwe Kerk" />
