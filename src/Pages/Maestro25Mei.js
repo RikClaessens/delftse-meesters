@@ -18,6 +18,7 @@ import SomethingExtraLogo from '../assets/images/partners/something-extra.png';
 import RabobankCoopFonds from '../assets/images/partners/rabobank-cooperatie-fonds.png';
 import Fonds1818 from '../assets/images/partners/fonds1818.png';
 import NmiLogo from '../assets/images/partners/nmi.png';
+import CaptainsLogo from '../assets/images/partners/captains.png';
 
 const Maestro25Mei = () => {
   return (
@@ -94,7 +95,12 @@ const Maestro25Mei = () => {
         />
         <ImageRow
           images={[
-            { src: Fonds1818, alt: 'Fonds 1818', style: { maxWidth: 200 } },
+            {
+              src: Fonds1818,
+              alt: 'Fonds 1818',
+              style: { maxWidth: 200 },
+              link: 'https://www.fonds1818.nl/',
+            },
             {
               src: RabobankCoopFonds,
               alt: 'Rabobank Coöperatie Fonds',
@@ -113,8 +119,18 @@ const Maestro25Mei = () => {
             {
               src: SomethingExtraLogo,
               alt: 'Something Extra',
-              style: { maxWidth: 100 },
+              style: { maxWidth: 125 },
               link: 'https://somethingextra.nl/',
+            },
+          ]}
+        />
+        <ImageRow
+          images={[
+            {
+              src: CaptainsLogo,
+              alt: 'Captains',
+              link: 'https://captains.nl/',
+              style: { maxWidth: 175 },
             },
           ]}
         />

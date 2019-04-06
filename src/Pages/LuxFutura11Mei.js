@@ -21,6 +21,7 @@ import SomethingExtraLogo from '../assets/images/partners/something-extra.png';
 import EarlyBirdTickets from '../assets/images/early-bird-kaartverkoop.png';
 import NmiLogo from '../assets/images/partners/nmi.png';
 import KapelNieuweKerk from '../assets/images/kapel-nieuwe-kerk-1.jpg';
+import CaptainsLogo from '../assets/images/partners/captains.png';
 
 const DelftseMeesters11Mei = () => (
   <Page
@@ -175,7 +176,17 @@ const DelftseMeesters11Mei = () => (
             src: SomethingExtraLogo,
             alt: 'Something Extra',
             link: 'https://somethingextra.nl/',
-            style: { maxWidth: 100 },
+            style: { maxWidth: 125 },
+          },
+        ]}
+      />
+      <ImageRow
+        images={[
+          {
+            src: CaptainsLogo,
+            alt: 'Captains',
+            link: 'https://captains.nl/',
+            style: { maxWidth: 175 },
           },
         ]}
       />

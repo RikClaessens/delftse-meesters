@@ -8,6 +8,7 @@ import AlderValleyBrass from '../assets/images/alder-valley-brass.jpg';
 import GemeenteDelft from '../assets/images/partners/gemeente-delft.jpg';
 import NieuweKerkLogo from '../assets/images/partners/nieuwe-kerk-logo.svg';
 import NmiLogo from '../assets/images/partners/nmi.png';
+import CaptainsLogo from '../assets/images/partners/captains.png';
 
 const ConcertFestival25Mei = () => (
   <Page
@@ -78,6 +79,12 @@ const ConcertFestival25Mei = () => (
             alt: 'NMI',
             link: 'https://www.nmi.nl/nl/',
             style: { maxWidth: 150 },
+          },
+          {
+            src: CaptainsLogo,
+            alt: 'Captains',
+            link: 'https://captains.nl/',
+            style: { maxWidth: 175 },
           },
         ]}
       />
