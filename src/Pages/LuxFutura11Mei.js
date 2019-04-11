@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaArrowRight } from 'react-icons/fa';
 
 import Page from './Page';
 import {
@@ -9,6 +8,7 @@ import {
   Paragraph,
   Title,
   Link,
+  TicketSale,
 } from '../components';
 import HeaderImage from '../assets/images/kapel-nieuwe-kerk-2.jpg';
 import GemeenteDelft from '../assets/images/partners/gemeente-delft.jpg';
@@ -18,7 +18,6 @@ import NieuweKerk from '../assets/images/nieuwe-kerk.jpg';
 import ErikJanssen from '../assets/images/erik-janssen.jpg';
 import NieuweKerkLogo from '../assets/images/partners/nieuwe-kerk-logo.svg';
 import SomethingExtraLogo from '../assets/images/partners/something-extra.png';
-import EarlyBirdTickets from '../assets/images/early-bird-kaartverkoop.png';
 import NmiLogo from '../assets/images/partners/nmi.png';
 import KapelNieuweKerk from '../assets/images/kapel-nieuwe-kerk-1.jpg';
 import CaptainsLogo from '../assets/images/partners/captains.png';
@@ -66,41 +65,12 @@ const DelftseMeesters11Mei = () => (
         address="Markt 80, 2611 GW Delft"
         date="11 mei 2019"
         time="20:15"
-        price="€16,- early bird"
+        price="€16,- early bird, €18,- normale prijs"
         image={KapelNieuweKerk}
       />
     </Paragraph>
     <Title title="Kaarten" />
-    <Paragraph>
-      <div
-        style={{
-          flex: 1,
-          alignItems: 'center',
-          justifyContent: 'center',
-          display: 'flex',
-        }}
-      >
-        <div style={{ width: '70%' }}>
-          <Link to="/kaartverkoop-delftse-meesters">
-            <img
-              src={EarlyBirdTickets}
-              style={{ width: '100%' }}
-              alt="Early Bird kaartverkoop"
-            />
-          </Link>
-        </div>
-      </div>
-    </Paragraph>
-    <Paragraph>
-      De kaartverkoop van de wereldpremière van de <b>Lux Futura</b> is gestart!
-      Wees er snel bij en verzeker jezelf van early bird tickets! Tot ziens op
-      11 mei.
-    </Paragraph>
-    <Paragraph>
-      <Link to="/kaartverkoop-delftse-meesters" style={{ fontSize: 32 }}>
-        Ga naar de kaartverkoop <FaArrowRight />
-      </Link>
-    </Paragraph>
+    <TicketSale />
 
     <Title title="Locatie" />
     <Paragraph leftImage={NieuweKerk}>

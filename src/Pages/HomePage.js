@@ -96,22 +96,7 @@ const HomePage = () => (
       leven. Locatie: Nieuwe Kerk, Delft.
     </Paragraph>
     <Title title="Kaartverkoop 11 mei" />
-    <Paragraph>
-      <TicketSale />
-    </Paragraph>
-    <Paragraph>
-      De kaartverkoop van de wereldpremière van{' '}
-      <b>
-        <Link to="/wereldpremière-11-mei">Lux Futura</Link>
-      </b>{' '}
-      is gestart! Wees er snel bij en verzeker jezelf van early bird tickets!
-      Tot ziens op <Link to="/wereldpremière-11-mei">11 mei</Link>.
-    </Paragraph>
-    <Paragraph>
-      <Link to="/kaartverkoop-delftse-meesters" style={{ fontSize: 32 }}>
-        Ga naar de kaartverkoop <FaArrowRight />
-      </Link>
-    </Paragraph>
+    <TicketSale />
     <Title title="Laatste Nieuws" />
     <News />
   </Page>
