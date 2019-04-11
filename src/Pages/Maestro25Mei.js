@@ -19,6 +19,9 @@ import RabobankCoopFonds from '../assets/images/partners/rabobank-cooperatie-fon
 import Fonds1818 from '../assets/images/partners/fonds1818.png';
 import NmiLogo from '../assets/images/partners/nmi.png';
 import CaptainsLogo from '../assets/images/partners/captains.png';
+import AHXLLogo from '../assets/images/partners/ah-xl.png';
+import PrintPlezierLogo from '../assets/images/partners/printplezier.png';
+import RodiLogo from '../assets/images/partners/rodi.png';
 
 const Maestro25Mei = () => {
   return (
@@ -130,6 +133,28 @@ const Maestro25Mei = () => {
               src: CaptainsLogo,
               alt: 'Captains',
               link: 'https://captains.nl/',
+              style: { maxWidth: 175 },
+            },
+            {
+              src: AHXLLogo,
+              alt: 'Albert Heijn XL Delft',
+              link:
+                'https://www.ah.nl/winkel/albert-heijn/delft/martinus-nijhofflaan/1147',
+              style: { maxWidth: 175 },
+            },
+          ]}
+        />
+        <ImageRow
+          images={[
+            {
+              src: PrintPlezierLogo,
+              alt: 'Print Plezier',
+              link: 'https://printplezier.nl',
+            },
+            {
+              src: RodiLogo,
+              alt: 'Rodi Media Zuid Holland',
+              link: 'https://www.rodimedia-zh.nl/',
               style: { maxWidth: 175 },
             },
           ]}

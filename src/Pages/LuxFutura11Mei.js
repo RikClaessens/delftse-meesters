@@ -22,6 +22,9 @@ import EarlyBirdTickets from '../assets/images/early-bird-kaartverkoop.png';
 import NmiLogo from '../assets/images/partners/nmi.png';
 import KapelNieuweKerk from '../assets/images/kapel-nieuwe-kerk-1.jpg';
 import CaptainsLogo from '../assets/images/partners/captains.png';
+import AHXLLogo from '../assets/images/partners/ah-xl.png';
+import PrintPlezierLogo from '../assets/images/partners/printplezier.png';
+import RodiLogo from '../assets/images/partners/rodi.png';
 
 const DelftseMeesters11Mei = () => (
   <Page
@@ -186,6 +189,28 @@ const DelftseMeesters11Mei = () => (
             src: CaptainsLogo,
             alt: 'Captains',
             link: 'https://captains.nl/',
+            style: { maxWidth: 175 },
+          },
+          {
+            src: AHXLLogo,
+            alt: 'Albert Heijn XL Delft',
+            link:
+              'https://www.ah.nl/winkel/albert-heijn/delft/martinus-nijhofflaan/1147',
+            style: { maxWidth: 175 },
+          },
+        ]}
+      />
+      <ImageRow
+        images={[
+          {
+            src: PrintPlezierLogo,
+            alt: 'Print Plezier',
+            link: 'https://printplezier.nl',
+          },
+          {
+            src: RodiLogo,
+            alt: 'Rodi Media Zuid Holland',
+            link: 'https://www.rodimedia-zh.nl/',
             style: { maxWidth: 175 },
           },
         ]}
