@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaArrowRight } from 'react-icons/fa';
 import styled from 'styled-components';
 
 import Page from './Page';
@@ -63,7 +62,7 @@ const HomePage = () => (
         hoverStyle={{ color: colors.gold }}
       >
         <StyledSpan>
-          maestro&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          maestro
           <br />
           25 mei
         </StyledSpan>

@@ -65,7 +65,7 @@ const DelftseMeesters11Mei = () => (
         address="Markt 80, 2611 GW Delft"
         date="11 mei 2019"
         time="20:15"
-        price="€16,- early bird, €18,- normale prijs"
+        price="€18,-"
         image={KapelNieuweKerk}
       />
     </Paragraph>
