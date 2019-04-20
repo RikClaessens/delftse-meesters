@@ -23,16 +23,28 @@ import AHXLLogo from '../assets/images/partners/ah-xl.png';
 import PrintPlezierLogo from '../assets/images/partners/printplezier.png';
 import RodiLogo from '../assets/images/partners/rodi.png';
 
-import TimVanDerHagen from '../assets/images/maestros/TimVanDerHagen.jpg';
-import AstridDijksman from '../assets/images/maestros/AstridDijksman.jpg';
-import GabriellePonjee from '../assets/images/maestros/GabriellePonjee.jpg';
+import TimVanDerHagen from '../assets/images/maestro/TimVanDerHagen.jpg';
+import AstridDijksman from '../assets/images/maestro/AstridDijksman.jpg';
+import GabriellePonjee from '../assets/images/maestro/GabriellePonjee.jpg';
+import MarjaVanBijsterveldt from '../assets/images/maestro/MarjaVanBijsterveldt.jpg';
+import BerryVisser from '../assets/images/maestro/BerryVisser.jpg';
+import ErikJanssen from '../assets/images/erik-janssen.jpg';
+import BasPollard from '../assets/images/maestro/BasPollard.jpg';
+import HenkNichting from '../assets/images/maestro/HenkNichting.jpg';
 
 const Maestro25Mei = () => {
   return (
     <Page
       title="Maestro 25 mei"
       headerImage={HeaderImage}
-      anchorItems={['Locatie', 'De Maestros', 'Het orkest', 'Partners']}
+      anchorItems={[
+        'Locatie',
+        'De Maestros',
+        'De Jury',
+        'De Cast',
+        'Het orkest',
+        'Partners',
+      ]}
     >
       <Paragraph>
         Het bekende televisieprogramma Maestro krijgt een heuse Delftse Editie
@@ -78,60 +90,142 @@ const Maestro25Mei = () => {
         Maestro’.
       </Paragraph>
       <Paragraph>Hieronder stellen zij zich aan u voor:</Paragraph>
-      <Paragraph rightImage={TimVanDerHagen} imageStyle={{ width: '60%' }}>
+      <Paragraph rightImage={TimVanDerHagen} imageStyle={{ width: '50%' }}>
         <HighlightText text="Tim van der Hagen" />
-        Ik ben een fan van het televisieprogramma Maesto en ik vind het
-        fascinerend om te zien hoe lastig het blijkt te zijn om een orkest te
-        dirigeren. Daarnaast is het natuurlijk heel grappig om te zien wat er
-        gebeurt als je geen goede aanwijzingen geeft.
-        <br />
-        <br />
-        Ik maak zelf ook muziek, ik speel gitaar en piano. Niet in een orkest
-        maar in popbandjes. Ook ga ik graag naar concerten en jazz-optredens.
-        <br />
-        <br />
-        Een goede Maestro is voor mij iemand die het orkest kan meenemen om
-        samen prachtige muziek te maken.
+        <i>
+          Ik ben een fan van het televisieprogramma Maesto en ik vind het
+          fascinerend om te zien hoe lastig het blijkt te zijn om een orkest te
+          dirigeren. Daarnaast is het natuurlijk heel grappig om te zien wat er
+          gebeurt als je geen goede aanwijzingen geeft.
+          <br />
+          <br />
+          Ik maak zelf ook muziek, ik speel gitaar en piano. Niet in een orkest
+          maar in popbandjes. Ook ga ik graag naar concerten en jazz-optredens.
+          <br />
+          <br />
+          Een goede Maestro is voor mij iemand die het orkest kan meenemen om
+          samen prachtige muziek te maken.
+        </i>
       </Paragraph>
-      <Paragraph rightImage={AstridDijksman} imageStyle={{ width: '60%' }}>
+      <Paragraph rightImage={AstridDijksman} imageStyle={{ width: '50%' }}>
         <HighlightText text="Astrid Dijksman" />
-        Deelnemen aan de Delftse Maestro is voor mij een geweldige ervaring. Ik
-        ben zeer benieuwd naar het leiderschap van de dirigent over een orkest.
-        Het heeft voor mij iets magisch, zeker omdat het elke dirigent zijn
-        eigen stijl hanteert en het toch altijd werkt.
-        <br />
-        <br />
-        Ik hou erg van zingen en dansen, en dat gaat verder dan alleen hossen
-        met carnaval! Als tiener heb ik kort xylofoon gespeeld. Het kwam er niet
-        van om hiermee verder te gaan. Ik ben nu wel leerling-trommelaar bij
-        Dameskapel 3igenwijs. Dat is geweldig, ook al heb ik nog veel te leren.
-        De Harmoniekapel ken ik van de optredens tijdens Koningsdag en ook de
-        afgelopen Nieuwjaarsbijeenkomst van de gemeente.
-        <br />
-        <br />
-        Een goede Maestro is voor mij iemand die veel gevoel voor allerlei
-        muzieksoorten en instrumenten heeft en vooral goed kan luisteren. En
-        natuurlijk mensen kunnen stimuleren en stressbestendig zijn!
+        <i>
+          Deelnemen aan de Delftse Maestro is voor mij een geweldige ervaring.
+          Ik ben zeer benieuwd naar het leiderschap van de dirigent over een
+          orkest. Het heeft voor mij iets magisch, zeker omdat het elke dirigent
+          zijn eigen stijl hanteert en het toch altijd werkt.
+          <br />
+          <br />
+          Ik hou erg van zingen en dansen, en dat gaat verder dan alleen hossen
+          met carnaval! Als tiener heb ik kort xylofoon gespeeld. Het kwam er
+          niet van om hiermee verder te gaan. Ik ben nu wel leerling-trommelaar
+          bij Dameskapel 3igenwijs. Dat is geweldig, ook al heb ik nog veel te
+          leren. De Harmoniekapel ken ik van de optredens tijdens Koningsdag en
+          ook de afgelopen Nieuwjaarsbijeenkomst van de gemeente.
+          <br />
+          <br />
+          Een goede Maestro is voor mij iemand die veel gevoel voor allerlei
+          muzieksoorten en instrumenten heeft en vooral goed kan luisteren. En
+          natuurlijk mensen kunnen stimuleren en stressbestendig zijn!
+        </i>
       </Paragraph>
-      <Paragraph rightImage={GabriellePonjee} imageStyle={{ width: '60%' }}>
+      <Paragraph rightImage={GabriellePonjee} imageStyle={{ width: '50%' }}>
         <HighlightText text="Gabrielle Ponjee" />
-        Ik ben een groot bewonderaar van het kunstenaarschap van dirigenten. Met
-        het deelnemen aan de Delftse Maestro komt een droom uit: altijd al wil
-        ik een keer een orkest dirigeren. Het lijkt me zo ongelofelijk moeilijk
-        en tegelijkertijd mooi om je persoonlijke stijl in een orkestraal stuk
-        te kunnen leggen.
+        <i>
+          Ik ben een groot bewonderaar van het kunstenaarschap van dirigenten.
+          Met het deelnemen aan de Delftse Maestro komt een droom uit: altijd al
+          wil ik een keer een orkest dirigeren. Het lijkt me zo ongelofelijk
+          moeilijk en tegelijkertijd mooi om je persoonlijke stijl in een
+          orkestraal stuk te kunnen leggen.
+          <br />
+          <br />
+          Klassieke muziek zit mij in het bloed. Ik heb pianolessen gehad en
+          zing nu in het Delftse oratoriumnkoor Cantarella. Ook bezoek ik graag
+          concerten, zowel klassiek als RenB en jazz. De Harmoniekapel ken ik
+          van hun optredens bij de taptoe en op Koningsdag.
+          <br />
+          <br />
+          Een goede Maestro is voor mij iemand die naast een strakke discipline
+          ook zijn/haar gevoel en passie voor de muziek weet over te dragen op
+          het orkest, zodat de muziek ‘vleugels’ krijgt en het publiek raakt.
+          Het is het samengaan van management en kunstenaarschap op hoog niveau.
+        </i>
+      </Paragraph>
+      <Title title="De Jury" />
+      <Paragraph>
+        Zonder jury geen Maestro! Onze talentvolle en spraakmakende Maestro’s
+        worden tijdens de Maestro-avond op 25 mei vakkundig gejureerd door:
+        Jury-voorzitter burgemeester <b>Marja van Bijsterveldt</b>,{' '}
+        MOJO-oprichter <b>Berry Visser</b> en onze eigen dirigent{' '}
+        <b>Erik Janssen</b>{' '}
+      </Paragraph>
+      <Paragraph
+        rightImage={MarjaVanBijsterveldt}
+        imageStyle={{ width: '60%' }}
+      >
+        <HighlightText text="Marja van BijsterVeldt" />
+        Sinds 2016 is Marja van Bijsterveldt burgemeester van Delft. Met veel
+        plezier reikt ze de prijzen uit aan de Delftse Meesters.
         <br />
         <br />
-        Klassieke muziek zit mij in het bloed. Ik heb pianolessen gehad en zing
-        nu in het Delftse oratoriumnkoor Cantarella. Ook bezoek ik graag
-        concerten, zowel klassiek als RenB en jazz. De Harmoniekapel ken ik van
-        hun optredens bij de taptoe en op Koningsdag.
+        <i>
+          Een geweldig evenement in het Delftse Gouden Eeuw-jaar. Delftse
+          Meesters waren er altijd en ze zijn er nog steeds! Ik kan me een leven
+          zonder muziek niet voorstellen. Ik kan enorm genieten van klassieke
+          muziek. En vandaag is het ook heerlijk om zoveel muziek in onze
+          prachtige Nieuwe Kerk te horen.
+        </i>
+      </Paragraph>
+      <Paragraph rightImage={BerryVisser} imageStyle={{ width: '60%' }}>
+        <HighlightText text="Berry Visser" />
+        Gedreven door zijn passie voor popmuziek start Delftenaar Berry Visser
+        in 1968 het eenmansbedrijf MOJO Concerts. Met enige bluf weet hij in
+        Londen meerdere bands te strikken voor het eerste meerdaagse festival
+        van Nederland: het Holland Pop Festival in het Kralingse Bos. Kort
+        daarna haakt Leon Ramakers aan, eerst als Berry’s assistent en al snel
+        als zijn partner. Samen organiseren zij vele concerten en festivals die
+        tot op de dag vandaag tienduizenden bezoekers trekken, zoals Lowlands en
+        Pinkpop.
         <br />
         <br />
-        Een goede Maestro is voor mij iemand die naast een strakke discipline
-        ook zijn/haar gevoel en passie voor de muziek weet over te dragen op het
-        orkest, zodat de muziek ‘vleugels’ krijgt en het publiek raakt. Het is
-        het samengaan van management en kunstenaarschap op hoog niveau.
+        Berry Visser creëerde onlangs het futuristische sprookje Het Verborgen
+        Huis van Madame de Berry, een surrealistische voorstelling op de
+        zondagmiddagen in zijn huis aan een van de grachten in Delft. Met zijn
+        grote staat van dienst in de muziekindustrie is Berry Visser het ideale
+        jurylid van de Delftse editie van Maestro.
+      </Paragraph>
+      <Paragraph rightImage={ErikJanssen} imageStyle={{ width: '60%' }}>
+        <HighlightText text="Erik Janssen" />
+        Sinds 2015 is Erik Janssen vaste dirigent van de Kapel. Hij staat bekend
+        om zijn energie en muzikale interpretaties. Hij dirigeert professionele
+        militaire kapellen, toonaangevende brassbands én grote harmonieorkesten
+        in Nederland en ver daarbuiten. Erik startte zijn carrière als freelance
+        trompettist in diverse bekende (beroeps)orkesten. Erik is ook
+        gastdirigent bij diverse aansprekende orkesten in binnen- en buitenland.
+        Hij treedt regelmatig op als jurylid en examinator. Daarnaast is Erik
+        sinds 1990 artistiek directeur bij uitgever Molenaar Edition in
+        Wormerveer.
+      </Paragraph>
+      <Title title="De cast" />
+      <Paragraph rightImage={BasPollard} imageStyle={{ width: '40%' }}>
+        <HighlightText text="Bass Pollard" />
+        Al in 2011 werd dirigent en hoornist Bas Pollard een
+        televisiepersoonlijkheid door zijn serie ‘Dirigeren met Bas Pollard’ bij
+        de VPRO. Daarna werkte hij als coach voor de deelnemers bij het
+        televisieprogramma Maestro van AVROTROS. In het dagelijks leven is Bas
+        Pollard dirigent bij verschillende orkesten en docent op het
+        Conservatorium van Amsterdam.
+      </Paragraph>
+      <Paragraph rightImage={HenkNichting} imageStyle={{ width: '40%' }}>
+        <HighlightText text="Henk Nichting" />
+        Henk Nichting heeft een klassieke piano-opleiding gevolgd aan het
+        Rotterdams Conservatorium (nu Codarts) bij Istvan Hajdu en Michael
+        Davidson. Hij is 35 jaar werkzaam geweest bij Codarts Dans als pianist.
+        Momenteel werkt hij als docent en begeleider bij het Hellendaal
+        Rotterdams Muziekinstituut voor jonge, talentvolle kinderen. Daarnaast
+        heeft hij thuis een prive-lespraktijk en werkt hij als freelance
+        pianist. Bij vele concoursen, audities en andere muzikale activiteiten
+        is hij als begeleider actief.
       </Paragraph>
       <Title title="Het orkest" />
       <Paragraph>
