@@ -23,12 +23,16 @@ import AHXLLogo from '../assets/images/partners/ah-xl.png';
 import PrintPlezierLogo from '../assets/images/partners/printplezier.png';
 import RodiLogo from '../assets/images/partners/rodi.png';
 
+import TimVanDerHagen from '../assets/images/maestros/TimVanDerHagen.jpg';
+import AstridDijksman from '../assets/images/maestros/AstridDijksman.jpg';
+import GabriellePonjee from '../assets/images/maestros/GabriellePonjee.jpg';
+
 const Maestro25Mei = () => {
   return (
     <Page
       title="Maestro 25 mei"
       headerImage={HeaderImage}
-      anchorItems={['Locatie', 'De Dirigenten', 'Het orkest', 'Partners']}
+      anchorItems={['Locatie', 'De Maestros', 'Het orkest', 'Partners']}
     >
       <Paragraph>
         Het bekende televisieprogramma Maestro krijgt een heuse Delftse Editie
@@ -64,11 +68,70 @@ const Maestro25Mei = () => {
         grafkelders van Oranje-Nassau, de grafkelders van ons Koninklijk Huis.
       </Paragraph>
 
-      <Title title="De Dirigenten" />
+      <Title title="De Maestros" />
       <Paragraph>
-        Wie gaan de strijd aan voor de titel Maestro tijdens onze eigen Delftse
-        Editie? Binnenkort maken we hier bekend welke kandidaten dit zullen
-        zijn.
+        Met trots presenteren wij u onze Maestro’s! Na een strenge doch
+        vriendelijke selectie gaan wij het avontuur aan met niemand minder dan:{' '}
+        <b>Tim van der Hagen</b> – Rector Magnificus van de TU Delft;{' '}
+        <b>Astrid Dijksman</b> – Stadsprinses Astrid de 1e Kabbelaar de 43e; en{' '}
+        <b>Gabrielle Ponjee</b> - winnaar van de verkiezing ‘Derde Delftse
+        Maestro’.
+      </Paragraph>
+      <Paragraph>Hieronder stellen zij zich aan u voor:</Paragraph>
+      <Paragraph rightImage={TimVanDerHagen} imageStyle={{ width: '60%' }}>
+        <HighlightText text="Tim van der Hagen" />
+        Ik ben een fan van het televisieprogramma Maesto en ik vind het
+        fascinerend om te zien hoe lastig het blijkt te zijn om een orkest te
+        dirigeren. Daarnaast is het natuurlijk heel grappig om te zien wat er
+        gebeurt als je geen goede aanwijzingen geeft.
+        <br />
+        <br />
+        Ik maak zelf ook muziek, ik speel gitaar en piano. Niet in een orkest
+        maar in popbandjes. Ook ga ik graag naar concerten en jazz-optredens.
+        <br />
+        <br />
+        Een goede Maestro is voor mij iemand die het orkest kan meenemen om
+        samen prachtige muziek te maken.
+      </Paragraph>
+      <Paragraph rightImage={AstridDijksman} imageStyle={{ width: '60%' }}>
+        <HighlightText text="Astrid Dijksman" />
+        Deelnemen aan de Delftse Maestro is voor mij een geweldige ervaring. Ik
+        ben zeer benieuwd naar het leiderschap van de dirigent over een orkest.
+        Het heeft voor mij iets magisch, zeker omdat het elke dirigent zijn
+        eigen stijl hanteert en het toch altijd werkt.
+        <br />
+        <br />
+        Ik hou erg van zingen en dansen, en dat gaat verder dan alleen hossen
+        met carnaval! Als tiener heb ik kort xylofoon gespeeld. Het kwam er niet
+        van om hiermee verder te gaan. Ik ben nu wel leerling-trommelaar bij
+        Dameskapel 3igenwijs. Dat is geweldig, ook al heb ik nog veel te leren.
+        De Harmoniekapel ken ik van de optredens tijdens Koningsdag en ook de
+        afgelopen Nieuwjaarsbijeenkomst van de gemeente.
+        <br />
+        <br />
+        Een goede Maestro is voor mij iemand die veel gevoel voor allerlei
+        muzieksoorten en instrumenten heeft en vooral goed kan luisteren. En
+        natuurlijk mensen kunnen stimuleren en stressbestendig zijn!
+      </Paragraph>
+      <Paragraph rightImage={GabriellePonjee} imageStyle={{ width: '60%' }}>
+        <HighlightText text="Gabrielle Ponjee" />
+        Ik ben een groot bewonderaar van het kunstenaarschap van dirigenten. Met
+        het deelnemen aan de Delftse Maestro komt een droom uit: altijd al wil
+        ik een keer een orkest dirigeren. Het lijkt me zo ongelofelijk moeilijk
+        en tegelijkertijd mooi om je persoonlijke stijl in een orkestraal stuk
+        te kunnen leggen.
+        <br />
+        <br />
+        Klassieke muziek zit mij in het bloed. Ik heb pianolessen gehad en zing
+        nu in het Delftse oratoriumnkoor Cantarella. Ook bezoek ik graag
+        concerten, zowel klassiek als RenB en jazz. De Harmoniekapel ken ik van
+        hun optredens bij de taptoe en op Koningsdag.
+        <br />
+        <br />
+        Een goede Maestro is voor mij iemand die naast een strakke discipline
+        ook zijn/haar gevoel en passie voor de muziek weet over te dragen op het
+        orkest, zodat de muziek ‘vleugels’ krijgt en het publiek raakt. Het is
+        het samengaan van management en kunstenaarschap op hoog niveau.
       </Paragraph>
       <Title title="Het orkest" />
       <Paragraph>

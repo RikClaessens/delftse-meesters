@@ -16,28 +16,35 @@ const StyledDiv = styled.div`
   }
 `;
 
-const Paragraph = ({ children, style, leftImage, rightImage }) => (
+const CenteredDiv = styled.div`
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+`;
+
+const Paragraph = ({ children, style, leftImage, rightImage, imageStyle }) => (
   <StyledDiv style={style}>
     {leftImage && (
-      <div style={{ flex: 1 }}>
+      <CenteredDiv>
         <img
           src={leftImage}
-          style={{ ...styles.image, ...styles.leftImage }}
+          style={{ ...styles.image, ...styles.leftImage, ...imageStyle }}
           alt=""
         />
-      </div>
+      </CenteredDiv>
     )}
     <div style={{ flex: children ? 1 : 0, width: children ? '100%' : 'auto' }}>
       <div style={{ ...styles.text, ...style }}>{children}</div>
     </div>
     {rightImage && (
-      <div style={{ flex: 1 }}>
+      <CenteredDiv>
         <img
           src={rightImage}
-          style={{ ...styles.image, ...styles.rightImage }}
+          style={{ ...styles.image, ...styles.rightImage, ...imageStyle }}
           alt=""
         />
-      </div>
+      </CenteredDiv>
     )}
   </StyledDiv>
 );
