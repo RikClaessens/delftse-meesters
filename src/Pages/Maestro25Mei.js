@@ -208,7 +208,7 @@ const Maestro25Mei = () => {
       </Paragraph>
       <Title title="De cast" />
       <Paragraph rightImage={BasPollard} imageStyle={{ width: '40%' }}>
-        <HighlightText text="Bass Pollard" />
+        <HighlightText text="Bas Pollard" />
         Al in 2011 werd dirigent en hoornist Bas Pollard een
         televisiepersoonlijkheid door zijn serie ‘Dirigeren met Bas Pollard’ bij
         de VPRO. Daarna werkte hij als coach voor de deelnemers bij het
