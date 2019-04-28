@@ -12,6 +12,9 @@ import CaptainsLogo from '../assets/images/partners/captains.png';
 import AHXLLogo from '../assets/images/partners/ah-xl.png';
 import PrintPlezierLogo from '../assets/images/partners/printplezier.png';
 import RodiLogo from '../assets/images/partners/rodi.png';
+import DelftBlueBigBand from '../assets/images/delftbluebigband.jpg';
+import Octopus from '../assets/images/octopus.jpg';
+import WorkInProgress from '../assets/images/workinprogress.jpg';
 
 const ConcertFestival25Mei = () => (
   <Page
@@ -56,6 +59,36 @@ const ConcertFestival25Mei = () => (
       botanische tuin en X het cultuurcentrum van de TU en het jaarlijkse
       Koningsdagconcert op het Doelenplein. Daarnaast is de kleine harmonie een
       graag gezien gast bij Abtswoude bloeit en Werkse.
+    </Paragraph>
+
+    <Paragraph rightImage={DelftBlueBigBand}>
+      <HighlightText text="Delft Blue Big Band" />
+      De Delft Blue BigBand maakt dans- en luistermuziek voor een breed publiek.
+      De band is nu al 21 jaar een muzikale factor in de jazz-scène te Delft en
+      ver daarbuiten. In deze tijd zijn ze uitgegroeid tot een niet meer weg te
+      denken BigBand met een eigen sound binnen het Delftse cultuuraanbod. Vol
+      passie en enthousiasme worden naadloos oude BigBand hits afgewisseld met
+      pop songs in een eigentijds ‘BigBand jasje’. Deze oerdelftse BigBand van
+      18 muzikanten en zangeres Miss dorY maakt onder leiding van dirigent Win
+      Ninabeer van elk optreden een feest!
+    </Paragraph>
+
+    <Paragraph rightImage={Octopus}>
+      <HighlightText text="Octopus" />
+      Octopus is een ensemble van de Koninklijke Harmoniekapel Delft bestaande
+      uit 8 enthousiaste amateur muzikanten. Octopus heeft een unieke
+      samenstelling van 4 klarinetten, 2 saxofoons en 2 fagotten. Ze spelen een
+      gevarieerd repertoir van licht klassiek tot hedendaagse muziek en
+      gebruiken meestal eigen bewerkingen om een zo hoog mogelijk muzikaal
+      rendement te krijgen.
+    </Paragraph>
+
+    <Paragraph rightImage={WorkInProgress}>
+      <HighlightText text="Work In Progress" />
+      Work in Progress is een ensemble dat staat voor plezier, gezelligheid en
+      lekkere uptempo/bekende hits en bestaat uit 6 enthousiaste muzikanten. Het
+      repertoire is heel gevarieerd met nummers ‘uit de oude doos’, jaren 90,
+      zero’s en tv tunes. Heel herkenbaar en een garantie voor meezingen.
     </Paragraph>
 
     <Title title="Partners" />

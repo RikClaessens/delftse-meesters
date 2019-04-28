@@ -55,7 +55,9 @@ const Maestro25Mei = () => {
         Maestro’s moeten alles uit de kast halen om het speciaal voor de
         gelegenheid samengestelde en aangeklede Delftse Meester orkest zo mooi
         mogelijk te laten klinken. Een jury bestaande uit Erik Janssen en twee
-        bekende Delftenaren beoordeelt de aspirant Maestro’s kundig.
+        bekende Delftenaren beoordeelt de aspirant Maestro’s kundig. De
+        Maestro’s worden tijdens hun Maestro avontuur begeleid door coach Bas
+        Pollard.
       </Paragraph>
 
       <Title title="Concert Info" />
@@ -226,6 +228,9 @@ const Maestro25Mei = () => {
         heeft hij thuis een prive-lespraktijk en werkt hij als freelance
         pianist. Bij vele concoursen, audities en andere muzikale activiteiten
         is hij als begeleider actief.
+        <br />
+        Tijdens de eerste workshop dirigeren zullen de Maestro kandidaten
+        muzikaal begeleid worden op piano door Henk Nichting.
       </Paragraph>
       <Title title="Het orkest" />
       <Paragraph>
