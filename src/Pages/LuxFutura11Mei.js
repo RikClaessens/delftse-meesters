@@ -24,6 +24,7 @@ import CaptainsLogo from '../assets/images/partners/captains.png';
 import AHXLLogo from '../assets/images/partners/ah-xl.png';
 import PrintPlezierLogo from '../assets/images/partners/printplezier.png';
 import RodiLogo from '../assets/images/partners/rodi.png';
+import Francis from './components/Francis';
 
 const DelftseMeesters11Mei = () => (
   <Page
@@ -120,6 +121,8 @@ const DelftseMeesters11Mei = () => (
       Nieuwe Kerk en Lijm & Cultuur, is de Harmoniekapel een belangrijke speler
       in het muzikale en culturele Delftse leven.
     </Paragraph>
+
+    <Francis />
     <Title title="Partners" />
     <Paragraph>
       De wereldpremière van <b>Lux Futura</b> wordt mede mogelijk gemaakt door:

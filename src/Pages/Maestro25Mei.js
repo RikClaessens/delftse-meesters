@@ -31,6 +31,7 @@ import BerryVisser from '../assets/images/maestro/BerryVisser.jpg';
 import ErikJanssen from '../assets/images/erik-janssen.jpg';
 import BasPollard from '../assets/images/maestro/BasPollard.jpg';
 import HenkNichting from '../assets/images/maestro/HenkNichting.jpg';
+import Francis from './components/Francis';
 
 const Maestro25Mei = () => {
   return (
@@ -209,6 +210,8 @@ const Maestro25Mei = () => {
         Wormerveer.
       </Paragraph>
       <Title title="De cast" />
+      <Francis />
+
       <Paragraph rightImage={BasPollard} imageStyle={{ width: '40%' }}>
         <HighlightText text="Bas Pollard" />
         Al in 2011 werd dirigent en hoornist Bas Pollard een
