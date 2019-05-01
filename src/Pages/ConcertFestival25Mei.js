@@ -69,8 +69,8 @@ const ConcertFestival25Mei = () => (
       denken BigBand met een eigen sound binnen het Delftse cultuuraanbod. Vol
       passie en enthousiasme worden naadloos oude BigBand hits afgewisseld met
       pop songs in een eigentijds ‘BigBand jasje’. Deze oerdelftse BigBand van
-      18 muzikanten en zangeres Miss dorY maakt onder leiding van dirigent Win
-      Ninabeer van elk optreden een feest!
+      18 muzikanten en zangeres Miss dorY maakt onder leiding van dirigent Wim
+      Ninaber van elk optreden een feest!
     </Paragraph>
 
     <Paragraph rightImage={Octopus}>
