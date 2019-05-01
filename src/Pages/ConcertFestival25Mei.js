@@ -63,14 +63,23 @@ const ConcertFestival25Mei = () => (
 
     <Paragraph rightImage={DelftBlueBigBand}>
       <HighlightText text="Delft Blue Big Band" />
-      De Delft Blue BigBand maakt dans- en luistermuziek voor een breed publiek.
-      De band is nu al 21 jaar een muzikale factor in de jazz-scène te Delft en
-      ver daarbuiten. In deze tijd zijn ze uitgegroeid tot een niet meer weg te
-      denken BigBand met een eigen sound binnen het Delftse cultuuraanbod. Vol
-      passie en enthousiasme worden naadloos oude BigBand hits afgewisseld met
-      pop songs in een eigentijds ‘BigBand jasje’. Deze oerdelftse BigBand van
-      18 muzikanten en zangeres Miss dorY maakt onder leiding van dirigent Wim
-      Ninaber van elk optreden een feest!
+      Uit het hart van de Prinsenstad komt de swingende muziek van de Delft Blue
+      Big Band. De band is nu 23 jaar een muzikale factor in de jazz-scène te
+      Delft e.o. De Delft Blue BigBand maakt dans- en luistermuziek voor een
+      breed publiek. Vol passie en enthousiasme worden naadloos oude BigBand
+      hits afgewisseld met bekende pop-, soul- en latinsongs in een ‘BigBand
+      jasje’. Het is dit aanstekelijke enthousiasme, dat het orkest onder
+      leiding van dirigent Wim Ninaber in haar relatief korte bestaan tot een
+      hoog niveau heeft gebracht.
+      <br />
+      <br />
+      Een gevarieerd programma met o.a. nummers van Glenn Miller, Sammy Nestico,
+      James Brown, Charles Aznavour en Michael Bublé. De Delft Blue BigBand
+      heeft als één van de weinige BigBands een allround zangeres (Miss dorY) en
+      een zanger/trompettist (Ronald La Croix). Dit betekent een zeer gevarieerd
+      programma. Soms krachtig swingend, dan weer gevoelig en ingetogen. De
+      Delft Blue BigBand maakt van elk optreden een feest! Geef ze een paar
+      minuten de kans en u staat op de dansvloer te swingen.
     </Paragraph>
 
     <Paragraph rightImage={Octopus}>
