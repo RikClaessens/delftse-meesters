@@ -5,6 +5,7 @@ import Page from './Page';
 import HeaderImage from '../assets/images/kapel-nieuwe-kerk-1.jpg';
 import { Link, News, Paragraph, Title, TicketSale } from '../components';
 import { colors, mediaQueries } from '../theme';
+import LuxFuturaMovie from './components/LuxFuturaMovie';
 
 const linkStyle = {
   flex: 1,
@@ -33,6 +34,9 @@ const StyledSpan = styled.span`
 
 const HomePage = () => (
   <Page title="Delftse Meesters" headerImage={HeaderImage}>
+    <Paragraph center={true}>
+      <LuxFuturaMovie />
+    </Paragraph>
     <Paragraph style={{ display: 'flex' }}>
       <Link
         to="/wereldpremière-11-mei"

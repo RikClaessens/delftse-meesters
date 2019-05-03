@@ -25,6 +25,7 @@ import AHXLLogo from '../assets/images/partners/ah-xl.png';
 import PrintPlezierLogo from '../assets/images/partners/printplezier.png';
 import RodiLogo from '../assets/images/partners/rodi.png';
 import Francis from './components/Francis';
+import LuxFuturaMovie from './components/LuxFuturaMovie';
 
 const DelftseMeesters11Mei = () => (
   <Page
@@ -32,6 +33,9 @@ const DelftseMeesters11Mei = () => (
     headerImage={HeaderImage}
     anchorItems={['Kaarten', 'Locatie', 'De cast', 'Partners']}
   >
+    <Paragraph center={true}>
+      <LuxFuturaMovie />
+    </Paragraph>
     <Paragraph>
       Op 11 mei 2019 vindt er een weergaloze gala-wereldpremière plaats van{' '}
       <b>Lux Futura</b> in de Nieuwe Kerk. Tijdens deze avond word je bevangen

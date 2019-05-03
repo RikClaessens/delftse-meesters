@@ -23,8 +23,20 @@ const CenteredDiv = styled.div`
   justify-content: center;
 `;
 
-const Paragraph = ({ children, style, leftImage, rightImage, imageStyle }) => (
-  <StyledDiv style={style}>
+const Paragraph = ({
+  children,
+  style,
+  leftImage,
+  rightImage,
+  imageStyle,
+  center = false,
+}) => (
+  <StyledDiv
+    style={{
+      ...style,
+      ...(center ? { justifyContent: 'center', display: 'flex' } : {}),
+    }}
+  >
     {leftImage && (
       <CenteredDiv>
         <img
@@ -35,7 +47,15 @@ const Paragraph = ({ children, style, leftImage, rightImage, imageStyle }) => (
       </CenteredDiv>
     )}
     <div style={{ flex: children ? 1 : 0, width: children ? '100%' : 'auto' }}>
-      <div style={{ ...styles.text, ...style }}>{children}</div>
+      <div
+        style={{
+          ...styles.text,
+          ...style,
+          ...(center ? { justifyContent: 'center', display: 'flex' } : {}),
+        }}
+      >
+        {children}
+      </div>
     </div>
     {rightImage && (
       <CenteredDiv>
