@@ -116,7 +116,7 @@ const DelftseMeesters11Mei = () => (
 
     <Paragraph rightImage={Kapel}>
       <HighlightText text="Koninklijke Harmoniekapel Delft" />
-      De Koninklijke Harmoniekapel is een harmonieorkest bestaande uit zo'n 90
+      De Koninklijke Harmoniekapel is een harmonieorkest bestaande uit zo'n 80
       muzikanten dat zich tot de beste blaasorkesten van de Randstad mag
       rekenen. Sinds 2015 staat het orkest onder de bezielende leiding van Erik
       Janssen. Met uitvoeringen als The Queen Symphony met Leo Blokhuis in een
