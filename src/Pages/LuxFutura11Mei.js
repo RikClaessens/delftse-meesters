@@ -2,13 +2,12 @@ import React from 'react';
 
 import Page from './Page';
 import {
-  ConcertInfo,
   HighlightText,
   ImageRow,
   Paragraph,
   Title,
   Link,
-  TicketSale,
+  PhotosPremiere,
 } from '../components';
 import HeaderImage from '../assets/images/kapel-nieuwe-kerk-2.jpg';
 import GemeenteDelft from '../assets/images/partners/gemeente-delft.jpg';
@@ -19,7 +18,6 @@ import ErikJanssen from '../assets/images/erik-janssen.jpg';
 import NieuweKerkLogo from '../assets/images/partners/nieuwe-kerk-logo.svg';
 import SomethingExtraLogo from '../assets/images/partners/something-extra.png';
 import NmiLogo from '../assets/images/partners/nmi.png';
-import KapelNieuweKerk from '../assets/images/kapel-nieuwe-kerk-1.jpg';
 import CaptainsLogo from '../assets/images/partners/captains.png';
 import AHXLLogo from '../assets/images/partners/ah-xl.png';
 import PrintPlezierLogo from '../assets/images/partners/printplezier.png';
@@ -62,21 +60,8 @@ const DelftseMeesters11Mei = () => (
         </li>
       </ul>
     </Paragraph>
-    <Title title="Concert Info" />
-    <Paragraph style={{ justifyContent: 'center', display: 'flex' }}>
-      <ConcertInfo
-        title="Lux Futura"
-        location="Nieuwe Kerk, Delft"
-        address="Markt 80, 2611 GW Delft"
-        date="11 mei 2019"
-        time="20:15"
-        open="19:45"
-        price="€18,-"
-        image={KapelNieuweKerk}
-      />
-    </Paragraph>
-    <Title title="Kaarten" />
-    <TicketSale />
+    <Title title="Foto's wereldpremière" />
+    <PhotosPremiere />
 
     <Title title="Locatie" />
     <Paragraph leftImage={NieuweKerk}>

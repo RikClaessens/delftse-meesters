@@ -90,8 +90,7 @@ const Maestro25Mei = () => {
         vriendelijke selectie gaan wij het avontuur aan met niemand minder dan:{' '}
         <b>Tim van der Hagen</b> – Rector Magnificus van de TU Delft;{' '}
         <b>Astrid Dijksman</b> – Stadsprinses Astrid de 1e Kabbelaar de 43e; en{' '}
-        <b>Gabrielle Ponjee</b> - winnaar van de verkiezing ‘Derde Delftse
-        Maestro’.
+        <b>Gabrielle Ponjee</b> - Klinisch Chemicus Haaglanden Medisch Centrum.
       </Paragraph>
       <Paragraph>Hieronder stellen zij zich aan u voor:</Paragraph>
       <Paragraph rightImage={TimVanDerHagen} imageStyle={{ width: '50%' }}>

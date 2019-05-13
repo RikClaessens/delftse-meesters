@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import Page from './Page';
 import HeaderImage from '../assets/images/kapel-nieuwe-kerk-1.jpg';
-import { Link, News, Paragraph, Title, TicketSale } from '../components';
+import { Link, News, Paragraph, Title, PhotosPremiere } from '../components';
 import { colors, mediaQueries } from '../theme';
 import LuxFuturaMovie from './components/LuxFuturaMovie';
 
@@ -98,8 +98,8 @@ const HomePage = () => (
       programma. Voor Delft en zijn inwoners komen de Delftse Meesters tot
       leven. Locatie: Nieuwe Kerk, Delft.
     </Paragraph>
-    <Title title="Kaartverkoop 11 mei" />
-    <TicketSale />
+    <Title title="Foto's wereldpremière" />
+    <PhotosPremiere />
     <Title title="Laatste Nieuws" />
     <News />
   </Page>
