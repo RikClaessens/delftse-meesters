@@ -26,7 +26,7 @@ const Row = ({ prop, title }) =>
       <StyledTDContent>{prop}</StyledTDContent>
     </tr>
   );
-const ConcertInfo = ({ location, address, time, date, price, image }) => (
+const ConcertInfo = ({ location, address, time, open, date, price, image }) => (
   <Card>
     {image && <CardMedia image={image} style={{ height: 140 }} height="140" />}
     <CardContent>
@@ -36,6 +36,7 @@ const ConcertInfo = ({ location, address, time, date, price, image }) => (
           <Row title="Adres" prop={address} />
           <Row title="Datum" prop={date} />
           <Row title="Tijd" prop={time} />
+          <Row title="Deuren open" prop={open} />
           <Row title="Prijs" prop={price} />
         </tbody>
       </table>

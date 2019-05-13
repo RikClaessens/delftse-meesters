@@ -70,6 +70,7 @@ const DelftseMeesters11Mei = () => (
         address="Markt 80, 2611 GW Delft"
         date="11 mei 2019"
         time="20:15"
+        open="19:45"
         price="€18,-"
         image={KapelNieuweKerk}
       />

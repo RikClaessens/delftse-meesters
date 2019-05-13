@@ -68,6 +68,7 @@ const Maestro25Mei = () => {
           address="Markt 80, 2611 GW Delft"
           date="25 mei 2019"
           time="20:15"
+          open="19:45"
           price="gratis"
           image={KapelNieuweKerk}
         />
@@ -96,7 +97,7 @@ const Maestro25Mei = () => {
       <Paragraph rightImage={TimVanDerHagen} imageStyle={{ width: '50%' }}>
         <HighlightText text="Tim van der Hagen" />
         <i>
-          Ik ben een fan van het televisieprogramma Maesto en ik vind het
+          Ik ben een fan van het televisieprogramma Maestro en ik vind het
           fascinerend om te zien hoe lastig het blijkt te zijn om een orkest te
           dirigeren. Daarnaast is het natuurlijk heel grappig om te zien wat er
           gebeurt als je geen goede aanwijzingen geeft.
