@@ -15,6 +15,7 @@ import RodiLogo from '../assets/images/partners/rodi.png';
 import DelftBlueBigBand from '../assets/images/delftbluebigband.jpg';
 import Octopus from '../assets/images/octopus.jpg';
 import WorkInProgress from '../assets/images/workinprogress.jpg';
+import ConcertFestivalProgram from '../assets/images/concert-festival-programma.png';
 
 const ConcertFestival25Mei = () => (
   <Page
@@ -35,6 +36,18 @@ const ConcertFestival25Mei = () => (
       het dirigeerstokje overnemen van Erik Janssen om een fantastische én
       verrassende avond neer te zetten.
     </Paragraph>
+
+    <Title title="Concert Festival Info" />
+    <ImageRow
+      images={[
+        {
+          src: ConcertFestivalProgram,
+          alt: 'Concert Festival Programma',
+          style: { width: '90%', maxWidth: 500 },
+        },
+      ]}
+    />
+
     <Title title="Deelnemers" />
 
     <Paragraph rightImage={AlderValleyBrass}>
