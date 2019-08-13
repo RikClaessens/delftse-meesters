@@ -98,7 +98,7 @@ const HomePage = () => (
       programma. Voor Delft en zijn inwoners komen de Delftse Meesters tot
       leven. Locatie: Nieuwe Kerk, Delft.
     </Paragraph>
-    <Title title="Foto's wereldpremière" />
+    <Title title="Foto's Delftse Meesters Concerten" />
     <PhotosPremiere />
     <Title title="Laatste Nieuws" />
     <News />

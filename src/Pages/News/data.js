@@ -1,5 +1,11 @@
 export default () => [
   {
+    title: 'Meesterlijk genoten',
+    link: '/nieuws/meesterlijkgenoten',
+    image: 'MeesterlijkGenoten.jpg',
+    filename: '20190701MeesterlijkGenoten',
+  },
+  {
     title: 'Bedrijfsarrangementen 11 mei',
     link: '/nieuws/bedrijfsarrangementen',
     image: 'KapelNieuweKerkDelft-19.jpg',

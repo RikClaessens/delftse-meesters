@@ -17,6 +17,7 @@ import AftrapDelftEnDeGoudenEeuw from './Pages/News/20190113AftrapDelftEnDeGoude
 import WordJijDeDelftseMeester from './Pages/News/20190124WordJijDeDelftseMeester';
 import LuxFutura from './Pages/News/20190311LuxFutura';
 import Bedrijfsarrangementen from './Pages/News/20190315Bedrijfsarrangementen';
+import MeesterlijkGenoten from './Pages/News/20190701MeesterlijkGenoten';
 
 configureAnchors({ scrollDuration: 800 });
 
@@ -51,6 +52,11 @@ const App = () => (
           exact
           component={Bedrijfsarrangementen}
         />
+        <Route
+          path="/nieuws/meesterlijkgenoten"
+          exact
+          component={MeesterlijkGenoten}
+        />
         <Route path="/wereldpremière-11-mei" exact component={LuxFutura11Mei} />
         <Route
           path="/concertfestival-25-mei"
@@ -63,6 +69,7 @@ const App = () => (
           exact
           component={Tickets}
         />
+
         <Route path="/contact" exact component={Contact} />
         <Route path="/" component={HomePage} />
       </Switch>
